@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/model-privacy
+model-privacy.so
+model-privacy.dylib
+model-privacy.dll
+model-privacy.a
+model-privacy.lib
+model-privacy-test-*
+*.exe
+*.o
+*.obj
+*.lst
