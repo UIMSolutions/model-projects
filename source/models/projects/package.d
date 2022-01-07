@@ -1,4 +1,4 @@
-module models.project;
+module models.projecs;
 
 public import std.stdio;
 public import std.string;
