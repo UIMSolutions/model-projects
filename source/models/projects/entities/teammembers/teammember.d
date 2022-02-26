@@ -1,11 +1,10 @@
-module models.projects.entities.team;
+module models.projects.entities.teammembers.teammember;
 
 @safe:
 import models.projects;
 
-// Group of undeleted system users and undeleted teams. ProjectTeams can be used to control access to specific objects.
-class DPRJTeam : DOOPEntity {
-  mixin(OOPEntityThis!("PRJTeam"));
+class DPRJTeamMember : DOOPEntity {
+  mixin(OOPEntityThis!("DPRJTeamMember"));
   
   override void initialize() {
     super.initialize;
@@ -60,16 +59,17 @@ class DPRJTeam : DOOPEntity {
         "applicantCountState": OOPStringAttribute.descriptions(["en":"State of rollup field Applicant count."]),
         "applicantsAvailable": OOPStringAttribute.descriptions(["en":"Shows if there are applicants available for this project team."]),
       ])
-      .registerPath("project_teams");
+      .registerPath("project_teammembers");
   }
 }
-mixin(OOPEntityCalls!("PRJTeam"));
+mixin(OOPEntityCalls!("DPRJTeamMember"));
+
 
 unittest {
   version(uim_entities) {
-    assert(PRJTeam);
-
-  auto entity = PRJTeam;
+    assert(PRJTeamMember);
+  
+  auto entity = PRJTeamMember;
   // auto repository = OOPFileRepository("./tests");
 /*  repository.create("entities", entity.entityClasses, entity.toJson);
 

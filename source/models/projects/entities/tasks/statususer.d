@@ -1,10 +1,11 @@
-module models.projects.entities.price_list;
+module models.projects.entities.tasks.statususer;
 
 @safe:
 import models.projects;
 
-class DPRJPriceList : DOOPEntity {
-  mixin(OOPEntityThis!("PRJPriceList"));
+// Group of undeleted system users and undeleted teams. ProjectTaskStatusUsers can be used to control access to specific objects.
+class DPRJProjectTaskStatusUser : DOOPEntity {
+  mixin(OOPEntityThis!("PRJProjectTaskStatusUser"));
   
   override void initialize() {
     super.initialize;
@@ -22,24 +23,31 @@ class DPRJPriceList : DOOPEntity {
         "owningTeamId": OOPLinkAttribute("aplTeam").descriptions(["en":"Unique identifier for the team that owns the record."]),
         "timeZoneRuleVersionNumber": OOPAttributeNumber.descriptions(["en":"For internal use only."]),
         "utcConversionTimeZoneCode": OOPAttributeInteger.descriptions(["en":"Time zone code that was in use when the record was created."]),
-        "projectPriceListId": OOPAttributeUUID.descriptions(["en":"Unique identifier for entity instances"]),
-        "stateCode": OOPAttributeInteger.descriptions(["en":"Status of the Project Price List"]),
+        "projectTaskStatusUserId": OOPLinkAttribute("aplUser").descriptions(["en":"Unique identifier for entity instances"]),
+        "stateCode": OOPAttributeInteger.descriptions(["en":"Status of the Project Task Status User"]),
         "stateCode_display": OOPStringAttribute.descriptions(["en":""]),
-        "statusCode": OOPAttributeInteger.descriptions(["en":"Reason for the status of the Project Price List"]),
+        "statusCode": OOPAttributeInteger.descriptions(["en":"Reason for the status of the Project Task Status User"]),
         "statusCode_display": OOPStringAttribute.descriptions(["en":""]),
-        "priceList": OOPStringAttribute.descriptions(["en":"Shows the name of the project price list."]),
-        "project": OOPStringAttribute.descriptions(["en":"Shows the project for the project price list."]),
+        "bookableResource": OOPStringAttribute.descriptions(["en":""]),
+        "expectedCompletionDate": OOPAttributeDate.descriptions(["en":"Shows the expected completion date of the task entered by the assigned resource."]),
+        "expectedHoursToComplete": OOPStringAttribute.descriptions(["en":"Shows the expected hours to complete the task entered by the assigned resource."]),
+        "isCompleted": OOPAttributeBoolean.descriptions(["en":"Shows if the task is completed."]),
+        "percentComplete": OOPStringAttribute.descriptions(["en":"Shows the reported percentage complete for the project task."]),
+        "projectTaskId": OOPAttributeUUID.descriptions(["en":"Unique identifier for Project Task associated with Project Task Status User."]),
+        "projectTaskStatusIndicator": OOPStringAttribute.descriptions(["en":"Indicates the status of the project task reported by the user resource."]),
+        "projectTaskStatusIndicator_display": OOPStringAttribute.descriptions(["en":""]),
       ])
-      .registerPath("project_pricelists");
+      .registerPath("project_taskstatususers");
   }
 }
-mixin(OOPEntityCalls!("PRJPriceList"));
+mixin(OOPEntityCalls!("PRJProjectTaskStatusUser"));
+
 
 unittest {
   version(uim_entities) {
-    assert(PRJPriceList);
+    assert(PRJProjectTaskStatusUser);
 
-  auto entity = PRJPriceList;
+  auto entity = PRJProjectTaskStatusUser;
   // auto repository = OOPFileRepository("./tests");
 /*  repository.create("entities", entity.entityClasses, entity.toJson);
 

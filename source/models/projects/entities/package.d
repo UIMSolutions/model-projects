@@ -1,17 +1,17 @@
-module uim.entities.projects;
+module models.projects;
 
 @safe:
-import uim.entities;
+import models.projects;
 
-public import uim.entities.projects.approval;
-public import uim.entities.projects.project;
-public import uim.entities.projects.parameter;
-public import uim.entities.projects.parameter_price_list;
-public import uim.entities.projects.price_list;
-public import uim.entities.projects.service_approval;
-public import uim.entities.projects.task;
-public import uim.entities.projects.task_dependency;
-public import uim.entities.projects.task_status_user;
-public import uim.entities.projects.team;
-public import uim.entities.projects.team_member;
-public import uim.entities.projects.team_member_signup;
+// Main
+public import models.projects.entities.project;
+
+// Packages
+public import models.projects.entities.parameters;
+public import models.projects.entities.tasks;
+public import models.projects.entities.teammembers;
+
+public import models.projects.entities.approval;
+public import models.projects.entities.price_list;
+public import models.projects.entities.service_approval;
+public import models.projects.entities.team;

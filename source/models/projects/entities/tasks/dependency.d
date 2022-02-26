@@ -1,10 +1,11 @@
-module models.projects.entities.price_list;
+module models.projects.entities.tasks.dependency;
 
 @safe:
 import models.projects;
 
-class DPRJPriceList : DOOPEntity {
-  mixin(OOPEntityThis!("PRJPriceList"));
+// Dependency data between tasks.
+class DPRJTaskDependency : DOOPEntity {
+  mixin(OOPEntityThis!("PRJTaskDependency"));
   
   override void initialize() {
     super.initialize;
@@ -22,24 +23,27 @@ class DPRJPriceList : DOOPEntity {
         "owningTeamId": OOPLinkAttribute("aplTeam").descriptions(["en":"Unique identifier for the team that owns the record."]),
         "timeZoneRuleVersionNumber": OOPAttributeNumber.descriptions(["en":"For internal use only."]),
         "utcConversionTimeZoneCode": OOPAttributeInteger.descriptions(["en":"Time zone code that was in use when the record was created."]),
-        "projectPriceListId": OOPAttributeUUID.descriptions(["en":"Unique identifier for entity instances"]),
-        "stateCode": OOPAttributeInteger.descriptions(["en":"Status of the Project Price List"]),
+        "projectTaskDependencyId": OOPAttributeUUID.descriptions(["en":"Unique identifier for entity instances"]),
+        "stateCode": OOPAttributeInteger.descriptions(["en":"Status of the Project Task Dependency"]),
         "stateCode_display": OOPStringAttribute.descriptions(["en":""]),
-        "statusCode": OOPAttributeInteger.descriptions(["en":"Reason for the status of the Project Price List"]),
+        "statusCode": OOPAttributeInteger.descriptions(["en":"Reason for the status of the Project Task Dependency"]),
         "statusCode_display": OOPStringAttribute.descriptions(["en":""]),
-        "priceList": OOPStringAttribute.descriptions(["en":"Shows the name of the project price list."]),
-        "project": OOPStringAttribute.descriptions(["en":"Shows the project for the project price list."]),
+        "linkType": OOPStringAttribute.descriptions(["en":"Select the 'Finish to Start' type of dependency."]),
+        "linkType_display": OOPStringAttribute.descriptions(["en":""]),
+        "predecessorTask": OOPStringAttribute.descriptions(["en":"Select the task that other tasks are dependent on."]),
+        "project": OOPStringAttribute.descriptions(["en":"Select the project name."]),
+        "successorTask": OOPStringAttribute.descriptions(["en":"Select the task that has a dependency on another task."]),
       ])
-      .registerPath("project_pricelists");
+      .registerPath("project_taskdependencies");
   }
 }
-mixin(OOPEntityCalls!("PRJPriceList"));
+mixin(OOPEntityCalls!("PRJTaskDependency")); 
 
 unittest {
   version(uim_entities) {
-    assert(PRJPriceList);
+    assert(PRJTaskDependency);
 
-  auto entity = PRJPriceList;
+  auto entity = PRJTaskDependency;
   // auto repository = OOPFileRepository("./tests");
 /*  repository.create("entities", entity.entityClasses, entity.toJson);
 
