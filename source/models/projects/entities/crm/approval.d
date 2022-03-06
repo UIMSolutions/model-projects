@@ -1,4 +1,4 @@
-module models.projects.entities.approval;
+module models.projects.entities.crm.approval;
 
 @safe:
 import models.projects;
