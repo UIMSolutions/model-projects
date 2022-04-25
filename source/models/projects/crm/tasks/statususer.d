@@ -5,7 +5,7 @@ import models.projects;
 
 // Group of undeleted system users and undeleted teams. ProjectTaskStatusUsers can be used to control access to specific objects.
 class DPRJProjectTaskStatusUser : DOOPEntity {
-  mixin(OOPEntityThis!("PRJProjectTaskStatusUser"));
+  mixin(EntityThis!("PRJProjectTaskStatusUser"));
   
   override void initialize() {
     super.initialize;
@@ -40,7 +40,7 @@ class DPRJProjectTaskStatusUser : DOOPEntity {
       .registerPath("project_taskstatususers");
   }
 }
-mixin(OOPEntityCalls!("PRJProjectTaskStatusUser"));
+mixin(EntityCalls!("PRJProjectTaskStatusUser"));
 
 
 unittest {

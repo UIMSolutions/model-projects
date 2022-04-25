@@ -5,7 +5,7 @@ import models.projects;
 
 // Dependency data between tasks.
 class DPRJTaskDependency : DOOPEntity {
-  mixin(OOPEntityThis!("PRJTaskDependency"));
+  mixin(EntityThis!("PRJTaskDependency"));
   
   override void initialize() {
     super.initialize;
@@ -37,7 +37,7 @@ class DPRJTaskDependency : DOOPEntity {
       .registerPath("project_taskdependencies");
   }
 }
-mixin(OOPEntityCalls!("PRJTaskDependency")); 
+mixin(EntityCalls!("PRJTaskDependency")); 
 
 unittest {
   version(uim_entities) {

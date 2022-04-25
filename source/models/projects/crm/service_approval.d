@@ -5,7 +5,7 @@ import models.projects;
 
 // Group of undeleted system users and undeleted teams. ProjectServiceApprovals can be used to control access to specific objects.
 class DPRJServiceApproval : DOOPEntity {
-  mixin(OOPEntityThis!("PRJServiceApproval"));
+  mixin(EntityThis!("PRJServiceApproval"));
   
   override void initialize() {
     super.initialize;
@@ -87,7 +87,7 @@ class DPRJServiceApproval : DOOPEntity {
       .registerPath("project_serviceapprovals");
   }
 }
-mixin(OOPEntityCalls!("PRJServiceApproval"));
+mixin(EntityCalls!("PRJServiceApproval"));
 
 unittest {
   version(uim_entities) {

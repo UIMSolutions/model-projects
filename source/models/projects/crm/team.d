@@ -5,7 +5,7 @@ import models.projects;
 
 // Group of undeleted system users and undeleted teams. ProjectTeams can be used to control access to specific objects.
 class DPRJTeam : DOOPEntity {
-  mixin(OOPEntityThis!("PRJTeam"));
+  mixin(EntityThis!("PRJTeam"));
   
   override void initialize() {
     super.initialize;
@@ -63,7 +63,7 @@ class DPRJTeam : DOOPEntity {
       .registerPath("project_teams");
   }
 }
-mixin(OOPEntityCalls!("PRJTeam"));
+mixin(EntityCalls!("PRJTeam"));
 
 unittest {
   version(uim_entities) {

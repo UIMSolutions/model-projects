@@ -5,7 +5,7 @@ import models.projects;
 
 // Entity used to capture all resources that have applied for open position on projects.
 class DPRJTeamMemberSignUp : DOOPEntity {
-  mixin(OOPEntityThis!("PRJTeamMemberSignUp"));
+  mixin(EntityThis!("PRJTeamMemberSignUp"));
   
   override void initialize() {
     super.initialize;
@@ -32,7 +32,7 @@ class DPRJTeamMemberSignUp : DOOPEntity {
       .registerPath("project_teammembersignups");
   }
 }
-mixin(OOPEntityCalls!("PRJTeamMemberSignUp"));
+mixin(EntityCalls!("PRJTeamMemberSignUp"));
 
 unittest {
   version(uim_entities) {

@@ -5,7 +5,7 @@ import models.projects;
 
 // Group of undeleted system users and undeleted teams. ProjectParameterPriceLists can be used to control access to specific objects.
 class DPRJParameterPriceList : DOOPEntity {
-  mixin(OOPEntityThis!("PRJParameterPriceList"));
+  mixin(EntityThis!("PRJParameterPriceList"));
   
   override void initialize() {
     super.initialize;
@@ -29,7 +29,7 @@ class DPRJParameterPriceList : DOOPEntity {
       .registerPath("project_parameterpricelists");
   }
 }
-mixin(OOPEntityCalls!("PRJParameterPriceList"));
+mixin(EntityCalls!("PRJParameterPriceList"));
 
 unittest {
   version(uim_entities) {

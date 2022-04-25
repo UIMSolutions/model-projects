@@ -4,7 +4,7 @@ module models.projects.entities.price_list;
 import models.projects;
 
 class DPRJPriceList : DOOPEntity {
-  mixin(OOPEntityThis!("PRJPriceList"));
+  mixin(EntityThis!("PRJPriceList"));
   
   override void initialize() {
     super.initialize;
@@ -33,7 +33,7 @@ class DPRJPriceList : DOOPEntity {
       .registerPath("project_pricelists");
   }
 }
-mixin(OOPEntityCalls!("PRJPriceList"));
+mixin(EntityCalls!("PRJPriceList"));
 
 unittest {
   version(uim_entities) {

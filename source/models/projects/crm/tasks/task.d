@@ -5,7 +5,7 @@ import models.projects;
 
 // Tasks related to project.
 class DPRJTask : DOOPEntity {
-  mixin(OOPEntityThis!("PRJTask"));
+  mixin(EntityThis!("PRJTask"));
   
   override void initialize() {
     super.initialize;
@@ -95,7 +95,7 @@ class DPRJTask : DOOPEntity {
       .registerPath("project_tasks");
   }
 }
-mixin(OOPEntityCalls!("PRJTask"));
+mixin(EntityCalls!("PRJTask"));
 
 unittest {
   version(uim_entities) {

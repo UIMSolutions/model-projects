@@ -5,7 +5,7 @@ import models.projects;
 
 // Group of undeleted system users and undeleted teams. ProjectParameters can be used to control access to specific objects.
 class DPRJParameter : DOOPEntity {
-  mixin(OOPEntityThis!("PRJParameter"));
+  mixin(EntityThis!("PRJParameter"));
   
   override void initialize() {
     super.initialize;
@@ -33,7 +33,7 @@ class DPRJParameter : DOOPEntity {
       .registerPath("project_parameters");
   }
 }
-mixin(OOPEntityCalls!("PRJParameter"));
+mixin(EntityCalls!("PRJParameter"));
 
 unittest {
   version(uim_entities) {

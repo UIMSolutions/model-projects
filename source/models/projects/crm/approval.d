@@ -5,7 +5,7 @@ import models.projects;
 
 // Group of undeleted system users and undeleted teams. Approvals can be used to control access to specific objects.
 class DPRJApproval : DOOPEntity {
-  mixin(OOPEntityThis!("PRJApproval"));
+  mixin(EntityThis!("PRJApproval"));
   
   override void initialize() {
     super.initialize;
@@ -70,7 +70,7 @@ class DPRJApproval : DOOPEntity {
       .registerPath("project_approvals");
   }
 }
-mixin(OOPEntityCalls!("PRJApproval"));
+mixin(EntityCalls!("PRJApproval"));
 
 unittest {
   version(uim_entities) {

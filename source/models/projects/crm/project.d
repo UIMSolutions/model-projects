@@ -5,7 +5,7 @@ import models.projects;
 
 // Delivery entity in an engagement.
 class DPRJProject : DOOPEntity {
-  mixin(OOPEntityThis!("PRJProject"));
+  mixin(EntityThis!("PRJProject"));
   
   override void initialize() {
     super.initialize;
@@ -109,7 +109,7 @@ class DPRJProject : DOOPEntity {
       .registerPath("project_projects");
   }
 }
-mixin(OOPEntityCalls!("PRJProject"));
+mixin(EntityCalls!("PRJProject"));
 
 unittest {
   version(uim_entities) {
