@@ -10,22 +10,22 @@ class DPRJPriceList : DOOPEntity {
     super.initialize;
 
     this
-      .attributes([
+      .addValues([
         "createdOnBehalfBy": OOPLinkAttribute("aplUser").descriptions(["en":"Shows who created the record on behalf of another user."]),
         "modifiedOnBehalfBy": OOPLinkAttribute("aplUser").descriptions(["en":"Shows who last updated the record on behalf of another user."]),
-        "overriddenCreatedOn": OOPAttributeTimestamp.descriptions(["en":"Date and time that the record was migrated."]),
-        "importSequenceNumber": OOPAttributeNumber.descriptions(["en":"Sequence number of the import that created this record."]),
-        "ownerId": OOPAttributeUUID.descriptions(["en":"Owner Id"]),
+        "overriddenCreatedOn": TimestampAttributeClass, // Date and time that the record was migrated."]),
+        "importSequenceNumber": NumberAttributeClass, // Sequence number of the import that created this record."]),
+        "ownerId": UUIDAttributeClass, // Owner Id"]),
         "ownerIdType": OOPStringAttribute.descriptions(["en":"The type of owner, either User or Team."]),
         "owningBusinessUnitId": OOPLinkAttribute("aplBusinessUnit").descriptions(["en":"Unique identifier for the business unit that owns the record"]),
         "owningUserId": OOPLinkAttribute("aplUser").descriptions(["en":"Unique identifier for the user that owns the record."]),
         "owningTeamId": OOPLinkAttribute("aplTeam").descriptions(["en":"Unique identifier for the team that owns the record."]),
-        "timeZoneRuleVersionNumber": OOPAttributeNumber.descriptions(["en":"For internal use only."]),
-        "utcConversionTimeZoneCode": OOPAttributeInteger.descriptions(["en":"Time zone code that was in use when the record was created."]),
-        "projectPriceListId": OOPAttributeUUID.descriptions(["en":"Unique identifier for entity instances"]),
-        "stateCode": OOPAttributeInteger.descriptions(["en":"Status of the Project Price List"]),
+        "timeZoneRuleVersionNumber": NumberAttributeClass, // For internal use only."]),
+        "utcConversionTimeZoneCode": IntegerAttributeClass, // Time zone code that was in use when the record was created."]),
+        "projectPriceListId": UUIDAttributeClass, // Unique identifier for entity instances"]),
+        "stateCode": IntegerAttributeClass, // Status of the Project Price List"]),
         "stateCode_display": OOPStringAttribute.descriptions(["en":""]),
-        "statusCode": OOPAttributeInteger.descriptions(["en":"Reason for the status of the Project Price List"]),
+        "statusCode": IntegerAttributeClass, // Reason for the status of the Project Price List"]),
         "statusCode_display": OOPStringAttribute.descriptions(["en":""]),
         "priceList": OOPStringAttribute.descriptions(["en":"Shows the name of the project price list."]),
         "project": OOPStringAttribute.descriptions(["en":"Shows the project for the project price list."]),

@@ -11,18 +11,18 @@ class DPRJTeamMemberSignUp : DOOPEntity {
     super.initialize;
 
     this
-      .attributes([
+      .addValues([
         "createdOnBehalfBy": OOPLinkAttribute("aplUser").descriptions(["en":"Unique identifier of the delegate user who created the record."]),
         "modifiedOnBehalfBy": OOPLinkAttribute("aplUser").descriptions(["en":"Unique identifier of the delegate user who modified the record."]),
         "organizationId": OOPLinkAttribute("aplOrganization").descriptions(["en":"Unique identifier for the organization"]),
-        "stateCode": OOPAttributeInteger.descriptions(["en":"Status of the Project Team Member Sign-Up"]),
+        "stateCode": IntegerAttributeClass, // Status of the Project Team Member Sign-Up"]),
         "stateCode_display": OOPStringAttribute.descriptions(["en":""]),
-        "statusCode": OOPAttributeInteger.descriptions(["en":"Reason for the status of the Project Team Member Sign-Up"]),
+        "statusCode": IntegerAttributeClass, // Reason for the status of the Project Team Member Sign-Up"]),
         "statusCode_display": OOPStringAttribute.descriptions(["en":""]),
-        "importSequenceNumber": OOPAttributeNumber.descriptions(["en":"Sequence number of the import that created this record."]),
-        "overriddenCreatedOn": OOPAttributeTimestamp.descriptions(["en":"Date and time that the record was migrated."]),
-        "timeZoneRuleVersionNumber": OOPAttributeNumber.descriptions(["en":"For internal use only."]),
-        "utcConversionTimeZoneCode": OOPAttributeInteger.descriptions(["en":"Time zone code that was in use when the record was created."]),
+        "importSequenceNumber": NumberAttributeClass, // Sequence number of the import that created this record."]),
+        "overriddenCreatedOn": TimestampAttributeClass, // Date and time that the record was migrated."]),
+        "timeZoneRuleVersionNumber": NumberAttributeClass, // For internal use only."]),
+        "utcConversionTimeZoneCode": IntegerAttributeClass, // Time zone code that was in use when the record was created."]),
         "defaultDescription": OOPStringAttribute.descriptions(["en":"Type a description of the entity."]),
         "bookableResource": OOPStringAttribute.descriptions(["en":"Shows the name of the resource signing up for this project team."]),
         "membershipStatus": OOPStringAttribute.descriptions(["en":"Select the membership status."]),
