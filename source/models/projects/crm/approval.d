@@ -72,8 +72,9 @@ class DPRJApproval : DOOPEntity {
 }
 mixin(EntityCalls!("PRJApproval"));
 
-unittest {
-  version(uim_entities) {
+version(test_library) {
+  unittest {
+    assert(APLFeedback);
     assert(PRJApproval);
   
   auto entity = PRJApproval;

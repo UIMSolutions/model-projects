@@ -43,8 +43,9 @@ class DPRJProjectTaskStatusUser : DOOPEntity {
 mixin(EntityCalls!("PRJProjectTaskStatusUser"));
 
 
-unittest {
-  version(uim_entities) {
+version(test_library) {
+  unittest {
+    assert(APLFeedback);
     assert(PRJProjectTaskStatusUser);
 
   auto entity = PRJProjectTaskStatusUser;

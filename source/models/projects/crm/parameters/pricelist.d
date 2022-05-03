@@ -31,8 +31,9 @@ class DPRJParameterPriceList : DOOPEntity {
 }
 mixin(EntityCalls!("PRJParameterPriceList"));
 
-unittest {
-  version(uim_entities) {
+version(test_library) {
+  unittest {
+    assert(APLFeedback);
     assert(PRJParameterPriceList);
   
   auto entity = PRJParameterPriceList;

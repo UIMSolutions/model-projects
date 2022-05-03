@@ -35,8 +35,9 @@ class DPRJPriceList : DOOPEntity {
 }
 mixin(EntityCalls!("PRJPriceList"));
 
-unittest {
-  version(uim_entities) {
+version(test_library) {
+  unittest {
+    assert(APLFeedback);
     assert(PRJPriceList);
 
   auto entity = PRJPriceList;

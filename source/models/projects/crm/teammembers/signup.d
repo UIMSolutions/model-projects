@@ -34,8 +34,9 @@ class DPRJTeamMemberSignUp : DOOPEntity {
 }
 mixin(EntityCalls!("PRJTeamMemberSignUp"));
 
-unittest {
-  version(uim_entities) {
+version(test_library) {
+  unittest {
+    assert(APLFeedback);
     assert(PRJTeamMemberSignUp);
   
   auto entity = PRJTeamMemberSignUp;

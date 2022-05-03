@@ -39,8 +39,9 @@ class DPRJTaskDependency : DOOPEntity {
 }
 mixin(EntityCalls!("PRJTaskDependency")); 
 
-unittest {
-  version(uim_entities) {
+version(test_library) {
+  unittest {
+    assert(APLFeedback);
     assert(PRJTaskDependency);
 
   auto entity = PRJTaskDependency;

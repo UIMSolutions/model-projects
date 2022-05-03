@@ -35,8 +35,9 @@ class DPRJParameter : DOOPEntity {
 }
 mixin(EntityCalls!("PRJParameter"));
 
-unittest {
-  version(uim_entities) {
+version(test_library) {
+  unittest {
+    assert(APLFeedback);
     assert(PRJParameter);
   
   auto entity = PRJParameter;

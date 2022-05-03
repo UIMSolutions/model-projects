@@ -97,8 +97,9 @@ class DPRJTask : DOOPEntity {
 }
 mixin(EntityCalls!("PRJTask"));
 
-unittest {
-  version(uim_entities) {
+version(test_library) {
+  unittest {
+    assert(APLFeedback);
     assert(PRJTask);
   
   auto entity = PRJTask;
