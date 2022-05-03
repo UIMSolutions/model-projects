@@ -21,14 +21,14 @@ class DPRJParameter : DOOPEntity {
         "overriddenCreatedOn": TimestampAttributeClass, // Date and time that the record was migrated."]),
         "timeZoneRuleVersionNumber": NumberAttributeClass, // For internal use only."]),
         "utcConversionTimeZoneCode": IntegerAttributeClass, // Time zone code that was in use when the record was created."]),
-        "allowSkillUpdateByResource": OOPStringAttribute.descriptions(["en":"Allow resources to update their skills via the Project Finder Mobile app."]),
-        "defaultOrganizationalUnit": OOPStringAttribute.descriptions(["en":"Select the default organizational unit that will be used for new resources."]),
-        "defaultWorkTemplate": OOPStringAttribute.descriptions(["en":"Select the default work template for new projects."]),
-        "invoiceFrequency": OOPStringAttribute.descriptions(["en":"Select the default frequency for generating invoices."]),
-        "projectManagerRole": OOPStringAttribute.descriptions(["en":"Shows the default role to be used when a project manager is added to the project team."]),
-        "projectResourceRequirementsVisibleToRe": OOPStringAttribute.descriptions(["en":"Select whether project resource requirements are visible to resources."]),
+        "allowSkillUpdateByResource": StringAttributeClass, // Allow resources to update their skills via the Project Finder Mobile app."]),
+        "defaultOrganizationalUnit": StringAttributeClass, // Select the default organizational unit that will be used for new resources."]),
+        "defaultWorkTemplate": StringAttributeClass, // Select the default work template for new projects."]),
+        "invoiceFrequency": StringAttributeClass, // Select the default frequency for generating invoices."]),
+        "projectManagerRole": StringAttributeClass, // Shows the default role to be used when a project manager is added to the project team."]),
+        "projectResourceRequirementsVisibleToRe": StringAttributeClass, // Select whether project resource requirements are visible to resources."]),
         "resourceAllocationMode": OOPAttributeLookup("aplProjectParameter_ResourceAllocationMode").descriptions(["en":""]),
-        "teamMemberRole": OOPStringAttribute.descriptions(["en":"Shows the default role to be used when a team member is added to the project team."]),
+        "teamMemberRole": StringAttributeClass, // Shows the default role to be used when a team member is added to the project team."]),
       ])
       .registerPath("project_parameters");
   }

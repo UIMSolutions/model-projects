@@ -17,7 +17,7 @@ class DPRJProjectTaskStatusUser : DOOPEntity {
         "overriddenCreatedOn": TimestampAttributeClass, // Date and time that the record was migrated."]),
         "importSequenceNumber": NumberAttributeClass, // Sequence number of the import that created this record."]),
         "ownerId": UUIDAttributeClass, // Owner Id"]),
-        "ownerIdType": OOPStringAttribute.descriptions(["en":"The type of owner, either User or Team."]),
+        "ownerIdType": StringAttributeClass, // The type of owner, either User or Team."]),
         "owningBusinessUnitId": OOPLinkAttribute("aplBusinessUnit").descriptions(["en":"Unique identifier for the business unit that owns the record"]),
         "owningUserId": OOPLinkAttribute("aplUser").descriptions(["en":"Unique identifier for the user that owns the record."]),
         "owningTeamId": OOPLinkAttribute("aplTeam").descriptions(["en":"Unique identifier for the team that owns the record."]),
@@ -25,17 +25,17 @@ class DPRJProjectTaskStatusUser : DOOPEntity {
         "utcConversionTimeZoneCode": IntegerAttributeClass, // Time zone code that was in use when the record was created."]),
         "projectTaskStatusUserId": OOPLinkAttribute("aplUser").descriptions(["en":"Unique identifier for entity instances"]),
         "stateCode": IntegerAttributeClass, // Status of the Project Task Status User"]),
-        "stateCode_display": OOPStringAttribute.descriptions(["en":""]),
+        "stateCode_display": StringAttributeClass, //
         "statusCode": IntegerAttributeClass, // Reason for the status of the Project Task Status User"]),
-        "statusCode_display": OOPStringAttribute.descriptions(["en":""]),
-        "bookableResource": OOPStringAttribute.descriptions(["en":""]),
+        "statusCode_display": StringAttributeClass, //
+        "bookableResource": StringAttributeClass, //
         "expectedCompletionDate": DateAttributeClass, // Shows the expected completion date of the task entered by the assigned resource."]),
-        "expectedHoursToComplete": OOPStringAttribute.descriptions(["en":"Shows the expected hours to complete the task entered by the assigned resource."]),
+        "expectedHoursToComplete": StringAttributeClass, // Shows the expected hours to complete the task entered by the assigned resource."]),
         "isCompleted": BooleanAttributeClass, // Shows if the task is completed."]),
-        "percentComplete": OOPStringAttribute.descriptions(["en":"Shows the reported percentage complete for the project task."]),
+        "percentComplete": StringAttributeClass, // Shows the reported percentage complete for the project task."]),
         "projectTaskId": UUIDAttributeClass, // Unique identifier for Project Task associated with Project Task Status User."]),
-        "projectTaskStatusIndicator": OOPStringAttribute.descriptions(["en":"Indicates the status of the project task reported by the user resource."]),
-        "projectTaskStatusIndicator_display": OOPStringAttribute.descriptions(["en":""]),
+        "projectTaskStatusIndicator": StringAttributeClass, // Indicates the status of the project task reported by the user resource."]),
+        "projectTaskStatusIndicator_display": StringAttributeClass, //
       ])
       .registerPath("project_taskstatususers");
   }
