@@ -12,15 +12,15 @@ class DPRJApproval : DOOPEntity {
 
     this
       .addValues([
-        "createdOnBehalfBy": OOPLinkAttribute("aplUser").descriptions(["en":"Shows who created the record on behalf of another user."]),
-        "modifiedOnBehalfBy": OOPLinkAttribute("aplUser").descriptions(["en":"Shows who last updated the record on behalf of another user."]),
+        "createdOnBehalfBy": UUIDAttributeClass, //Shows who created the record on behalf of another user."]),
+        "modifiedOnBehalfBy": UUIDAttributeClass, //Shows who last updated the record on behalf of another user."]),
         "overriddenCreatedOn": TimestampAttributeClass, // Date and time that the record was migrated."]),
         "importSequenceNumber": NumberAttributeClass, // Sequence number of the import that created this record."]),
         "ownerId": UUIDAttributeClass, // Owner Id"]),
         "ownerIdType": StringAttributeClass, // The type of owner, either User or Team."]),
-        "owningBusinessUnitId": OOPLinkAttribute("aplBusinessUnit").descriptions(["en":"Unique identifier for the business unit that owns the record"]),
-        "owningUserId": OOPLinkAttribute("aplUser").descriptions(["en":"Unique identifier for the user that owns the record."]),
-        "owningTeamId": OOPLinkAttribute("aplTeam").descriptions(["en":"Unique identifier for the team that owns the record."]),
+        "owningBusinessUnitId": UUIDAttributeClass, //Unique identifier for the business unit that owns the record"]),
+        "owningUserId": UUIDAttributeClass, //Unique identifier for the user that owns the record."]),
+        "owningTeamId": UUIDAttributeClass, //Unique identifier for the team that owns the record."]),
         "timeZoneRuleVersionNumber": NumberAttributeClass, // For internal use only."]),
         "utcConversionTimeZoneCode": IntegerAttributeClass, // Time zone code that was in use when the record was created."]),
         "projectApprovalId": UUIDAttributeClass, // Unique identifier for entity instances"]),
@@ -28,7 +28,7 @@ class DPRJApproval : DOOPEntity {
         "stateCode_display": StringAttributeClass, //
         "statusCode": IntegerAttributeClass, // Reason for the status of the ApprovalsTable"]),
         "statusCode_display": StringAttributeClass, //
-        "approvedBy": OOPLinkAttribute("aplUser").descriptions(["en":"Shows the name of the approver."]),
+        "approvedBy": UUIDAttributeClass, //Shows the name of the approver."]),
         "approvedOn": DatetimeAttributeClass, // Shows the date of the approval."]),
         "billingType": StringAttributeClass, // Billing type for the project approval line."]),
         "billingType_display": StringAttributeClass, //
@@ -59,7 +59,7 @@ class DPRJApproval : DOOPEntity {
         "salesPrice": StringAttributeClass, // Shows the sales price of the transaction."]),
         "salesPriceBase": StringAttributeClass, // Value of the Sales Price in base currency."]),
         "salesQuantity": StringAttributeClass, // Shows the billable hours for the transaction."]),
-        "submittedBy": OOPLinkAttribute("aplUser").descriptions(["en":"Resource that has submitted the entry for approval."]),
+        "submittedBy": UUIDAttributeClass, //Resource that has submitted the entry for approval."]),
         "timeEntry": StringAttributeClass, // Time Entry Id."]),
         "transactionCategory": StringAttributeClass, // Shows the transaction category."]),
         "costAmount": StringAttributeClass, // Shows the cost amount of the transaction."]),

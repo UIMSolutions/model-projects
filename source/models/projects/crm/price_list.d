@@ -11,15 +11,15 @@ class DPRJPriceList : DOOPEntity {
 
     this
       .addValues([
-        "createdOnBehalfBy": OOPLinkAttribute("aplUser").descriptions(["en":"Shows who created the record on behalf of another user."]),
-        "modifiedOnBehalfBy": OOPLinkAttribute("aplUser").descriptions(["en":"Shows who last updated the record on behalf of another user."]),
+        "createdOnBehalfBy": UUIDAttributeClass, //Shows who created the record on behalf of another user."]),
+        "modifiedOnBehalfBy": UUIDAttributeClass, //Shows who last updated the record on behalf of another user."]),
         "overriddenCreatedOn": TimestampAttributeClass, // Date and time that the record was migrated."]),
         "importSequenceNumber": NumberAttributeClass, // Sequence number of the import that created this record."]),
         "ownerId": UUIDAttributeClass, // Owner Id"]),
         "ownerIdType": StringAttributeClass, // The type of owner, either User or Team."]),
-        "owningBusinessUnitId": OOPLinkAttribute("aplBusinessUnit").descriptions(["en":"Unique identifier for the business unit that owns the record"]),
-        "owningUserId": OOPLinkAttribute("aplUser").descriptions(["en":"Unique identifier for the user that owns the record."]),
-        "owningTeamId": OOPLinkAttribute("aplTeam").descriptions(["en":"Unique identifier for the team that owns the record."]),
+        "owningBusinessUnitId": UUIDAttributeClass, //Unique identifier for the business unit that owns the record"]),
+        "owningUserId": UUIDAttributeClass, //Unique identifier for the user that owns the record."]),
+        "owningTeamId": UUIDAttributeClass, //Unique identifier for the team that owns the record."]),
         "timeZoneRuleVersionNumber": NumberAttributeClass, // For internal use only."]),
         "utcConversionTimeZoneCode": IntegerAttributeClass, // Time zone code that was in use when the record was created."]),
         "projectPriceListId": UUIDAttributeClass, // Unique identifier for entity instances"]),

@@ -12,9 +12,9 @@ class DPRJParameter : DOOPEntity {
 
     this
       .addValues([
-        "createdOnBehalfBy": OOPLinkAttribute("aplUser").descriptions(["en":"Unique identifier of the delegate user who created the record."]),
-        "modifiedOnBehalfBy": OOPLinkAttribute("aplUser").descriptions(["en":"Unique identifier of the delegate user who modified the record."]),
-        "organizationId": OOPLinkAttribute("aplOrganization").descriptions(["en":"Unique identifier for the organization"]),
+        "createdOnBehalfBy": UUIDAttributeClass, //Unique identifier of the delegate user who created the record."]),
+        "modifiedOnBehalfBy": UUIDAttributeClass, //Unique identifier of the delegate user who modified the record."]),
+        "organizationId": UUIDAttributeClass, // Unique identifier for the organization"]),
         "stateCode": OOPAttributeLookup("aplProjectParameter_StateCode").descriptions(["en":""]),
         "statusCode": OOPAttributeLookup("aplProjectParameter_StatusCode").descriptions(["en":""]),
         "importSequenceNumber": NumberAttributeClass, // Sequence number of the import that created this record."]),
