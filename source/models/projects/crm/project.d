@@ -35,7 +35,7 @@ class DPRJProject : DOOPEntity {
         "actualDuratiOn": DatetimeAttributeClass, // Shows the actual duration of the project in minutes."]),
         "actualEnd": StringAttributeClass, // Enter the actual end time of the project."]),
         "actualExpenseCost": StringAttributeClass, // Shows the aggregate of actual expense cost on the project."]),
-        "transactionCurrencyId": OOPLinkAttribute("aplCurrency").descriptions(["en":"Shows the currency associated with the entity."]),
+        "transactionCurrencyId": CurrencyIdAttributeClass, // Shows the currency associated with the entity."]),
         "exchangeRate": StringAttributeClass, // Shows the exchange rate for the currency associated with the entity with respect to the base currency."]),
         "actualexpensecostBase": StringAttributeClass, // Value of the Actual Expense Cost in base currency."]),
         "actualHours": StringAttributeClass, // Shows the total actual hours of the project"]),

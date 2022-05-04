@@ -34,7 +34,7 @@ class DPRJApproval : DOOPEntity {
         "billingType_display": StringAttributeClass, //
         "bookableResource": StringAttributeClass, // Shows the resource that the entry is submitted for."]),
         "costPrice": StringAttributeClass, // Shows the cost price of the transaction."]),
-        "transactionCurrencyId": OOPLinkAttribute("aplCurrency").descriptions(["en":"Shows the currency associated with the entity."]),
+        "transactionCurrencyId": CurrencyIdAttributeClass, // Shows the currency associated with the entity."]),
         "exchangeRate": StringAttributeClass, // Exchange rate for the currency associated with the entity with respect to the base currency."]),
         "costPriceBase": StringAttributeClass, // Value of the Cost Price in base currency."]),
         "costQuantity": StringAttributeClass, // Shows the hours submitted for the transaction."]),

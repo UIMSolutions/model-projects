@@ -24,7 +24,7 @@ class DPRJServiceApproval : DOOPEntity {
         "timeZoneRuleVersionNumber": NumberAttributeClass, // For internal use only."]),
         "utcConversionTimeZoneCode": IntegerAttributeClass, // Time zone code that was in use when the record was created."]),
         "actualEnd": StringAttributeClass, // Actual end time of the activity."]),
-        "activityId": OOPLinkAttribute("aplActivity").descriptions(["en":"Unique identifier of the activity."]),
+        "activityId": UUIDAttributeClass, // aplActivity").descriptions(["en":"Unique identifier of the activity."]),
         "isBilled": BooleanAttributeClass, // Information regarding whether the activity was billed as part of resolving a case."]),
         "activityTypeCode": IntegerAttributeClass, // Type of activity."]),
         "activityTypeCode_display": StringAttributeClass, //
@@ -46,7 +46,7 @@ class DPRJServiceApproval : DOOPEntity {
         "instanceTypeCode_display": StringAttributeClass, //
         "seriesId": UUIDAttributeClass, // Shows the ID of the recurring series of an instance."]),
         "isRegularActivity": BooleanAttributeClass, // Information regarding whether the activity is a regular activity type or event type."]),
-        "transactionCurrencyId": OOPLinkAttribute("aplCurrency").descriptions(["en":"Unique identifier of the currency associated with the activitypointer."]),
+        "transactionCurrencyId": CurrencyIdAttributeClass, // Unique identifier of the currency associated with the activitypointer."]),
         "exchangeRate": StringAttributeClass, // Exchange rate for the currency associated with the activitypointer with respect to the base currency."]),
         "leftVoiceMail": StringAttributeClass, // Left the voice mail"]),
         "community": StringAttributeClass, // Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only."]),
@@ -64,7 +64,7 @@ class DPRJServiceApproval : DOOPEntity {
         "processId": UUIDAttributeClass, // Unique identifier of the Process."]),
         "stageId": UUIDAttributeClass, // Unique identifier of the Stage."]),
         "activityAdditionalParams": StringAttributeClass, // Additional information provided by the external application as JSON. For internal use only."]),
-        "SLAId": OOPLinkAttribute("aplSLA").descriptions(["en":"Choose the service level agreement (SLA) that you want to apply to the case record."]),
+        "SLAId": UUIDAttributeClass, // aplSLA").descriptions(["en":"Choose the service level agreement (SLA) that you want to apply to the case record."]),
         "SLAInvokedId": UUIDAttributeClass, // Last SLA that was applied to this case. This field is for internal use only."]),
         "onHoldTime": TimeAttributeClass, // Shows how long, in minutes, that the record was on hold."]),
         "lastOnHoldTime": TimeAttributeClass, // Contains the date and time stamp of the last on hold time."]),

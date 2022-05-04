@@ -45,7 +45,7 @@ class DPRJTeam : DOOPEntity {
         "MSProjectClientId": UUIDAttributeClass, // The id of the project team member in MS Project Client."]),
         "number": StringAttributeClass, // Shows the number of resources requested."]),
         "resourcingUnit": StringAttributeClass, // The organizational unit of the resource performing the work."]),
-        "percentage": OOPAttributePercentage.descriptions(["en":"Duplicate for resource requirement"]),
+        "percentage": PercentageAttributeClass, // Duplicate for resource requirement"]),
         "project": StringAttributeClass, // Select the project that this team members are part of."]),
         "projectApprover": StringAttributeClass, // Select whether the team member can approve time and expenses."]),
         "requiredHours": StringAttributeClass, // Required hours of team member from team member requirement"]),

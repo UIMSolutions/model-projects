@@ -12,11 +12,13 @@ class DPRJParameter : DOOPEntity {
 
     this
       .addValues([
+        StateCodeAttributeClass, //
+        StatusCodeAttributeClass, //
+      ])
+      .addValues([
         "createdOnBehalfBy": UUIDAttributeClass, //Unique identifier of the delegate user who created the record."]),
         "modifiedOnBehalfBy": UUIDAttributeClass, //Unique identifier of the delegate user who modified the record."]),
         "organizationId": UUIDAttributeClass, // Unique identifier for the organization"]),
-        "stateCode": OOPAttributeLookup("aplProjectParameter_StateCode").descriptions(["en":""]),
-        "statusCode": OOPAttributeLookup("aplProjectParameter_StatusCode").descriptions(["en":""]),
         "importSequenceNumber": NumberAttributeClass, // Sequence number of the import that created this record."]),
         "overriddenCreatedOn": TimestampAttributeClass, // Date and time that the record was migrated."]),
         "timeZoneRuleVersionNumber": NumberAttributeClass, // For internal use only."]),
@@ -27,7 +29,7 @@ class DPRJParameter : DOOPEntity {
         "invoiceFrequency": StringAttributeClass, // Select the default frequency for generating invoices."]),
         "projectManagerRole": StringAttributeClass, // Shows the default role to be used when a project manager is added to the project team."]),
         "projectResourceRequirementsVisibleToRe": StringAttributeClass, // Select whether project resource requirements are visible to resources."]),
-        "resourceAllocationMode": OOPAttributeLookup("aplProjectParameter_ResourceAllocationMode").descriptions(["en":""]),
+        "resourceAllocationMode": StringAttributeClass, // OOPAttributeLookup("aplProjectParameter_ResourceAllocationMode").descriptions(["en":""]),
         "teamMemberRole": StringAttributeClass, // Shows the default role to be used when a team member is added to the project team."]),
       ])
       .registerPath("project_parameters");
