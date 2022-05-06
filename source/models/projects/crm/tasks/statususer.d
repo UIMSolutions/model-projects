@@ -12,30 +12,30 @@ class DPRJProjectTaskStatusUser : DOOPEntity {
 
     this
       .addValues([
-        "createdOnBehalfBy": UUIDAttributeClass, //Shows who created the record on behalf of another user."]),
-        "modifiedOnBehalfBy": UUIDAttributeClass, //Shows who last updated the record on behalf of another user."]),
-        "overriddenCreatedOn": TimestampAttributeClass, // Date and time that the record was migrated."]),
-        "importSequenceNumber": NumberAttributeClass, // Sequence number of the import that created this record."]),
-        "ownerId": UUIDAttributeClass, // Owner Id"]),
-        "ownerIdType": StringAttributeClass, // The type of owner, either User or Team."]),
-        "owningBusinessUnitId": UUIDAttributeClass, //Unique identifier for the business unit that owns the record"]),
-        "owningUserId": UUIDAttributeClass, //Unique identifier for the user that owns the record."]),
-        "owningTeamId": UUIDAttributeClass, //Unique identifier for the team that owns the record."]),
-        "timeZoneRuleVersionNumber": NumberAttributeClass, // For internal use only."]),
-        "utcConversionTimeZoneCode": IntegerAttributeClass, // Time zone code that was in use when the record was created."]),
-        "projectTaskStatusUserId": UUIDAttributeClass, //Unique identifier for entity instances"]),
-        "stateCode": IntegerAttributeClass, // Status of the Project Task Status User"]),
-        "stateCode_display": StringAttributeClass, //
-        "statusCode": IntegerAttributeClass, // Reason for the status of the Project Task Status User"]),
-        "statusCode_display": StringAttributeClass, //
-        "bookableResource": StringAttributeClass, //
-        "expectedCompletionDate": DateAttributeClass, // Shows the expected completion date of the task entered by the assigned resource."]),
-        "expectedHoursToComplete": StringAttributeClass, // Shows the expected hours to complete the task entered by the assigned resource."]),
-        "isCompleted": BooleanAttributeClass, // Shows if the task is completed."]),
-        "percentComplete": StringAttributeClass, // Shows the reported percentage complete for the project task."]),
-        "projectTaskId": UUIDAttributeClass, // Unique identifier for Project Task associated with Project Task Status User."]),
-        "projectTaskStatusIndicator": StringAttributeClass, // Indicates the status of the project task reported by the user resource."]),
-        "projectTaskStatusIndicator_display": StringAttributeClass, //
+        "createdOnBehalfBy": UUIDAttribute, //Shows who created the record on behalf of another user."]),
+        "modifiedOnBehalfBy": UUIDAttribute, //Shows who last updated the record on behalf of another user."]),
+        "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),
+        "importSequenceNumber": NumberAttribute, // Sequence number of the import that created this record."]),
+        "ownerId": UUIDAttribute, // Owner Id"]),
+        "ownerIdType": StringAttribute, // The type of owner, either User or Team."]),
+        "owningBusinessUnitId": UUIDAttribute, //Unique identifier for the business unit that owns the record"]),
+        "owningUserId": UUIDAttribute, //Unique identifier for the user that owns the record."]),
+        "owningTeamId": UUIDAttribute, //Unique identifier for the team that owns the record."]),
+        "timeZoneRuleVersionNumber": NumberAttribute, // For internal use only."]),
+        "utcConversionTimeZoneCode": IntegerAttribute, // Time zone code that was in use when the record was created."]),
+        "projectTaskStatusUserId": UUIDAttribute, //Unique identifier for entity instances"]),
+        "stateCode": IntegerAttribute, // Status of the Project Task Status User"]),
+        "stateCode_display": StringAttribute, //
+        "statusCode": IntegerAttribute, // Reason for the status of the Project Task Status User"]),
+        "statusCode_display": StringAttribute, //
+        "bookableResource": StringAttribute, //
+        "expectedCompletionDate": DateAttribute, // Shows the expected completion date of the task entered by the assigned resource."]),
+        "expectedHoursToComplete": StringAttribute, // Shows the expected hours to complete the task entered by the assigned resource."]),
+        "isCompleted": BooleanAttribute, // Shows if the task is completed."]),
+        "percentComplete": StringAttribute, // Shows the reported percentage complete for the project task."]),
+        "projectTaskId": UUIDAttribute, // Unique identifier for Project Task associated with Project Task Status User."]),
+        "projectTaskStatusIndicator": StringAttribute, // Indicates the status of the project task reported by the user resource."]),
+        "projectTaskStatusIndicator_display": StringAttribute, //
       ])
       .registerPath("project_taskstatususers");
   }

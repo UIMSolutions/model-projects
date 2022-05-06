@@ -12,27 +12,27 @@ class DPRJTaskDependency : DOOPEntity {
 
     this
       .addValues([
-        "createdOnBehalfBy": UUIDAttributeClass, //Shows who created the record on behalf of another user."]),
-        "modifiedOnBehalfBy": UUIDAttributeClass, //Shows who last updated the record on behalf of another user."]),
-        "overriddenCreatedOn": TimestampAttributeClass, // Date and time that the record was migrated."]),
-        "importSequenceNumber": NumberAttributeClass, // Sequence number of the import that created this record."]),
-        "ownerId": UUIDAttributeClass, // Owner Id"]),
-        "ownerIdType": StringAttributeClass, // The type of owner, either User or Team."]),
-        "owningBusinessUnitId": UUIDAttributeClass, //Unique identifier for the business unit that owns the record"]),
-        "owningUserId": UUIDAttributeClass, //Unique identifier for the user that owns the record."]),
-        "owningTeamId": UUIDAttributeClass, //Unique identifier for the team that owns the record."]),
-        "timeZoneRuleVersionNumber": NumberAttributeClass, // For internal use only."]),
-        "utcConversionTimeZoneCode": IntegerAttributeClass, // Time zone code that was in use when the record was created."]),
-        "projectTaskDependencyId": UUIDAttributeClass, // Unique identifier for entity instances"]),
-        "stateCode": IntegerAttributeClass, // Status of the Project Task Dependency"]),
-        "stateCode_display": StringAttributeClass, //
-        "statusCode": IntegerAttributeClass, // Reason for the status of the Project Task Dependency"]),
-        "statusCode_display": StringAttributeClass, //
-        "linkType": StringAttributeClass, // Select the 'Finish to Start' type of dependency."]),
-        "linkType_display": StringAttributeClass, //
-        "predecessorTask": StringAttributeClass, // Select the task that other tasks are dependent on."]),
-        "project": StringAttributeClass, // Select the project name."]),
-        "successorTask": StringAttributeClass, // Select the task that has a dependency on another task."]),
+        "createdOnBehalfBy": UUIDAttribute, //Shows who created the record on behalf of another user."]),
+        "modifiedOnBehalfBy": UUIDAttribute, //Shows who last updated the record on behalf of another user."]),
+        "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),
+        "importSequenceNumber": NumberAttribute, // Sequence number of the import that created this record."]),
+        "ownerId": UUIDAttribute, // Owner Id"]),
+        "ownerIdType": StringAttribute, // The type of owner, either User or Team."]),
+        "owningBusinessUnitId": UUIDAttribute, //Unique identifier for the business unit that owns the record"]),
+        "owningUserId": UUIDAttribute, //Unique identifier for the user that owns the record."]),
+        "owningTeamId": UUIDAttribute, //Unique identifier for the team that owns the record."]),
+        "timeZoneRuleVersionNumber": NumberAttribute, // For internal use only."]),
+        "utcConversionTimeZoneCode": IntegerAttribute, // Time zone code that was in use when the record was created."]),
+        "projectTaskDependencyId": UUIDAttribute, // Unique identifier for entity instances"]),
+        "stateCode": IntegerAttribute, // Status of the Project Task Dependency"]),
+        "stateCode_display": StringAttribute, //
+        "statusCode": IntegerAttribute, // Reason for the status of the Project Task Dependency"]),
+        "statusCode_display": StringAttribute, //
+        "linkType": StringAttribute, // Select the 'Finish to Start' type of dependency."]),
+        "linkType_display": StringAttribute, //
+        "predecessorTask": StringAttribute, // Select the task that other tasks are dependent on."]),
+        "project": StringAttribute, // Select the project name."]),
+        "successorTask": StringAttribute, // Select the task that has a dependency on another task."]),
       ])
       .registerPath("project_taskdependencies");
   }

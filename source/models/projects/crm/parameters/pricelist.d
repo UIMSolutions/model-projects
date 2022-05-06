@@ -12,19 +12,19 @@ class DPRJParameterPriceList : DOOPEntity {
 
     this
       .addValues([
-        "createdOnBehalfBy": UUIDAttributeClass, //Unique identifier of the delegate user who created the record."]),
-        "modifiedOnBehalfBy": UUIDAttributeClass, //Unique identifier of the delegate user who modified the record."]),
-        "organizationId": UUIDAttributeClass, // Unique identifier for the organization"]),
-        "stateCode": IntegerAttributeClass, // Status of the Project Parameter Price List"]),
-        "stateCode_display": StringAttributeClass, //
-        "statusCode": IntegerAttributeClass, // Reason for the status of the Project Parameter Price List"]),
-        "statusCode_display": StringAttributeClass, //
-        "importSequenceNumber": NumberAttributeClass, // Sequence number of the import that created this record."]),
-        "overriddenCreatedOn": TimestampAttributeClass, // Date and time that the record was migrated."]),
-        "timeZoneRuleVersionNumber": NumberAttributeClass, // For internal use only."]),
-        "utcConversionTimeZoneCode": IntegerAttributeClass, // Time zone code that was in use when the record was created."]),
-        "priceList": StringAttributeClass, // Select the price list that is being associated to the project parameter record."]),
-        "projectParameter": StringAttributeClass, // Select the project parameter record that this price list linked to."]),
+        "createdOnBehalfBy": UUIDAttribute, //Unique identifier of the delegate user who created the record."]),
+        "modifiedOnBehalfBy": UUIDAttribute, //Unique identifier of the delegate user who modified the record."]),
+        "organizationId": UUIDAttribute, // Unique identifier for the organization"]),
+        "stateCode": IntegerAttribute, // Status of the Project Parameter Price List"]),
+        "stateCode_display": StringAttribute, //
+        "statusCode": IntegerAttribute, // Reason for the status of the Project Parameter Price List"]),
+        "statusCode_display": StringAttribute, //
+        "importSequenceNumber": NumberAttribute, // Sequence number of the import that created this record."]),
+        "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),
+        "timeZoneRuleVersionNumber": NumberAttribute, // For internal use only."]),
+        "utcConversionTimeZoneCode": IntegerAttribute, // Time zone code that was in use when the record was created."]),
+        "priceList": StringAttribute, // Select the price list that is being associated to the project parameter record."]),
+        "projectParameter": StringAttribute, // Select the project parameter record that this price list linked to."]),
       ])
       .registerPath("project_parameterpricelists");
   }
