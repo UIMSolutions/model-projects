@@ -1,33 +1,31 @@
-module models.projects.entities.pma.journals.description;
-
+module models.projects.entities.pma.vals.empls.projs.setup;
 
 @safe:
 import models.projects;
 
-class DProjectJournalDescriptionEntity : DOOPEntity {
-  mixin(EntityThis!("ProjectJournalDescriptionEntity"));
+class DProjectValEmplProjectSetupEntity : DOOPEntity {
+  mixin(EntityThis!("ProjectValEmplProjectSetupEntity"));
 
   override void initialize() {
     super.initialize;
 
     this
       .addValues([
-        "Identification": StringAttribute, //
-        "SearchName": StringAttribute, //
-        "Description": StringAttribute, //
-        "BackingTable_ProjJournalTxtRelationshipId": StringAttribute, //
+        "GroupId": StringAttribute, //
+        "Name": StringAttribute, //
+        "BackingTable_ProjValEmplProjTableRelationshipId": StringAttribute, //
         "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_journaldescriptions");
+      .registerPath("projects_valemplcategorysetups");
   }
 }
-mixin(EntityCalls!("ProjectJournalDescriptionEntity"));
+mixin(EntityCalls!("ProjectValEmplProjectSetupEntity"));
 
 version(test_model_portals) {
   unittest {
-    assert(ProjectJournalDescriptionEntity);
+    assert(ProjectValEmplProjectSetupEntity);
   
-  auto entity = ProjectJournalDescriptionEntity;
+  auto entity = ProjectValEmplProjectSetupEntity;
   // auto repository = OOPFileRepository("./tests");
 /*  repository.create("entities", entity.entityClasses, entity.toJson);
 
