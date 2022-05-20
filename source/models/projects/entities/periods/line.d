@@ -16,8 +16,8 @@ class DProjectPeriodLineEntity : DOOPEntity {
         "PeriodId": StringAttribute, //
         "PeriodName": StringAttribute, //
         "PeriodTo": StringAttribute, //
-        "BackingTable_ProjPeriodLineRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjPeriodLineRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_periodlines");
   }

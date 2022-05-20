@@ -64,8 +64,8 @@ class DProjectTaxTableTransTaxInformationEntity : DOOPEntity {
         "VATTINRegistrationNumber": StringAttribute, //
         "VendorLocation": StringAttribute, //
         "VendorTaxInformation": StringAttribute, //
-        "BackingTable_TransTaxInformationEntityRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_TransTaxInformationEntityRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_taxtabletranstaxinformation");
   }

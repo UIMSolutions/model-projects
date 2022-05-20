@@ -19,8 +19,8 @@ class DProjectPeriodEmplEntity : DOOPEntity {
         "PostedDate": StringAttribute, //
         "Resource": StringAttribute, //
         "ResourceId": StringAttribute, //
-        "BackingTable_ProjPeriodEmplRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjPeriodEmplRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_periodemployees");
   }

@@ -14,8 +14,8 @@ class DProjectValEmplCategorySetupEntity : DOOPEntity {
         "CategoryId": StringAttribute, //
         "GroupId": StringAttribute, //
         "ProjId": StringAttribute, //
-        "BackingTable_ProjValProjCategorySetUpRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjValProjCategorySetUpRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_valemplcategorysetups");
   }

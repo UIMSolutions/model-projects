@@ -101,9 +101,9 @@ class DPSAActualEntity : DOOPEntity {
         "ConsumedMaterialCostWithoutNeverLedger": StringAttribute, //
         "ResourceId": StringAttribute, //
         "ResourceCompanyId": StringAttribute, //
-        "Relationship_DefaultDimensionDimensionSetRelationshipId": StringAttribute, //
-        "BackingTable_ProjTransPostingRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_DefaultDimensionDimensionSetRelationshipId": StringAttribute, //
+        "backingTable_ProjTransPostingRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_psaactuals");
   }

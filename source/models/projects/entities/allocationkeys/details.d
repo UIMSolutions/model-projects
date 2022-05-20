@@ -19,8 +19,8 @@ class DProjectAllocationKeyEntity : DOOPEntity {
         "ProjectID": StringAttribute, //
         "Resource": StringAttribute, //
         "ResourcePersonnelNumber": StringAttribute, //
-        "BackingTable_ProjAllocateTransRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjAllocateTransRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_allocationkeydetails");
   }

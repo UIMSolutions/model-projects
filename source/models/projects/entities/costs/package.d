@@ -1,4 +1,5 @@
 module models.projects.entities.costs;
 
-@safe:
-import models.projects;
+public import models.projects.entities.costs.priceexpense;
+public import models.projects.entities.costs.salesprice;
+

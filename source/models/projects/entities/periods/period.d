@@ -18,8 +18,8 @@ class DProjectPeriodEntity : DOOPEntity {
         "PeriodFrequency": StringAttribute, //
         "TimesheetFrequency": StringAttribute, //
         "IsWeekAutoSplit": StringAttribute, //
-        "BackingTable_ProjPeriodTableRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjPeriodTableRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_periods");
   }

@@ -21,9 +21,9 @@ class DProjectVendorRetentionTermEntity : DOOPEntity {
         "Role": StringAttribute, //
         "EndDate": StringAttribute, //
         "StartDate": StringAttribute, //
-        "Relationship_PersonRelationshipId": StringAttribute, //
-        "Relationship_ProjTableRelationshipId": StringAttribute, //
-        "BackingTable_HcmPersonProjectRoleRelationshipId": StringAttribute, //
+        "relationship_PersonRelationshipId": StringAttribute, //
+        "relationship_ProjTableRelationshipId": StringAttribute, //
+        "backingTable_HcmPersonProjectRoleRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_hcmpersonprojectroles");
   }

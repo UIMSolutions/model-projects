@@ -34,8 +34,8 @@ class DProjectInvoiceProposalEntity : DOOPEntity {
         "VolumeType": StringAttribute, //
         "FiscalDocumentTypeId": StringAttribute, //
         "FiscalEstablishmentId": StringAttribute, //
-        "BackingTable_ProjProposalJourRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjProposalJourRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_invoiceproposals");
   }

@@ -13,8 +13,8 @@ class DProjectValEmplCategoryEntity : DOOPEntity {
       .addValues([
         "GroupId": StringAttribute, //
         "Name": StringAttribute, //
-        "BackingTable_ProjValEmplCategoryTableRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjValEmplCategoryTableRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_journalapprovals");
   }

@@ -34,8 +34,8 @@ class DProjectJournalTableEntity : DOOPEntity {
         "ResourceCompanyId": StringAttribute, //
         "PostedUserId": StringAttribute, //
         "Status": StringAttribute, //
-        "BackingTable_ProjJournalTableRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjJournalTableRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_journalnames");
   }

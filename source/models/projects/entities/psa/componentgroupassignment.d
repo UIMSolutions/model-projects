@@ -20,8 +20,8 @@ class DPSAComponentectGroupAssignmentEntity : DOOPEntity {
         "Resource": StringAttribute, //
         "EffectiveFrom": StringAttribute, //
         "ResourcePersonnelNumber": StringAttribute, //
-        "BackingTable_PSAComponentGroupAssignmentRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_PSAComponentGroupAssignmentRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_psaactuals");
   }

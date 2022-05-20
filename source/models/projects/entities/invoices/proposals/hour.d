@@ -28,8 +28,8 @@ class DProjectInvoiceProposalHourEntity : DOOPEntity {
         "LineAmount": StringAttribute, //
         "LineNumber": StringAttribute, //
         "IncludedTaxPercentage": StringAttribute, //
-        "BackingTable_ProjProposalEmplRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjProposalEmplRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_invoiceproposalhours");
   }

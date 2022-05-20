@@ -94,9 +94,9 @@ class DPSAForecastEntity : DOOPEntity {
         "ResourceCompanyId": StringAttribute, //
         "ResourceId": StringAttribute, //
         "PSAIndirectComponent": StringAttribute, //
-        "Relationship_DefaultDimensionDimensionSetRelationshipId": StringAttribute, //
-        "BackingTable_ProjTransBudgetRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_DefaultDimensionDimensionSetRelationshipId": StringAttribute, //
+        "backingTable_ProjTransBudgetRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
 
      ])
       .registerPath("projects_psaactuals");

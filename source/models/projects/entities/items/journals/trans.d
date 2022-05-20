@@ -46,11 +46,11 @@ class DProjectItemJournalTransEntity : DOOPEntity {
         "StorageWarehouseId": StringAttribute, //
         "StorageLocationId": StringAttribute, //
         "inventSerialId": StringAttribute, //
-        "Relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
-        "Relationship_ProjectEntityRelationshipId": StringAttribute, //
-        "Relationship_ProjProjectLinePropertyEntityRelationshipId": StringAttribute, //
-        "BackingTable_InventJournalTransRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
+        "relationship_ProjectEntityRelationshipId": StringAttribute, //
+        "relationship_ProjProjectLinePropertyEntityRelationshipId": StringAttribute, //
+        "backingTable_InventJournalTransRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_itemjournaltrans");
   }

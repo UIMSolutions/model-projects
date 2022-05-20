@@ -45,16 +45,16 @@ class DProjectJournalTransEntity : DOOPEntity {
         "ResourceCompanyId": StringAttribute, //
         "ResourceCategoryId": StringAttribute, //
         "CurrencyId": StringAttribute, //
-        "Relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
-        "Relationship_ProjJournalTableEntityRelationshipId": StringAttribute, //
-        "Relationship_ProjectEntityRelationshipId": StringAttribute, //
-        "Relationship_ProjProjectLinePropertyEntityRelationshipId": StringAttribute, //
-        "Relationship_OMLegalEntityRelationshipId": StringAttribute, //
-        "Relationship_ResResourceDataEntityRelationshipId": StringAttribute, //
-        "Relationship_ResResourceCategoryDataEntityRelationshipId": StringAttribute, //
-        "Relationship_CategoryRelationRelationshipId": StringAttribute, //
-        "BackingTable_ProjJournalTransRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
+        "relationship_ProjJournalTableEntityRelationshipId": StringAttribute, //
+        "relationship_ProjectEntityRelationshipId": StringAttribute, //
+        "relationship_ProjProjectLinePropertyEntityRelationshipId": StringAttribute, //
+        "relationship_OMLegalEntityRelationshipId": StringAttribute, //
+        "relationship_ResResourceDataEntityRelationshipId": StringAttribute, //
+        "relationship_ResResourceCategoryDataEntityRelationshipId": StringAttribute, //
+        "relationship_CategoryRelationRelationshipId": StringAttribute, //
+        "backingTable_ProjJournalTransRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_journalnames");
   }

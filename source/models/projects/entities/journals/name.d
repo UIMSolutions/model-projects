@@ -24,8 +24,8 @@ class DProjectJournalNameEntity : DOOPEntity {
         "NumberSequenceCode": StringAttribute, //
         "NumberSequenceScope": StringAttribute, //
         "NumberSequenceDataArea": StringAttribute, //
-        "BackingTable_ProjJournalNameRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjJournalNameRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_journalnames");
   }

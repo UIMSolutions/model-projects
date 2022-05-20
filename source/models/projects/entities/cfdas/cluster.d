@@ -1,4 +1,4 @@
-module models.projects.entities.cfdas.ProjCFDACluster;
+module models.projects.entities.cfdas.cluster;
 
 @safe:
 import models.projects;
@@ -11,11 +11,11 @@ class DProjectCFDAClusterEntity : DOOPEntity {
 
     this
       .addValues([
-        "ClusterName": StringAttribute, //
-        "BackingTable_ProjCFDAClusterRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "clusterName": StringAttribute, //
+        "backingTable_ProjCFDAClusterRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_cfdaclusters");
+      .registerPath("projects_cfda.clusters");
   }
 }
 mixin(EntityCalls!("ProjectCFDAClusterEntity"));

@@ -13,8 +13,8 @@ class DProjectAllocationKeyEntity : DOOPEntity {
       .addValues([
         "AllocationKey": StringAttribute, //
         "Name": StringAttribute, //
-        "BackingTable_ProjAllocateKeyRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjAllocateKeyRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_allocationkeys");
   }

@@ -11,19 +11,19 @@ class DExpenseJournalHeaderEntity : DOOPEntity {
 
     this
       .addValues([
-        "PostingLayer": StringAttribute, //
-        "JournalNameId": StringAttribute, //
-        "JournalBatchNumber": StringAttribute, //
-        "Description": StringAttribute, //
-        "IsPosted": StringAttribute, //
-        "LegalEntityForIntercompanyTax": StringAttribute, //
-        "IsReversingEntry": StringAttribute, //
-        "ReversingDate": StringAttribute, //
-        "ReportedAsReadyBy": StringAttribute, //
-        "RejectedBy": StringAttribute, //
-        "ApprovedBy": StringAttribute, //
-        "BackingTable_LedgerJournalTableRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "postingLayer": StringAttribute, //
+        "journalNameId": UUIDAttribute, //
+        "journalBatchNumber": StringAttribute, //
+        "description": StringAttribute, //
+        "isPosted": StringAttribute, //
+        "legalEntityForIntercompanyTax": StringAttribute, //
+        "isReversingEntry": StringAttribute, //
+        "reversingDate": StringAttribute, //
+        "reportedAsReadyBy": StringAttribute, //
+        "rejectedBy": StringAttribute, //
+        "approvedBy": StringAttribute, //
+        "backingTable_LedgerJournalTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_expensejournalheaders");
   }

@@ -15,8 +15,8 @@ class DProjectPeriodTimesheetWeekEntity : DOOPEntity {
         "PeriodId": StringAttribute, //
         "PeriodName": StringAttribute, //
         "PeriodTo": StringAttribute, //
-        "BackingTable_ProjPeriodTimesheetWeekRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjPeriodTimesheetWeekRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_periodlines");
   }

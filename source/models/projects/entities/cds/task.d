@@ -1,31 +1,34 @@
-module models.projects.entities.journals.approvals.approval;
+module models.projects.entities.cds.task;
 
 @safe:
 import models.projects;
 
-class DProjectJournalApprovalEntity : DOOPEntity {
-  mixin(EntityThis!("ProjectJournalApprovalEntity"));
+class DProjectCDSTaskEntity : DOOPEntity {
+  mixin(EntityThis!("ProjectCDSTaskEntity"));
 
   override void initialize() {
     super.initialize;
 
     this
       .addValues([
-        "Name": StringAttribute, //
-        "Approve": StringAttribute, //
-        "backingTable_ProjJournalStatusTableRelationshipId": StringAttribute, //
+        "task": StringAttribute, //
+        "parentTask": StringAttribute, //
+        "workBreakdownStructureID": StringAttribute, //
+        "projectId": StringAttribute, //
+        "name": StringAttribute, //
+        "backingTable_ProjCDSTaskImportRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_journalapprovals");
+      .registerPath("projects_cds.tasks");
   }
 }
-mixin(EntityCalls!("ProjectJournalApprovalEntity"));
+mixin(EntityCalls!("ProjectCDSTaskEntity"));
 
 version(test_model_portals) {
   unittest {
-    assert(ProjectJournalApprovalEntity);
+    assert(ProjectCDSTaskEntity);
   
-  auto entity = ProjectJournalApprovalEntity;
+  auto entity = ProjectCDSTaskEntity;
   // auto repository = OOPFileRepository("./tests");
 /*  repository.create("entities", entity.entityClasses, entity.toJson);
 

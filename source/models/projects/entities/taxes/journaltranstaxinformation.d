@@ -65,8 +65,8 @@ class DProjectTaxJournalTransTaxInformationEntity : DOOPEntity {
         "VATSchedule": StringAttribute, //
         "VATTINRegistrationNumber": StringAttribute, //
         "VendorLocation": StringAttribute, //
-        "BackingTable_TransTaxInformationEntityRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_TransTaxInformationEntityRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_itemjournaltrans");
   }

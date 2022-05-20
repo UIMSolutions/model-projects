@@ -1,4 +1,4 @@
 module models.projects.entities.cfdas;
 
-@safe:
-import models.projects;
+public import models.projects.entities.cfdas.cluster;
+public import models.projects.entities.cfdas.number;

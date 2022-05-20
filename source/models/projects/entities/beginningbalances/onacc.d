@@ -1,56 +1,56 @@
-module models.projects.entities.beginningbalances.onacc;
+module models.projects.entities.beginningbalances.onaccount;
 
 @safe:
 import models.projects;
 
-class DProjectBeginningBalanceOnAccEntity : DOOPEntity {
-  mixin(EntityThis!("ProjectBeginningBalanceOnAccEntity"));
+class DProjectBeginningBalanceOnAccountEntity : DOOPEntity {
+  mixin(EntityThis!("ProjectBeginningBalanceOnAccountEntity"));
 
   override void initialize() {
     super.initialize;
 
     this
       .addValues([
-        "JournalId": StringAttribute, //
-        "JournalName": StringAttribute, //
-        "JournalDescription": StringAttribute, //
-        "JournalType": StringAttribute, //
-        "JournalDetailSummary": StringAttribute, //
-        "LineNumber": StringAttribute, //
-        "ProjectId": StringAttribute, //
-        "ProjectDate": StringAttribute, //
-        "Description": StringAttribute, //
-        "SalesPrice": StringAttribute, //
-        "SalesCurrency": StringAttribute, //
-        "Revenue": StringAttribute, //
-        "ContractId": StringAttribute, //
-        "SalesTaxGroup": StringAttribute, //
-        "ItemSalesTaxGroup": StringAttribute, //
-        "DefaultDimensionDisplayValue": StringAttribute, //
-        "Voucher": StringAttribute, //
-        "VoucherDate": StringAttribute, //
-        "VoucherNumberSequenceTable": StringAttribute, //
-        "FundingSourceId": StringAttribute, //
-        "VoucherChange": StringAttribute, //
-        "VoucherDraw": StringAttribute, //
-        "DefaultDimension": StringAttribute, //
-        "ProjFundingSource": StringAttribute, //
-        "Relationship_DefaultDimensionDimensionSetRelationshipId": StringAttribute, //
-        "Relationship_ProjectRelationshipId": StringAttribute, //
-        "Relationship_ProjJournalTableEntityRelationshipId": StringAttribute, //
-        "BackingTable_ProjBegBalJournalTrans_OnAccRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "journalId": UUIDAttribute, //
+        "journalName": StringAttribute, //
+        "journalDescription": StringAttribute, //
+        "journalType": StringAttribute, //
+        "journalDetailSummary": StringAttribute, //
+        "lineNumber": StringAttribute, //
+        "projectId": UUIDAttribute, //
+        "projectDate": StringAttribute, //
+        "description": StringAttribute, //
+        "salesPrice": StringAttribute, //
+        "salesCurrency": StringAttribute, //
+        "revenue": StringAttribute, //
+        "contractId": UUIDAttribute, //
+        "salesTaxGroup": StringAttribute, //
+        "itemSalesTaxGroup": StringAttribute, //
+        "defaultDimensionDisplayValue": StringAttribute, //
+        "voucher": StringAttribute, //
+        "voucherDate": StringAttribute, //
+        "voucherNumberSequenceTable": StringAttribute, //
+        "fundingSourceId": UUIDAttribute, //
+        "voucherChange": StringAttribute, //
+        "voucherDraw": StringAttribute, //
+        "defaultDimension": StringAttribute, //
+        "projFundingSource": StringAttribute, //
+        "relationship_DefaultDimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "relationship_ProjectRelationshipId": UUIDAttribute, //
+        "relationship_ProjJournalTableEntityRelationshipId": UUIDAttribute, //
+        "backingTable_ProjBegBalJournalTrans_OnAccRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
-      .registerPath("projects_beginningbalanceonacc");
+      .registerPath("projects_beginningbalanceonaccounts");
   }
 }
-mixin(EntityCalls!("ProjectBeginningBalanceOnAccEntity"));
+mixin(EntityCalls!("ProjectBeginningBalanceOnAccountEntity"));
 
 version(test_model_portals) {
   unittest {
-    assert(ProjectBeginningBalanceOnAccEntity);
+    assert(ProjectBeginningBalanceOnAccountEntity);
   
-  auto entity = ProjectBeginningBalanceOnAccEntity;
+  auto entity = ProjectBeginningBalanceOnAccountEntity;
   // auto repository = OOPFileRepository("./tests");
 /*  repository.create("entities", entity.entityClasses, entity.toJson);
 

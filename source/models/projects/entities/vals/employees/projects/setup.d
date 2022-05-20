@@ -13,8 +13,8 @@ class DProjectValEmplProjectSetupEntity : DOOPEntity {
       .addValues([
         "GroupId": StringAttribute, //
         "Name": StringAttribute, //
-        "BackingTable_ProjValEmplProjTableRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjValEmplProjTableRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_valemplcategorysetups");
   }

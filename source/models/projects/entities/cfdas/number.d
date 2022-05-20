@@ -11,13 +11,13 @@ class DProjectCFDANumberEntity : DOOPEntity {
 
     this
       .addValues([
-        "CFDAClusterName": StringAttribute, //
-        "CFDAID": StringAttribute, //
+        "cfdaClusterName": StringAttribute, //
+        "cfdaID": StringAttribute, //
         "Description": StringAttribute, //
-        "BackingTable_ProjCFDANumberRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjCFDANumberRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_cfdanumbers");
+      .registerPath("projects_cfda.numbers");
   }
 }
 mixin(EntityCalls!("ProjectCFDANumberEntity"));

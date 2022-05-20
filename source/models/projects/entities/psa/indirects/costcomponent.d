@@ -14,8 +14,8 @@ class DPSAIndirectCostComponentEntity : DOOPEntity {
         "Category": StringAttribute, //
         "ComponentId": StringAttribute, //
         "Name": StringAttribute, //
-        "BackingTable_PSAIndirectComponentRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_PSAIndirectComponentRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_psaactuals");
   }

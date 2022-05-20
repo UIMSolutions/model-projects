@@ -11,19 +11,19 @@ class DHcmPersonProjectRoleEntity : DOOPEntity {
 
     this
       .addValues([
-        "LegalEntity": StringAttribute, //
-        "DataArea": StringAttribute, //
-        "NullableDataArea": StringAttribute, //
-        "Person": StringAttribute, //
-        "PartyNumber": StringAttribute, //
-        "ProjectId": StringAttribute, //
-        "ProjectName": StringAttribute, //
-        "Role": StringAttribute, //
-        "EndDate": StringAttribute, //
-        "StartDate": StringAttribute, //
-        "Relationship_PersonRelationshipId": StringAttribute, //
-        "Relationship_ProjTableRelationshipId": StringAttribute, //
-        "BackingTable_HcmPersonProjectRoleRelationshipId": StringAttribute, //
+        "legalEntity": StringAttribute, //
+        "dataArea": StringAttribute, //
+        "nullableDataArea": StringAttribute, //
+        "person": StringAttribute, //
+        "partyNumber": StringAttribute, //
+        "projectId": UUIDAttribute, //
+        "projectName": StringAttribute, //
+        "role": StringAttribute, //
+        "endDate": StringAttribute, //
+        "startDate": StringAttribute, //
+        "relationship_PersonRelationshipId": UUIDAttribute, //
+        "relationship_ProjTableRelationshipId": UUIDAttribute, //
+        "backingTable_HcmPersonProjectRoleRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_hcmpersonprojectroles");
   }

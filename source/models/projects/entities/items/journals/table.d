@@ -23,9 +23,9 @@ class DProjectItemJournalTableEntity : DOOPEntity {
         "Posted": StringAttribute, //
         "Reservation": StringAttribute, //
         "OffsetAccountDisplayValue": StringAttribute, //
-        "Relationship_OffsetAccountCombinationRelationshipId": StringAttribute, //
-        "BackingTable_InventJournalTableRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_OffsetAccountCombinationRelationshipId": StringAttribute, //
+        "backingTable_InventJournalTableRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_itemjournaltables");
   }
