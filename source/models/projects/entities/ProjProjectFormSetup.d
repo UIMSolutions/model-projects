@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjProjectFormSetup;
+module models.projects.entities.ProjProjectFormSetup;
 

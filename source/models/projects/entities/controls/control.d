@@ -1,2 +1,2 @@
-module models.projects.entities.pma.controls.control;
+module models.projects.entities.controls.control;
 

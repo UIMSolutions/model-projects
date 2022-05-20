@@ -1,2 +1,2 @@
-module models.projects.entities.pma.grants.types.typeV2;
+module models.projects.entities.grants.types.typeV2;
 

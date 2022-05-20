@@ -1,4 +1,4 @@
-module source.models.projects.entities.psa.componentgroupassignment;
+module models.projects.entities.psa.componentgroupassignment;
 
 @safe:
 import models.projects;

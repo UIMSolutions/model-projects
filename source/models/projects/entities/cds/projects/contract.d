@@ -1,2 +1,2 @@
-module models.projects.entities.pma.cds.projects.contract;
+module models.projects.entities.cds.projects.contract;
 

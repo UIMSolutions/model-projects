@@ -1,2 +1,2 @@
-module models.projects.entities.pma.cds.ProjCDSEstimateExpensesImport;
+module models.projects.entities.cds.ProjCDSEstimateExpensesImport;
 

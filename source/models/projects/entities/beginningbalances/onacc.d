@@ -1,4 +1,4 @@
-module models.projects.entities.pma.beginningbalances.onacc;
+module models.projects.entities.beginningbalances.onacc;
 
 @safe:
 import models.projects;

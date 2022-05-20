@@ -1,2 +1,2 @@
-module models.projects.entities.pma.parameter;
+module models.projects.entities.parameter;
 

@@ -1,4 +1,4 @@
-module models.projects.entities.pma.journals.trans;
+module models.projects.entities.journals.trans;
 
 @safe:
 import models.projects;

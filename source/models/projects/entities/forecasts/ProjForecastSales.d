@@ -1,2 +1,2 @@
-module models.projects.entities.pma.forecasts.ProjForecastSales;
+module models.projects.entities.forecasts.ProjForecastSales;
 

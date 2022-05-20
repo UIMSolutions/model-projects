@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjRevenueSalesPrice;
+module models.projects.entities.ProjRevenueSalesPrice;
 

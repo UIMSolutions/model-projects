@@ -1,2 +1,2 @@
-module models.projects.entities.pma.cds.ProjCDSTransactionRelationshipImport;
+module models.projects.entities.cds.ProjCDSTransactionRelationshipImport;
 

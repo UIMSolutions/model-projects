@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjProjectWBSDraft;
+module models.projects.entities.ProjProjectWBSDraft;
 

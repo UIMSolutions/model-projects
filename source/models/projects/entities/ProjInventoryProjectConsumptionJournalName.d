@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjInventoryProjectConsumptionJournalName;
+module models.projects.entities.ProjInventoryProjectConsumptionJournalName;
 

@@ -1,2 +1,2 @@
-module models.projects.entities.pma.customers.retentions.retentionTermSchedule;
+module models.projects.entities.customers.retentions.retentionTermSchedule;
 

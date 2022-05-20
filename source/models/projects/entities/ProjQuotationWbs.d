@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjQuotationWbs;
+module models.projects.entities.ProjQuotationWbs;
 

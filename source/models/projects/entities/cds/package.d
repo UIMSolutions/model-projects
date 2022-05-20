@@ -1,4 +1,4 @@
-module models.projects.entities.pma.cds;
+module models.projects.entities.cds;
 
 @safe:
 import models.projects;

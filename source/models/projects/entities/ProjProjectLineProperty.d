@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjProjectLineProperty;
+module models.projects.entities.ProjProjectLineProperty;
 

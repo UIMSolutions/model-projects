@@ -1,2 +1,2 @@
-module models.projects.entities.pma.wbs.templates.template_;
+module models.projects.entities.wbs.templates.template_;
 

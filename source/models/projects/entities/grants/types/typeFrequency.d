@@ -1,2 +1,2 @@
-module models.projects.entities.pma.grants.types.typeFrequency;
+module models.projects.entities.grants.types.typeFrequency;
 

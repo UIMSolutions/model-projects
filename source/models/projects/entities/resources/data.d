@@ -1,2 +1,2 @@
-module models.projects.entities.pma.resources.data;
+module models.projects.entities.resources.data;
 

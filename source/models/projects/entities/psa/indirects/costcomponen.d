@@ -1,4 +1,4 @@
-module models.projects.entities.pma.PSAIndirectCostComponen;
+module models.projects.entities.PSAIndirectCostComponen;
 
 @safe:
 import models.projects;

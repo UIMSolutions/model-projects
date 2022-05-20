@@ -1,4 +1,4 @@
-module models.projects.entities.pma.cds.actualsImport;
+module models.projects.entities.cds.actualsImport;
 
 
 @safe:

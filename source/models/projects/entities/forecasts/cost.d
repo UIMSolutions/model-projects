@@ -1,4 +1,4 @@
-module models.projects.entities.pma.forecasts.cost;
+module models.projects.entities.forecasts.cost;
 
 @safe:
 import models.projects;

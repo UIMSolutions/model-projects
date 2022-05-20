@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjProjectGrantCustomerType;
+module models.projects.entities.ProjProjectGrantCustomerType;
 

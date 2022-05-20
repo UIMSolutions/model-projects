@@ -1,2 +1,2 @@
-module models.projects.entities.pma.travels.projects.expenses.policies.policy;
+module models.projects.entities.travels.projects.expenses.policies.policy;
 

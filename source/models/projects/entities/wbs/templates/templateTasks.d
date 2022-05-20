@@ -1,2 +1,2 @@
-module models.projects.entities.pma.wbs.templates.templateTasks;
+module models.projects.entities.wbs.templates.templateTasks;
 

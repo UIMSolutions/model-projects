@@ -1,4 +1,4 @@
-module models.projects.entities.pma.travels;
+module models.projects.entities.travels;
 
 @safe:
 import models.projects;

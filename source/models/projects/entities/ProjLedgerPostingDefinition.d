@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjLedgerPostingDefinition;
+module models.projects.entities.ProjLedgerPostingDefinition;
 

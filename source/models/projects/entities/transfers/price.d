@@ -1,2 +1,2 @@
-module models.projects.entities.pma.transfers.ProjProjectTransferPrice;
+module models.projects.entities.transfers.ProjProjectTransferPrice;
 

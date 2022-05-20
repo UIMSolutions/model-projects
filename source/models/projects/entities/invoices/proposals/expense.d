@@ -1,4 +1,4 @@
-module models.projects.entities.pma.invoices.proposals.expense;
+module models.projects.entities.invoices.proposals.expense;
 
 @safe:
 import models.projects;

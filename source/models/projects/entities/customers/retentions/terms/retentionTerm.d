@@ -1,2 +1,2 @@
-module models.projects.entities.pma.customers.retentions.terms.retentionTerm;
+module models.projects.entities.customers.retentions.terms.retentionTerm;
 

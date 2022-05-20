@@ -1,2 +1,2 @@
-module models.projects.entities.pma.cds.ProjCDSContractLineImport;
+module models.projects.entities.cds.ProjCDSContractLineImport;
 

@@ -1,4 +1,4 @@
-module models.projects.entities.pma.customers.retentions.terms;
+module models.projects.entities.customers.retentions.terms;
 
 @safe:
 import models.projects;

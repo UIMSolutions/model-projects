@@ -1,8 +1,8 @@
-module models.projects.entities.pma.beginningbalances;
+module models.projects.entities.beginningbalances;
 
 @safe:
 import models.projects;
 
-public import models.projects.entities.pma.beginningbalances.costsale;
-public import models.projects.entities.pma.beginningbalances.fee;
-public import models.projects.entities.pma.beginningbalances.onacc;
+public import models.projects.entities.beginningbalances.costsale;
+public import models.projects.entities.beginningbalances.fee;
+public import models.projects.entities.beginningbalances.onacc;

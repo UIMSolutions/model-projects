@@ -1,2 +1,2 @@
-module models.projects.entities.pma.group;
+module models.projects.entities.group;
 

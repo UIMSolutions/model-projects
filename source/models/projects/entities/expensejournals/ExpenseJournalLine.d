@@ -1,2 +1,2 @@
-module models.projects.entities.pma.expensejournals.ExpenseJournalLine;
+module models.projects.entities.expensejournals.ExpenseJournalLine;
 

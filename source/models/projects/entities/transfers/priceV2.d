@@ -1,2 +1,2 @@
-module models.projects.entities.pma.transfers.priceV2;
+module models.projects.entities.transfers.priceV2;
 

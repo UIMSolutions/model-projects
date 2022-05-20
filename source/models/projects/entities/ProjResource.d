@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjResource;
+module models.projects.entities.ProjResource;
 

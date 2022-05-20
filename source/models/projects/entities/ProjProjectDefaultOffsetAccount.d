@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjProjectDefaultOffsetAccount;
+module models.projects.entities.ProjProjectDefaultOffsetAccount;
 

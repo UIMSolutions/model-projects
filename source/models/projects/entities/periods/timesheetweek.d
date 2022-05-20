@@ -1,4 +1,4 @@
-module models.projects.entities.pma.periods.ProjPeriodTimesheetWeek;
+module models.projects.entities.periods.ProjPeriodTimesheetWeek;
 
 @safe:
 import models.projects;

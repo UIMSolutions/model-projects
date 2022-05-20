@@ -1,2 +1,2 @@
-module models.projects.entities.pma.resources.roleCharacteristics;
+module models.projects.entities.resources.roleCharacteristics;
 

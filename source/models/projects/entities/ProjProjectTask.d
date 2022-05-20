@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjProjectTask;
+module models.projects.entities.ProjProjectTask;
 

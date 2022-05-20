@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjProjectAllocationKey;
+module models.projects.entities.ProjProjectAllocationKey;
 

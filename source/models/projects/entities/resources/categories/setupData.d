@@ -1,2 +1,2 @@
-module models.projects.entities.pma.resources.categories.setupData;
+module models.projects.entities.resources.categories.setupData;
 

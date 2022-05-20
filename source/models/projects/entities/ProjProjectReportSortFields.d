@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjProjectReportSortFields;
+module models.projects.entities.ProjProjectReportSortFields;
 

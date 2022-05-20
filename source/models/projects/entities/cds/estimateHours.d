@@ -1,2 +1,2 @@
-module models.projects.entities.pma.cds.ProjCDSEstimateHours;
+module models.projects.entities.cds.ProjCDSEstimateHours;
 

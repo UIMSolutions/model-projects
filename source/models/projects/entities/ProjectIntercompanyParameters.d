@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjectIntercompanyParameters;
+module models.projects.entities.ProjectIntercompanyParameters;
 

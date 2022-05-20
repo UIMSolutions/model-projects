@@ -1,2 +1,2 @@
-module models.projects.entities.pma.fundings.ProjFundingSource;
+module models.projects.entities.fundings.ProjFundingSource;
 

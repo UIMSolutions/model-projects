@@ -1,2 +1,2 @@
-module models.projects.entities.pma.grants.grantV2;
+module models.projects.entities.grants.grantV2;
 

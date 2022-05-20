@@ -1,2 +1,2 @@
-module models.projects.entities.pma.fundings.rule;
+module models.projects.entities.fundings.rule;
 

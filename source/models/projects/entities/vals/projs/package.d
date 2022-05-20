@@ -1,4 +1,4 @@
-module models.projects.entities.pma.vals.projs;
+module models.projects.entities.vals.projs;
 
 @safe:
 import models.projects;

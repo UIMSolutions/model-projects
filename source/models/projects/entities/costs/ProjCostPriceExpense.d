@@ -1,2 +1,2 @@
-module models.projects.entities.pma.costs.ProjCostPriceExpense;
+module models.projects.entities.costs.ProjCostPriceExpense;
 

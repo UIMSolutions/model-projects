@@ -1,4 +1,4 @@
-module models.projects.entities.pma.forecasts;
+module models.projects.entities.forecasts;
 
 @safe:
 import models.projects;

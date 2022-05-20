@@ -1,2 +1,2 @@
-module models.projects.entities.pma.cds.ProjCDSTask;
+module models.projects.entities.cds.ProjCDSTask;
 

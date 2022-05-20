@@ -1,4 +1,4 @@
-module models.projects.entities.pma.journals.description;
+module models.projects.entities.journals.description;
 
 
 @safe:

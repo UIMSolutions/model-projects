@@ -1,4 +1,4 @@
-module models.projects.entities.pma.cfdas;
+module models.projects.entities.cfdas;
 
 @safe:
 import models.projects;

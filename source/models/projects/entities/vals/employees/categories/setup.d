@@ -1,4 +1,4 @@
-module models.projects.entities.pma.vals.empls.categories.setup;
+module models.projects.entities.vals.empls.categories.setup;
 
 @safe:
 import models.projects;

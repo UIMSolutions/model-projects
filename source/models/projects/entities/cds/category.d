@@ -1,2 +1,2 @@
-module models.projects.entities.pma.cds.ProjCDSCategory;
+module models.projects.entities.cds.ProjCDSCategory;
 

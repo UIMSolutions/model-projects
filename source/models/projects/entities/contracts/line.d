@@ -1,2 +1,2 @@
-module models.projects.entities.pma.contracts.line;
+module models.projects.entities.contracts.line;
 

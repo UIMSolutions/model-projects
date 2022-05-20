@@ -1,2 +1,2 @@
-module models.projects.entities.pma.vals.projs.categories.setup;
+module models.projects.entities.vals.projs.categories.setup;
 

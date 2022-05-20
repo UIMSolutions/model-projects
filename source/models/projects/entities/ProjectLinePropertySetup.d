@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjectLinePropertySetup;
+module models.projects.entities.ProjectLinePropertySetup;
 

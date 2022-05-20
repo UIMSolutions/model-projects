@@ -1,4 +1,4 @@
-module models.projects.entities.pma.periods.period;
+module models.projects.entities.periods.period;
 
 @safe:
 import models.projects;

@@ -1,2 +1,2 @@
-module models.projects.entities.pma.grants.frequency;
+module models.projects.entities.grants.frequency;
 

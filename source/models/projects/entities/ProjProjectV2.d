@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjProjectV2;
+module models.projects.entities.ProjProjectV2;
 

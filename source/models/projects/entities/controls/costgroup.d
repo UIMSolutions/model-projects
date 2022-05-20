@@ -1,2 +1,2 @@
-module models.projects.entities.pma.controls.costgroup;
+module models.projects.entities.controls.costgroup;
 

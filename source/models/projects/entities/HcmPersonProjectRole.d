@@ -1,2 +1,2 @@
-module models.projects.entities.pma.HcmPersonProjectRole;
+module models.projects.entities.HcmPersonProjectRole;
 

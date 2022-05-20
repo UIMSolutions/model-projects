@@ -1,4 +1,4 @@
-module models.projects.entities.pma.contracts;
+module models.projects.entities.contracts;
 
 @safe:
 import models.projects;

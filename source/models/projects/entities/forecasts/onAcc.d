@@ -1,4 +1,4 @@
-module models.projects.entities.pma.forecasts.onAcc;
+module models.projects.entities.forecasts.onAcc;
 
 @safe:
 import models.projects;

@@ -1,2 +1,2 @@
-module source.models.projects.entities.psa.indirects.indirectComponentGroup;
+module models.projects.entities.psa.indirects.indirectComponentGroup;
 

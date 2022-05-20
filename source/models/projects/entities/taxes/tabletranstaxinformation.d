@@ -1,4 +1,4 @@
-module models.projects.entities.pma.taxes.projTableTransTaxInformation;
+module models.projects.entities.taxes.projTableTransTaxInformation;
 
 module models.projects.entities.xxx.TaxProjJournalTransTransTaxInformation;
 

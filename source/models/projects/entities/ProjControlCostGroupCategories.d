@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjControlCostGroupCategories;
+module models.projects.entities.ProjControlCostGroupCategories;
 

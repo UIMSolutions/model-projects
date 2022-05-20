@@ -1,2 +1,2 @@
-module models.projects.entities.pma.ProjCollaborationWorkspaceSettings;
+module models.projects.entities.ProjCollaborationWorkspaceSettings;
 

@@ -1,11 +1,11 @@
-module models.projects.entities.pma.invoices.proposals;
+module models.projects.entities.invoices.proposals;
 
 @safe:
 import models.projects;
 
 // Main Entity
-public import models.projects.entities.pma.invoices.proposals.proposal;
+public import models.projects.entities.invoices.proposals.proposal;
 
 // Additional Entities
-public import models.projects.entities.pma.invoices.proposals.expense;
-public import models.projects.entities.pma.invoices.proposals.hour;
+public import models.projects.entities.invoices.proposals.expense;
+public import models.projects.entities.invoices.proposals.hour;

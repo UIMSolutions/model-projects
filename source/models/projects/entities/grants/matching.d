@@ -1,2 +1,2 @@
-module models.projects.entities.pma.grants.matching;
+module models.projects.entities.grants.matching;
 

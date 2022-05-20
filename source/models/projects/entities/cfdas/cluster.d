@@ -1,4 +1,4 @@
-module models.projects.entities.pma.cfdas.ProjCFDACluster;
+module models.projects.entities.cfdas.ProjCFDACluster;
 
 @safe:
 import models.projects;
