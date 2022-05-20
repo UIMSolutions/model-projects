@@ -1,4 +1,4 @@
-module models.projects.entities.beginningbalances.costsale;
+module models.projects.entities.beginningbalances.fee;
 
 @safe:
 import models.projects;
@@ -48,7 +48,7 @@ class DProjectBeginningBalanceFeeEntity : DOOPEntity {
         "BackingTable_ProjBegBalJournalTrans_FeeRelationshipId":	StringAttribute, //
         "Relationship_PrimaryCompanyContextRelationshipId":	StringAttribute, //
      ])
-      .registerPath("projects_beginningbalancecostsales");
+      .registerPath("projects_beginningbalancefees");
   }
 }
 mixin(EntityCalls!("ProjectBeginningBalanceFeeEntity"));

@@ -1,6 +1,4 @@
-module models.projects.entities.taxes.projTableTransTaxInformation;
-
-module models.projects.entities.xxx.TaxProjJournalTransTransTaxInformation;
+module models.projects.entities.taxes.tabletranstaxinformation;
 
 @safe:
 import models.projects;
@@ -69,7 +67,7 @@ class DProjectTaxTableTransTaxInformationEntity : DOOPEntity {
         "BackingTable_TransTaxInformationEntityRelationshipId": StringAttribute, //
         "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_itemjournaltrans");
+      .registerPath("projects_taxtabletranstaxinformation");
   }
 }
 mixin(EntityCalls!("ProjectTaxTableTransTaxInformationEntity"));
