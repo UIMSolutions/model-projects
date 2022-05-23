@@ -11,23 +11,23 @@ class DProjectHourSalesPriceEntity : DOOPEntity {
 
     this
       .addValues([
-        "CategoryId": StringAttribute, //
-        "CurrencyId": StringAttribute, //
-        "ProjectId": StringAttribute, //
+        "CategoryId": UUIDAttribute, //
+        "CurrencyId": UUIDAttribute, //
+        "ProjectId": UUIDAttribute, //
         "PriceGroup": StringAttribute, //
         "SalesPriceModel": StringAttribute, //
         "SalesPricing": StringAttribute, //
         "ValidFor": StringAttribute, //
         "CustomerAccount": StringAttribute, //
-        "ProjectContractId": StringAttribute, //
+        "ProjectContractId": UUIDAttribute, //
         "Resource": StringAttribute, //
         "TransDate": StringAttribute, //
         "EndDate": StringAttribute, //
-        "ResourceId": StringAttribute, //
-        "ResourceCategoryId": StringAttribute, //
-        "ResourceCompanyId": StringAttribute, //
-        "BackingTable_ProjHourSalesPriceRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "ResourceId": UUIDAttribute, //
+        "ResourceCategoryId": UUIDAttribute, //
+        "ResourceCompanyId": UUIDAttribute, //
+        "BackingTable_ProjHourSalesPriceRelationshipId": UUIDAttribute, //
+        "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_grants");
   }

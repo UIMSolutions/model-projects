@@ -12,11 +12,11 @@ class DProjectPeriodTimesheetWeekEntity : DOOPEntity {
     this
       .addValues([
         "periodFrom": StringAttribute, //
-        "periodId": StringAttribute, //
+        "periodId": UUIDAttribute, //
         "periodName": StringAttribute, //
         "periodTo": StringAttribute, //
-        "backingTable_ProjPeriodTimesheetWeekRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjPeriodTimesheetWeekRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_period.timesheetweeks");
   }

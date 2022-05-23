@@ -15,8 +15,8 @@ class DProjectJournalDescriptionEntity : DOOPEntity {
         "identification": StringAttribute, //
         "searchName": StringAttribute, //
         "description": StringAttribute, //
-        "backingTable_ProjJournalTxtRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjJournalTxtRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_journaldescriptions");
   }

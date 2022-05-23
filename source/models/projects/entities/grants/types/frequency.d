@@ -15,8 +15,8 @@ class DProjectGrantTypeFrequencyEntity : DOOPEntity {
         "frequency": StringAttribute, //
         "projGrantType": StringAttribute, //
         "projGrantType_GrantType": StringAttribute, //
-        "backingTable_ProjGrantTypeFrequencyRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjGrantTypeFrequencyRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_grants.types.frequency");
   }

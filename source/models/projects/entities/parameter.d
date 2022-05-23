@@ -47,7 +47,7 @@ class DProjectParameterEntity : DOOPEntity {
         "isProcessingInvoiceProposalsInWorkflowEnabled": StringAttribute, //
         "estimated": StringAttribute, //
         "expenseDeleteReducedToZero": StringAttribute, //
-        "expenseJournalNameId": StringAttribute, //
+        "expenseJournalNameId": UUIDAttribute, //
         "expenseLumpSumAllocationKey": StringAttribute, //
         "expenseReduceCostPriority1": StringAttribute, //
         "expenseReduceCostPriority2": StringAttribute, //
@@ -87,7 +87,7 @@ class DProjectParameterEntity : DOOPEntity {
         "itemReduceCostPriority4": StringAttribute, //
         "itemReduceCostPriority5": StringAttribute, //
         "itemMinimumRequirement": StringAttribute, //
-        "id": StringAttribute, //
+        "Id": UUIDAttribute, //
         "accrueRevenue": StringAttribute, //
         "adjustment": StringAttribute, //
         "estimate": StringAttribute, //
@@ -98,7 +98,7 @@ class DProjectParameterEntity : DOOPEntity {
         "maximumNumberOfTimesheetsPerPeriod": StringAttribute, //
         "methodOfPayment": StringAttribute, //
         "minimumTimeIncrement": StringAttribute, //
-        "missingTimesheetsEmailId": StringAttribute, //
+        "missingTimesheetsEmailId": UUIDAttribute, //
         "forecastModel": StringAttribute, //
         "folderForMicrosoftProjectFiles": StringAttribute, //
         "saveMicrosoftProjectFilesTo": StringAttribute, //
@@ -221,8 +221,8 @@ class DProjectParameterEntity : DOOPEntity {
         "timeServiceVisibilityLineProperty": StringAttribute, //
         "timeServiceVisibilitySalesTaxGroup": StringAttribute, //
         "allowSalesOrdersForMultipleFundingSources": StringAttribute, //
-        "backingTable_ProjParametersRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjParametersRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_linepropertysetups");
   }

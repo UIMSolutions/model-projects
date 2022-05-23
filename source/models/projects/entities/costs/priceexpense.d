@@ -11,17 +11,17 @@ class DProjectCostPriceExpenseEntity : DOOPEntity {
 
     this
       .addValues([
-        "categoryId": StringAttribute, //
+        "categoryId": UUIDAttribute, //
         "costPrice": StringAttribute, //
-        "projId": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "customerAccount": StringAttribute, //
         "priceGroup": StringAttribute, //
-        "projectContractId": StringAttribute, //
+        "projectContractId": UUIDAttribute, //
         "resource": StringAttribute, //
         "transactionDate": StringAttribute, //
-        "resourceId": StringAttribute, //
-        "backingTable_ProjCostPriceExpenseRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "resourceId": UUIDAttribute, //
+        "backingTable_ProjCostPriceExpenseRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_costs.price.expenses");
   }

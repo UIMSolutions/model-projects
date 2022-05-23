@@ -31,10 +31,10 @@ class DExpenseJournalLineEntity : DOOPEntity {
         "projectCategory": StringAttribute, //
         "projectCostPrice": StringAttribute, //
         "projectLineProperty": StringAttribute, //
-        "projId": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "activityNumber": StringAttribute, //
-        "resourceId": StringAttribute, //
-        "resourceCompanyId": StringAttribute, //
+        "resourceId": UUIDAttribute, //
+        "resourceCompanyId": UUIDAttribute, //
         "projectSalesCurrencyCode": StringAttribute, //
         "dimension": StringAttribute, //
         "dimensionDisplayValue": StringAttribute, //
@@ -43,7 +43,7 @@ class DExpenseJournalLineEntity : DOOPEntity {
         "invoice": StringAttribute, //
         "dueDate": StringAttribute, //
         "payment": StringAttribute, //
-        "paymentId": StringAttribute, //
+        "paymentId": UUIDAttribute, //
         "taxExcemptNumber": StringAttribute, //
         "salesTaxCode": StringAttribute, //
         "itemSalesTaxGroup": StringAttribute, //
@@ -61,13 +61,13 @@ class DExpenseJournalLineEntity : DOOPEntity {
         "creditAmount": StringAttribute, //
         "debitAmount": StringAttribute, //
         "approved": StringAttribute, //
-        "chineseVoucherTypeId": StringAttribute, //
+        "chineseVoucherTypeId": UUIDAttribute, //
         "chineseVoucherType": StringAttribute, //
         "chineseVoucher": StringAttribute, //
         "ledgerJournalTrans_Project": StringAttribute, //
         "projectTaxGroupSales": StringAttribute, //
         "projectTaxItemGroupSales": StringAttribute, //
-        "projectPriceGroupID": StringAttribute, //
+        "projectPriceGroupId": UUIDAttribute, //
         "accountCompany": StringAttribute, //
         "offsetCompany": StringAttribute, //
         "isReversingEntry": StringAttribute, //
@@ -79,17 +79,17 @@ class DExpenseJournalLineEntity : DOOPEntity {
         "transactionType": StringAttribute, //
         "offsetDefaultDimension": StringAttribute, //
         "offsetDefaultDimensionDisplayValue": StringAttribute, //
-        "relationship_AccountCombinationRelationshipId": StringAttribute, //
-        "relationship_ExpenseJournalHeaderEntityRelationshipId": StringAttribute, //
-        "relationship_LegalEntityRelationshipId": StringAttribute, //
-        "relationship_LedgerVoucherTypeEntityRelationshipId": StringAttribute, //
-        "relationship_CurrencyRelationshipId": StringAttribute, //
-        "relationship_LinePropertyRelationshipId": StringAttribute, //
-        "relationship_DefaultDimensionRelationshipId": StringAttribute, //
-        "relationship_OffsetDefaultDimensionRelationshipId": StringAttribute, //
-        "relationship_OffsetAccountCombinationRelationshipId": StringAttribute, //
-        "backingTable_LedgerJournalTransRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_AccountCombinationRelationshipId": UUIDAttribute, //
+        "relationship_ExpenseJournalHeaderEntityRelationshipId": UUIDAttribute, //
+        "relationship_LegalEntityRelationshipId": UUIDAttribute, //
+        "relationship_LedgerVoucherTypeEntityRelationshipId": UUIDAttribute, //
+        "relationship_CurrencyRelationshipId": UUIDAttribute, //
+        "relationship_LinePropertyRelationshipId": UUIDAttribute, //
+        "relationship_DefaultDimensionRelationshipId": UUIDAttribute, //
+        "relationship_OffsetDefaultDimensionRelationshipId": UUIDAttribute, //
+        "relationship_OffsetAccountCombinationRelationshipId": UUIDAttribute, //
+        "backingTable_LedgerJournalTransRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_expensejournallines");
   }

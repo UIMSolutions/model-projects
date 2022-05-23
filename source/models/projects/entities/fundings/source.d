@@ -12,15 +12,15 @@ class DProjectFundingSourceEntity : DOOPEntity {
     this
       .addValues([
         "cashDiscount": StringAttribute, //
-        "contactID": StringAttribute, //
-        "projectContractID": StringAttribute, //
+        "contactId": UUIDAttribute, //
+        "projectContractId": UUIDAttribute, //
         "customerOrOrganization": StringAttribute, //
         "customerRequisition": StringAttribute, //
         "customerReference": StringAttribute, //
         "dimension": StringAttribute, //
         "dimensionAccount": StringAttribute, //
         "eInvoiceLineSpec": StringAttribute, //
-        "fundingSourceId": StringAttribute, //
+        "fundingSourceId": UUIDAttribute, //
         "fundingType": StringAttribute, //
         "associatedPaymentAttachmentOnTheProjectInvoice": StringAttribute, //
         "individualBufferDays": StringAttribute, //
@@ -36,8 +36,8 @@ class DProjectFundingSourceEntity : DOOPEntity {
         "invoiceFormat": StringAttribute, //
         "vatReportDateCode": StringAttribute, //
         "partyNumber": StringAttribute, //
-        "grantId": StringAttribute, //
-        "retentionTermId": StringAttribute, //
+        "grantId": UUIDAttribute, //
+        "retentionTermId": UUIDAttribute, //
         "dimensionDisplayValue": StringAttribute, //
         "addressTimeZone": StringAttribute, //
         "addressDescription": StringAttribute, //
@@ -53,13 +53,13 @@ class DProjectFundingSourceEntity : DOOPEntity {
         "addressLongitude": StringAttribute, //
         "addressValidTo": StringAttribute, //
         "addressValidFrom": StringAttribute, //
-        "invoiceLocationId": StringAttribute, //
+        "invoiceLocationId": UUIDAttribute, //
         "invoiceLocation": StringAttribute, //
         "createDefaultFundingRule": StringAttribute, //
         "isPrimaryFundingSource": StringAttribute, //
-        "relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
-        "backingTable_ProjFundingSourceRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_DimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "backingTable_ProjFundingSourceRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
     .registerPath("projects_costs.sales.sources");
   }

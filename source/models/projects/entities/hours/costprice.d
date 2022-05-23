@@ -11,22 +11,22 @@ class DProjectHourCostPriceEntity : DOOPEntity {
 
     this
       .addValues([
-        "categoryId": StringAttribute, //
+        "categoryId": UUIDAttribute, //
         "costPrice": StringAttribute, //
         "effectiveLaborRate": StringAttribute, //
         "isResourceRate": StringAttribute, //
-        "projectId": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "customerAccount": StringAttribute, //
-        "priceGroupId": StringAttribute, //
-        "projectContractId": StringAttribute, //
+        "priceGroupId": UUIDAttribute, //
+        "projectContractId": UUIDAttribute, //
         "resource": StringAttribute, //
         "resourceCategory": StringAttribute, //
         "transDate": StringAttribute, //
-        "resourceId": StringAttribute, //
-        "resourceCategoryId": StringAttribute, //
-        "resourceCompanyId": StringAttribute, //
-        "backingTable_ProjHourCostPriceRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "resourceId": UUIDAttribute, //
+        "resourceCategoryId": UUIDAttribute, //
+        "resourceCompanyId": UUIDAttribute, //
+        "backingTable_ProjHourCostPriceRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_hours.costprices");
   }

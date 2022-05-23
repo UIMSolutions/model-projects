@@ -15,9 +15,9 @@ class DProjectCustomerRetentionTermScheduleEntity : DOOPEntity {
         "release": StringAttribute, //
         "percentToRetain": StringAttribute, //
         "retentionTerm": StringAttribute, //
-        "relationship_ProjCustomerRetentionTermEntityRelationshipId": StringAttribute, //
-        "backingTable_PSACustomerRetentionTermLineRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_ProjCustomerRetentionTermEntityRelationshipId": UUIDAttribute, //
+        "backingTable_PSACustomerRetentionTermLineRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_customers.retentions.terms.schedules");
   }

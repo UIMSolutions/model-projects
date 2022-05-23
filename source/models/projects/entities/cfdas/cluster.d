@@ -12,8 +12,8 @@ class DProjectCFDAClusterEntity : DOOPEntity {
     this
       .addValues([
         "clusterName": StringAttribute, //
-        "backingTable_ProjCFDAClusterRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjCFDAClusterRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_cfda.clusters");
   }

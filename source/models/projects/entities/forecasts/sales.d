@@ -19,61 +19,61 @@ class DProjectForecastSalesEntity : DOOPEntity {
         "costPrice": StringAttribute, //
         "cashFlowForecast": StringAttribute, //
         "currency": StringAttribute, //
-        "customerAccountId": StringAttribute, //
-        "customerGroupId": StringAttribute, //
+        "customerAccountId": UUIDAttribute, //
+        "customerGroupId": UUIDAttribute, //
         "defaultDimension": StringAttribute, //
         "discountAmount": StringAttribute, //
         "discountPercent": StringAttribute, //
         "endDate": StringAttribute, //
         "periods": StringAttribute, //
         "unit": StringAttribute, //
-        "inventDimensionId": StringAttribute, //
+        "inventDimensionId": UUIDAttribute, //
         "inventQuantity": StringAttribute, //
-        "itemAllocateId": StringAttribute, //
-        "itemBOMId": StringAttribute, //
-        "itemGroupId": StringAttribute, //
-        "itemId": StringAttribute, //
-        "itemRouteId": StringAttribute, //
-        "periodKeyId": StringAttribute, //
-        "modelId": StringAttribute, //
+        "itemAllocateId": UUIDAttribute, //
+        "itemBOMId": UUIDAttribute, //
+        "itemGroupId": UUIDAttribute, //
+        "itemId": UUIDAttribute, //
+        "itemRouteId": UUIDAttribute, //
+        "periodKeyId": UUIDAttribute, //
+        "modelId": UUIDAttribute, //
         "cwQuantity": StringAttribute, //
-        "cwUnitId": StringAttribute, //
+        "cwUnitId": UUIDAttribute, //
         "priceUnit": StringAttribute, //
-        "projectCategoryId": StringAttribute, //
+        "projectCategoryId": UUIDAttribute, //
         "projectForecastBudgetType": StringAttribute, //
         "projectForecastCostPaymentDate": StringAttribute, //
         "projectForecastEliminationDate": StringAttribute, //
         "projectForecastInvoiceDate": StringAttribute, //
         "projectForecastSalesPaymentDate": StringAttribute, //
         "projectFundingSource": StringAttribute, //
-        "projectId": StringAttribute, //
-        "projectLinePropertyId": StringAttribute, //
-        "projectTransactionId": StringAttribute, //
+        "projectId": UUIDAttribute, //
+        "projectLinePropertyId": UUIDAttribute, //
+        "projectTransactionId": UUIDAttribute, //
         "report": StringAttribute, //
         "salesMarkup": StringAttribute, //
         "salesPrice": StringAttribute, //
         "salesQuantity": StringAttribute, //
-        "salesUnitId": StringAttribute, //
+        "salesUnitId": UUIDAttribute, //
         "startDate": StringAttribute, //
-        "taxGroupId": StringAttribute, //
-        "taxItemGroupId": StringAttribute, //
-        "fundingSourceID": StringAttribute, //
-        "projectContractID": StringAttribute, //
+        "taxGroupId": UUIDAttribute, //
+        "taxItemGroupId": UUIDAttribute, //
+        "fundingSourceId": UUIDAttribute, //
+        "projectContractId": UUIDAttribute, //
         "defaultDimensionDisplayValue": StringAttribute, //
-        "productColorId": StringAttribute, //
-        "productConfigurationId": StringAttribute, //
-        "productSizeId": StringAttribute, //
-        "productStyleId": StringAttribute, //
-        "productVersionId": StringAttribute, //
-        "storageSiteId": StringAttribute, //
-        "storageWarehouseId": StringAttribute, //
-        "storageLocationId": StringAttribute, //
+        "productColorId": UUIDAttribute, //
+        "productConfigurationId": UUIDAttribute, //
+        "productSizeId": UUIDAttribute, //
+        "productStyleId": UUIDAttribute, //
+        "productVersionId": UUIDAttribute, //
+        "storageSiteId": UUIDAttribute, //
+        "storageWarehouseId": UUIDAttribute, //
+        "storageLocationId": UUIDAttribute, //
         "covStatus": StringAttribute, //
-        "relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
-        "relationship_ProjectEntityRelationshipId": StringAttribute, //
-        "relationship_ProjProjectLinePropertyEntityRelationshipId": StringAttribute, //
-        "backingTable_ForecastSalesRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_DimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "relationship_ProjectEntityRelationshipId": UUIDAttribute, //
+        "relationship_ProjProjectLinePropertyEntityRelationshipId": UUIDAttribute, //
+        "backingTable_ForecastSalesRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_forecasts.sales");
   }

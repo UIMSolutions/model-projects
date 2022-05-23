@@ -16,11 +16,11 @@ class DProjectAllocationKeyEntity : DOOPEntity {
         "lineProperty": StringAttribute, //
         "lineNumber": StringAttribute, //
         "allocationPercentage": StringAttribute, //
-        "projectID": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "resource": StringAttribute, //
         "resourcePersonnelNumber": StringAttribute, //
-        "backingTable_ProjAllocateTransRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjAllocateTransRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_allocationkeys.details");
   }

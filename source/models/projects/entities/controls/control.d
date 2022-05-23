@@ -13,13 +13,13 @@ class DProjectControlEntity : DOOPEntity {
       .addValues([
         "completionBasedOn": StringAttribute, //
         "completionMethod": StringAttribute, //
-        "costTemplateId": StringAttribute, //
-        "expenseCostLineId": StringAttribute, //
-        "hourCostLineId": StringAttribute, //
-        "itemCostLineId": StringAttribute, //
+        "costTemplateId": UUIDAttribute, //
+        "expenseCostLineId": UUIDAttribute, //
+        "hourCostLineId": UUIDAttribute, //
+        "itemCostLineId": UUIDAttribute, //
         "name": StringAttribute, //
-        "backingTable_ProjControlRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjControlRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_contracts.lines");
   }

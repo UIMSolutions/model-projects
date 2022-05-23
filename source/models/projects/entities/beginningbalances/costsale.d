@@ -14,13 +14,13 @@ class DProjectBeginningBalanceCostSaleEntity : DOOPEntity {
         "activityNumber": StringAttribute, //
         "costPrice": StringAttribute, //
         "defaultDimension": StringAttribute, //
-        "itemId": StringAttribute, //
+        "itemId": UUIDAttribute, //
         "lineNumbei": StringAttribute, //
-        "linePropertyId": StringAttribute, //
+        "linePropertyId": UUIDAttribute, //
         "canAccrueRevenue": StringAttribute, //
-        "categoryId": StringAttribute, //
+        "categoryId": UUIDAttribute, //
         "projFundingSource": StringAttribute, //
-        "projectId": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "costStatus": StringAttribute, //
         "salesCurrency": StringAttribute, //
         "salesTaxGroup": StringAttribute, //
@@ -33,10 +33,10 @@ class DProjectBeginningBalanceCostSaleEntity : DOOPEntity {
         "voucherDate": StringAttribute, //
         "description": StringAttribute, //
         "voucher": StringAttribute, //
-        "resourceRecId": StringAttribute, //
-        "resourceCategoryRecId": StringAttribute, //
-        "fundingSourceId": StringAttribute, //
-        "journalId": StringAttribute, //
+        "resourceRecId": UUIDAttribute, //
+        "resourceCategoryRecId": UUIDAttribute, //
+        "fundingSourceId": UUIDAttribute, //
+        "journalId": UUIDAttribute, //
         "defaultDimensionDisplayValue": StringAttribute, //
         "journalDescription": StringAttribute, //
         "journalDetailSummary": StringAttribute, //
@@ -45,15 +45,15 @@ class DProjectBeginningBalanceCostSaleEntity : DOOPEntity {
         "voucherChange": StringAttribute, //
         "voucherDraw": StringAttribute, //
         "voucherNumberSequenceTable": StringAttribute, //
-        "contractId": StringAttribute, //
+        "contractId": UUIDAttribute, //
         "resource": StringAttribute, //
         "salesAmount": StringAttribute, //
         "costAmount": StringAttribute, //
-        "relationship_DefaultDimensionDimensionSetRelationshipId": StringAttribute, //
-        "relationship_ProjectRelationshipId": StringAttribute, //
-        "relationship_ProjJournalTableEntityRelationshipId": StringAttribute, //
-        "backingTable_ProjBegBalJournalTrans_CostSalesRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_DefaultDimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "relationship_ProjectRelationshipId": UUIDAttribute, //
+        "relationship_ProjJournalTableEntityRelationshipId": UUIDAttribute, //
+        "backingTable_ProjBegBalJournalTrans_CostSalesRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_beginningbalancecostsales");
   }

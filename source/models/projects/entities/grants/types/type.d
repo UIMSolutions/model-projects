@@ -22,8 +22,8 @@ class DProjectGrantTypeEntity : DOOPEntity {
         "excludeFromSEFA": StringAttribute, //
         "managerPersonnelNumber": StringAttribute, //
         "contactPersonnelNumber": StringAttribute, //
-        "backingTable_ProjGrantTypeRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjGrantTypeRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_grants.types.types");
   }

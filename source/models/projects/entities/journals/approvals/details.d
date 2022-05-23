@@ -19,8 +19,8 @@ class DProjectJournalApprovalDetailsEntity : DOOPEntity {
         "previous": StringAttribute, //
         "approve": StringAttribute, //
         "next": StringAttribute, //
-        "backingTable_ProjJournalStatusLineRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjJournalStatusLineRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_journal.approval.details");
   }

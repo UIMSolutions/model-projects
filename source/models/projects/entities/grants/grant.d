@@ -18,27 +18,27 @@ class DProjectGrantEntity : DOOPEntity {
         "applicationSubmittedDate": StringAttribute, //
         "awardedAmount": StringAttribute, //
         "boardApprovalDate": StringAttribute, //
-        "cfdaId": StringAttribute, //
+        "cfdaId": UUIDAttribute, //
         "custAccount": StringAttribute, //
         "estimatedAwardDate": StringAttribute, //
         "federalMandate": StringAttribute, //
-        "grantApplicationId": StringAttribute, //
+        "grantApplicationId": UUIDAttribute, //
         "grantDescription": StringAttribute, //
-        "grantId": StringAttribute, //
+        "grantId": UUIDAttribute, //
         "grantManagerWorker": StringAttribute, //
         "grantMatchingComments": StringAttribute, //
         "grantName": StringAttribute, //
-        "grantParentId": StringAttribute, //
+        "grantParentId": UUIDAttribute, //
         "grantPurpose": StringAttribute, //
         "grantStatus": StringAttribute, //
         "matchingAmount": StringAttribute, //
         "matchingPercentage": StringAttribute, //
-        "organizationUnitId": StringAttribute, //
+        "organizationUnitId": UUIDAttribute, //
         "passThrough": StringAttribute, //
         "projGrantMatching": StringAttribute, //
         "projGrantorType": StringAttribute, //
         "projGrantType": StringAttribute, //
-        "projLocalTrackingId": StringAttribute, //
+        "projLocalTrackingId": UUIDAttribute, //
         "rejectionNotification": StringAttribute, //
         "renewalActionDate": StringAttribute, //
         "requestedAmount": StringAttribute, //
@@ -52,8 +52,8 @@ class DProjectGrantEntity : DOOPEntity {
         "projGrantorType_GrantorType": StringAttribute, //
         "projGrantType_GrantType": StringAttribute, //
         "workerContact_PersonnelNumber": StringAttribute, //
-        "backingTable_ProjGrantRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjGrantRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_grants");
   }

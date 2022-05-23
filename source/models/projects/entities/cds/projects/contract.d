@@ -11,14 +11,14 @@ class DProjectCDSProjectContractEntity : DOOPEntity {
 
     this
       .addValues([
-        "projectContractID": StringAttribute, //
+        "projectContractId": UUIDAttribute, //
         "customerAccount": StringAttribute, //
         "name": StringAttribute, //
         "currencyCode": StringAttribute, //
         "exchangeRate": StringAttribute, //
         "paymentTerms": StringAttribute, //
         "customerReference": StringAttribute, //
-        "sourceDataID": StringAttribute, //
+        "sourceDataId": UUIDAttribute, //
         "addressValidFrom": StringAttribute, //
         "addressValidTo": StringAttribute, //
         "addressDescription": StringAttribute, //
@@ -28,11 +28,11 @@ class DProjectCDSProjectContractEntity : DOOPEntity {
         "addressLine1": StringAttribute, //
         "addressLine2": StringAttribute, //
         "addressState": StringAttribute, //
-        "addressCountryRegionId": StringAttribute, //
+        "addressCountryRegionId": UUIDAttribute, //
         "invoiceLocation": StringAttribute, //entities.
         "partyNumber": StringAttribute, //
-        "backingTable_ProjInvoiceTableRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjInvoiceTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_cds.projects.contracts");
   }

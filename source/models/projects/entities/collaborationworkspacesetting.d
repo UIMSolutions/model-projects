@@ -25,8 +25,8 @@ class DProjectCollaborationWorkspaceSettingEntity : DOOPEntity {
         "storeMSProjectFiles": StringAttribute, //
         "syncTaskLists": StringAttribute, //
         "template": StringAttribute, //
-        "backingTable_CollabSiteParametersRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_CollabSiteParametersRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_collaboration.workspace.settings");
   }

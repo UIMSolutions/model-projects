@@ -11,21 +11,21 @@ class DProjectRevenueSalesPriceEntity : DOOPEntity {
 
     this
       .addValues([
-        "categoryId": StringAttribute, //
+        "categoryId": UUIDAttribute, //
         "salesCurrency": StringAttribute, //
-        "projectID": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "priceGroup": StringAttribute, //
         "customerAccount": StringAttribute, //
-        "projectContractID": StringAttribute, //
+        "projectContractId": UUIDAttribute, //
         "resource": StringAttribute, //
         "role": StringAttribute, //
         "salesPrice": StringAttribute, //
         "effectiveDate": StringAttribute, //
         "projValidFor": StringAttribute, //
-        "resourceId": StringAttribute, //
-        "relationship_ResResourceDataEntityRelationshipId": StringAttribute, //
-        "backingTable_ProjRevenueSalesPriceRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "resourceId": UUIDAttribute, //
+        "relationship_ResResourceDataEntityRelationshipId": UUIDAttribute, //
+        "backingTable_ProjRevenueSalesPriceRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
     ])
       .registerPath("projects_rrevenuesalesprices");
   }

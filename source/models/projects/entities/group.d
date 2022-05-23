@@ -11,7 +11,7 @@ class DProjectGroupEntity : DOOPEntity {
 
     this
       .addValues([
-        "accruedLossCategoryId": StringAttribute, //
+        "accruedLossCategoryId": UUIDAttribute, //
         "canVerifyCostAgainstRemainingForecast": StringAttribute, //
         "revenueRecognitionAccountingRule": StringAttribute, //
         "costTemplate": StringAttribute, //
@@ -27,16 +27,16 @@ class DProjectGroupEntity : DOOPEntity {
         "matchingPrinciple": StringAttribute, //
         "name": StringAttribute, //
         "periodCode": StringAttribute, //
-        "productionCategoryId": StringAttribute, //
-        "profitCategoryId": StringAttribute, //
+        "productionCategoryId": UUIDAttribute, //
+        "profitCategoryId": UUIDAttribute, //
         "projectGroup": StringAttribute, //
         "linePropertySearchPriority": StringAttribute, //
         "projectType": StringAttribute, //
         "accrueRevenueFee": StringAttribute, //
         "calculationMethod": StringAttribute, //
-        "salesValueCategoryId": StringAttribute, //
-        "backingTable_ProjGroupRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, ///ProjectGroupEntity
+        "salesValueCategoryId": UUIDAttribute, //
+        "backingTable_ProjGroupRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, ///ProjectGroupEntity
      ])
       .registerPath("projects_groups");
   }

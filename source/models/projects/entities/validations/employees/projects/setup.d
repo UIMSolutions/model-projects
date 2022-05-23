@@ -11,14 +11,14 @@ class DProjectValidationEmployeeProjectSetupEntity : DOOPEntity {
 
     this
       .addValues([
-        "projid": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "resource": StringAttribute, //
         "resourceLegalEntityDataArea": StringAttribute, //
-        "resourceId": StringAttribute, //
-        "groupId": StringAttribute, //
+        "resourceId": UUIDAttribute, //
+        "groupId": UUIDAttribute, //
         "resourceLegalEntity": StringAttribute, //
-        "backingTable_ProjValEmplProjSetupRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjValEmplProjSetupRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_validations.employees.projects.setups");
   }

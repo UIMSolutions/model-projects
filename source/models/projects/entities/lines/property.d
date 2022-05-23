@@ -13,7 +13,7 @@ class DProjectLinePropertyEntity : DOOPEntity {
       .addValues([
         "costPercentage": StringAttribute, //
         "addToEfficientHours": StringAttribute, //
-        "linePropertyId": StringAttribute, //
+        "linePropertyId": UUIDAttribute, //
         "name": StringAttribute, //
         "addToNormBillable": StringAttribute, //
         "addToNormEfficiency": StringAttribute, //
@@ -23,8 +23,8 @@ class DProjectLinePropertyEntity : DOOPEntity {
         "enableAccrueRevenue": StringAttribute, //
         "enabledCapitalizeCost": StringAttribute, //
         "isChargeable": StringAttribute, //
-        "backingTable_ProjLinePropertyRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjLinePropertyRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_line.properties");
   }

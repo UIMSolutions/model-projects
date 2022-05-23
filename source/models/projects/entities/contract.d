@@ -16,18 +16,18 @@ class DProjectContractEntity : DOOPEntity {
         "purposeText": StringAttribute, //
         "name": StringAttribute, //
         "invoiceFrequency": StringAttribute, //
-        "listCodeId": StringAttribute, //
+        "listCodeId": UUIDAttribute, //
         "minimumTimeIncrement": StringAttribute, //
         "invoicingName": StringAttribute, //
         "netPrice": StringAttribute, //
-        "projectContractID": StringAttribute, //
+        "projectContractId": UUIDAttribute, //
         "lockContractSalesCurrency": StringAttribute, //
         "priceGroup": StringAttribute, //
         "contractDate": StringAttribute, //
         "contractLines": StringAttribute, //
         "progressInvoicing": StringAttribute, //
         "retainagePercent": StringAttribute, //
-        "customerRetentionTermId": StringAttribute, //
+        "customerRetentionTermId": UUIDAttribute, //
         "salesResponsible": StringAttribute, //
         "salesTaxGroup": StringAttribute, //
         "serviceOnDeliveryAddress": StringAttribute, //
@@ -35,8 +35,8 @@ class DProjectContractEntity : DOOPEntity {
         "transactionCode": StringAttribute, //
         "salesResponsiblePersonnelNumber": StringAttribute, //
         "salesCurrency": StringAttribute, //
-        "backingTable_ProjInvoiceTableRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjInvoiceTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_contracts");
   }

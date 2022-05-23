@@ -11,12 +11,12 @@ class DProjectValidationEmployeeCategoryEntity : DOOPEntity {
 
     this
       .addValues([
-        "groupId": StringAttribute, //
+        "groupId": UUIDAttribute, //
         "name": StringAttribute, //
-        "backingTable_ProjValEmplCategoryTableRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjValEmplCategoryTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
-      .registerPath("projects_validations.employees.categories.categories");
+      .registerPath("projects_validations.employees.categories");
   }
 }
 mixin(EntityCalls!("ProjectValidationEmployeeCategoryEntity"));

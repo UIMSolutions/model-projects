@@ -15,13 +15,13 @@ class DPSAComponentectGroupAssignmentEntity : DOOPEntity {
         "customerAccount": StringAttribute, //
         "indirectCostComponentGroup": StringAttribute, //
         "ruleSearchKey": StringAttribute, //
-        "projectID": StringAttribute, //
-        "projectContractID": StringAttribute, //
+        "projectId": UUIDAttribute, //
+        "projectContractId": UUIDAttribute, //
         "resource": StringAttribute, //
         "effectiveFrom": StringAttribute, //
         "resourcePersonnelNumber": StringAttribute, //
-        "backingTable_PSAComponentGroupAssignmentRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_PSAComponentGroupAssignmentRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_psaactuals");
   }

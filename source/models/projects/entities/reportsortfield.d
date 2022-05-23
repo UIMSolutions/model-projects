@@ -13,9 +13,9 @@ class DProjectReportSortFieldEntity : DOOPEntity {
       .addValues([
         "Description": StringAttribute, //
         "SortCode": StringAttribute, //
-        "SortingId": StringAttribute, //
-        "BackingTable_ProjSortingRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "SortingId": UUIDAttribute, //
+        "BackingTable_ProjSortingRelationshipId": UUIDAttribute, //
+        "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_report.sort.fields");
   }

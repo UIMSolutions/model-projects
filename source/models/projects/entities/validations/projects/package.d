@@ -1,4 +1,4 @@
-module models.projects.entities.validations.projs;
+module models.projects.entities.validations.projects;
 
-@safe:
-import models.projects;
+public import models.projects.entities.validations.projects.categories;
+

@@ -13,32 +13,32 @@ class DPSAForecastEntity : DOOPEntity {
       .addValues([
         "activityNumber": StringAttribute, //
         "amountMst": StringAttribute, //
-        "categoryId": StringAttribute, //
+        "categoryId": UUIDAttribute, //
         "costSales": StringAttribute, //
         "defaultDimension": StringAttribute, //
         "elimination": StringAttribute, //
-        "employeeItemId": StringAttribute, //
+        "employeeItemId": UUIDAttribute, //
         "ledgerDimension": StringAttribute, //
         "ledgerTransDate": StringAttribute, //
-        "modelId": StringAttribute, //
+        "modelId": UUIDAttribute, //
         "paymentDate": StringAttribute, //
         "paymentStatus": StringAttribute, //
         "postingType": StringAttribute, //
         "projectFundingSource": StringAttribute, //
-        "projectId": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "projectTransDate": StringAttribute, //
         "projectTransType": StringAttribute, //
         "projectType": StringAttribute, //
         "quantity": StringAttribute, //
         "resource": StringAttribute, //
         "resourceCategory": StringAttribute, //
-        "subscriptionId": StringAttribute, //
-        "transId": StringAttribute, //
+        "subscriptionId": UUIDAttribute, //
+        "transId": UUIDAttribute, //
         "voucher": StringAttribute, //
         "ledgerDimensionDisplayValue": StringAttribute, //
-        "projectFundingSource_ContractId": StringAttribute, //
-        "projectFundingSource_FundingSourceId": StringAttribute, //
-        "projectTable_ProjId": StringAttribute, //
+        "projectFundingSource_ContractId": UUIDAttribute, //
+        "projectFundingSource_FundingSourceId": UUIDAttribute, //
+        "projectTable_ProjId": UUIDAttribute, //
         "defaultDimensionDisplayValue": StringAttribute, //
         "plLaborCost": StringAttribute, //
         "plExpenseCost": StringAttribute, //
@@ -84,19 +84,19 @@ class DPSAForecastEntity : DOOPEntity {
         "grossWIP": StringAttribute, //
         "netWIP": StringAttribute, //
         "plInvoicedRevenueOnAccount": StringAttribute, //
-        "contractId": StringAttribute, //
+        "contractId": UUIDAttribute, //
         "plLaborCostWithoutNoNeverLedger": StringAttribute, //
         "plLaborQtyWithoutNoNeverLedger": StringAttribute, //
         "consumedLaborCostWithoutNoNeverLedger": StringAttribute, //
         "consumedLaborQtyWithoutNoNeverLedger": StringAttribute, //
         "plMaterialCostWithoutNeverLedger": StringAttribute, //
         "consumedMaterialCostWithoutNeverLedger": StringAttribute, //
-        "resourceCompanyId": StringAttribute, //
-        "resourceId": StringAttribute, //
+        "resourceCompanyId": UUIDAttribute, //
+        "resourceId": UUIDAttribute, //
         "psaIndirectComponent": StringAttribute, //
-        "relationship_DefaultDimensionDimensionSetRelationshipId": StringAttribute, //
-        "backingTable_ProjTransBudgetRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_DefaultDimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "backingTable_ProjTransBudgetRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
 
      ])
       .registerPath("projects_psaactuals");

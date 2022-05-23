@@ -20,12 +20,12 @@ class DProjectJournalTransEntity : DOOPEntity {
         "lineProperty": StringAttribute, //
         "typeOfOperation": StringAttribute, //
         "startDate": StringAttribute, //
-        "projectID": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "priceGroup": StringAttribute, //
         "projectDate": StringAttribute, //
         "cost": StringAttribute, //
         "percentageComplete": StringAttribute, //
-        "psaWrkCtrId": StringAttribute, //
+        "psaWrkCtrId": UUIDAttribute, //
         "hours": StringAttribute, //
         "resource": StringAttribute, //
         "role": StringAttribute, //
@@ -36,25 +36,25 @@ class DProjectJournalTransEntity : DOOPEntity {
         "itemSalesTaxGroup": StringAttribute, //
         "endTime": StringAttribute, //
         "voucherDate": StringAttribute, //
-        "transactionID": StringAttribute, //
+        "transactionId": UUIDAttribute, //
         "description": StringAttribute, //
         "voucher": StringAttribute, //
         "dimensionDisplayValue": StringAttribute, //
-        "journalId": StringAttribute, //
-        "ResourceId": StringAttribute, //
-        "resourceCompanyId": StringAttribute, //
-        "resourceCategoryId": StringAttribute, //
-        "currencyId": StringAttribute, //
-        "relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
-        "relationship_ProjJournalTableEntityRelationshipId": StringAttribute, //
-        "relationship_ProjectEntityRelationshipId": StringAttribute, //
-        "relationship_ProjProjectLinePropertyEntityRelationshipId": StringAttribute, //
-        "relationship_OMLegalEntityRelationshipId": StringAttribute, //
-        "relationship_ResResourceDataEntityRelationshipId": StringAttribute, //
-        "relationship_ResResourceCategoryDataEntityRelationshipId": StringAttribute, //
-        "relationship_CategoryRelationRelationshipId": StringAttribute, //
-        "backingTable_ProjJournalTransRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "journalId": UUIDAttribute, //
+        "ResourceId": UUIDAttribute, //
+        "resourceCompanyId": UUIDAttribute, //
+        "resourceCategoryId": UUIDAttribute, //
+        "currencyId": UUIDAttribute, //
+        "relationship_DimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "relationship_ProjJournalTableEntityRelationshipId": UUIDAttribute, //
+        "relationship_ProjectEntityRelationshipId": UUIDAttribute, //
+        "relationship_ProjProjectLinePropertyEntityRelationshipId": UUIDAttribute, //
+        "relationship_OMLegalEntityRelationshipId": UUIDAttribute, //
+        "relationship_ResResourceDataEntityRelationshipId": UUIDAttribute, //
+        "relationship_ResResourceCategoryDataEntityRelationshipId": UUIDAttribute, //
+        "relationship_CategoryRelationRelationshipId": UUIDAttribute, //
+        "backingTable_ProjJournalTransRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_journalnames");
   }

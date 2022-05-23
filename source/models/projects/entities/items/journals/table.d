@@ -11,21 +11,21 @@ class DProjectItemJournalTableEntity : DOOPEntity {
 
     this
       .addValues([
-        "blockUserGroupId": StringAttribute, //
+        "blockUserGroupId": UUIDAttribute, //
         "isLinesDeletedAfterPosting": StringAttribute, //
         "description": StringAttribute, //
         "postingDetailLevel": StringAttribute, //
-        "inventLocationId": StringAttribute, //
-        "inventSiteId": StringAttribute, //
-        "journalId": StringAttribute, //
+        "inventLocationId": UUIDAttribute, //
+        "inventSiteId": UUIDAttribute, //
+        "journalId": UUIDAttribute, //
         "journalName": StringAttribute, //
         "offsetAccount": StringAttribute, //
         "posted": StringAttribute, //
         "reservation": StringAttribute, //
         "offsetAccountDisplayValue": StringAttribute, //
-        "relationship_OffsetAccountCombinationRelationshipId": StringAttribute, //
-        "backingTable_InventJournalTableRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_OffsetAccountCombinationRelationshipId": UUIDAttribute, //
+        "backingTable_InventJournalTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_itemjournaltables");
   }

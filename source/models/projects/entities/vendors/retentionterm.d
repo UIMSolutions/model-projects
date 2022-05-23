@@ -11,20 +11,11 @@ class DProjectVendorRetentionTermEntity : DOOPEntity {
 
     this
       .addValues([
-        "LegalEntity": StringAttribute, //
-        "DataArea": StringAttribute, //
-        "NullableDataArea": StringAttribute, //
-        "Person": StringAttribute, //
-        "PartyNumber": StringAttribute, //
-        "ProjectId": StringAttribute, //
-        "ProjectName": StringAttribute, //
-        "Role": StringAttribute, //
-        "EndDate": StringAttribute, //
-        "StartDate": StringAttribute, //
-        "relationship_PersonRelationshipId": StringAttribute, //
-        "relationship_ProjTableRelationshipId": StringAttribute, //
-        "backingTable_HcmPersonProjectRoleRelationshipId": StringAttribute, //
-     ])
+        "description": StringAttribute, //
+        "ruleId": UUIDAttribute, //
+        "backingTable_PSAVendorRetentionTermsTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
+      ])
       .registerPath("projects_hcmpersonprojectroles");
   }
 }

@@ -15,8 +15,8 @@ class DProjectGrantMatchingEntity : DOOPEntity {
         "description": StringAttribute, //
         "matchingPercentage": StringAttribute, //
         "matchingType": StringAttribute, //
-        "backingTable_ProjGrantMatchingRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjGrantMatchingRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_costs.sales.prices");
   }

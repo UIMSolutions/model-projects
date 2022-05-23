@@ -11,7 +11,7 @@ class DProjectTaxJournalTransTaxInformationEntity : DOOPEntity {
 
     this
       .addValues([
-        "JournalId": StringAttribute, //
+        "JournalId": UUIDAttribute, //
         "LineNum": StringAttribute, //
         "Exempt": StringAttribute, //
         "VendorTaxInformation": StringAttribute, //
@@ -51,8 +51,8 @@ class DProjectTaxJournalTransTaxInformationEntity : DOOPEntity {
         "ServiceTaxIsRecoverable": StringAttribute, //
         "ServiceTaxRegistrationNumber": StringAttribute, //
         "TANRegistrationNumber": StringAttribute, //
-        "TaxID": StringAttribute, //
-        "TaxInventVATItemId": StringAttribute, //
+        "TaxId": UUIDAttribute, //
+        "TaxInventVATItemId": UUIDAttribute, //
         "TaxWithholdAcknowledgementNumber": StringAttribute, //
         "TaxWithholdCountryRegionToRemittance": StringAttribute, //
         "TaxWithholdNatureOfAssessee": StringAttribute, //
@@ -65,8 +65,8 @@ class DProjectTaxJournalTransTaxInformationEntity : DOOPEntity {
         "VATSchedule": StringAttribute, //
         "VATTINRegistrationNumber": StringAttribute, //
         "VendorLocation": StringAttribute, //
-        "backingTable_TransTaxInformationEntityRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_TransTaxInformationEntityRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_itemjournaltrans");
   }

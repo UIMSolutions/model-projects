@@ -11,19 +11,19 @@ class DProjectTaskEntity : DOOPEntity {
 
     this
       .addValues([
-        "taskElementId": StringAttribute, //
-        "taskHierarchyId": StringAttribute, //
+        "taskElementId": UUIDAttribute, //
+        "taskHierarchyId": UUIDAttribute, //
         "taskOutlineLevel": StringAttribute, //
         "taskName": StringAttribute, //
-        "parentTaskElementId": StringAttribute, //
-        "taskNumberRecordId": StringAttribute, //
+        "parentTaskElementId": UUIDAttribute, //
+        "taskNumberRecordId": UUIDAttribute, //
         "taskDisplaySequence": StringAttribute, //
-        "taskId": StringAttribute, //
+        "taskId": UUIDAttribute, //
         "taskTimeType": StringAttribute, //
         "taskStatus": StringAttribute, //
         "taskOwningCompany": StringAttribute, //
         "taskSubject": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_tasks");
   }

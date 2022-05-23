@@ -14,13 +14,13 @@ class DProjectPeriodEmplEntity : DOOPEntity {
         "normBillable": StringAttribute, //
         "normEfficiency": StringAttribute, //
         "periodFrom": StringAttribute, //
-        "periodId": StringAttribute, //
+        "periodId": UUIDAttribute, //
         "isPosted": StringAttribute, //
         "postedDate": StringAttribute, //
         "resource": StringAttribute, //
-        "resourceId": StringAttribute, //
-        "backingTable_ProjPeriodEmplRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "resourceId": UUIDAttribute, //
+        "backingTable_ProjPeriodEmplRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_period.employees");
   }

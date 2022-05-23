@@ -13,8 +13,8 @@ class DPSAIndirectComponentGroupEntity : DOOPEntity {
       .addValues([
         "indirectCostComponentGroup": StringAttribute, //
         "indirectComponentGroupName": StringAttribute, //
-        "backingTable_PSAIndirectComponentGroupRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_PSAIndirectComponentGroupRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_psaactuals");
   }

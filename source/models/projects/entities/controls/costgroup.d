@@ -13,13 +13,13 @@ class DProjectControlCostGroupEntity : DOOPEntity {
       .addValues([
         "mandatoryCostLine": StringAttribute, //
         "percentageOfCompletion": StringAttribute, //
-        "costTemplateId": StringAttribute, //
-        "costLineId": StringAttribute, //
+        "costTemplateId": UUIDAttribute, //
+        "costLineId": UUIDAttribute, //
         "transactionType": StringAttribute, //
         "costToCompleteMethod": StringAttribute, //
         "name": StringAttribute, //
-        "backingTable_ProjControlCostGroupRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjControlCostGroupRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_controls.costgroups");
   }

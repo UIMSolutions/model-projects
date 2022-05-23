@@ -12,28 +12,28 @@ class DProjectFundingRuleEntity : DOOPEntity {
     this
       .addValues([
         "activityNumber": StringAttribute, //
-        "categoryGroupId": StringAttribute, //
-        "categoryId": StringAttribute, //
-        "projectContractId": StringAttribute, //
+        "categoryGroupId": UUIDAttribute, //
+        "categoryId": UUIDAttribute, //
+        "projectContractId": UUIDAttribute, //
         "endDate": StringAttribute, //
-        "itemId": StringAttribute, //
+        "itemId": UUIDAttribute, //
         "priority": StringAttribute, //
         "priorityKey": StringAttribute, //
-        "projectId": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "resource": StringAttribute, //
         "startDate": StringAttribute, //
         "transactionType": StringAttribute, //
-        "resourceId": StringAttribute, //
+        "resourceId": UUIDAttribute, //
         "allocateRounding": StringAttribute, //
         "allocationPercentage": StringAttribute, //
         "fundingSource": StringAttribute, //
-        "fundingSourceId": StringAttribute, //
-        "fundingSource_ContractId": StringAttribute, //
+        "fundingSourceId": UUIDAttribute, //
+        "fundingSource_ContractId": UUIDAttribute, //
         "fundingRule": StringAttribute, //
-        "relationship_ProjectContractRelationshipId": StringAttribute, //
-        "relationship_ProjectEntityRelationshipId": StringAttribute, //
-        "backingTable_ProjFundingRuleAllocationRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_ProjectContractRelationshipId": UUIDAttribute, //
+        "relationship_ProjectEntityRelationshipId": UUIDAttribute, //
+        "backingTable_ProjFundingRuleAllocationRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_fundings.rules");
   }

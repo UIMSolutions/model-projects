@@ -15,8 +15,8 @@ class DProjectIntercompanyParameterEntity : DOOPEntity {
         "defaultExpenseCategory": StringAttribute, //
         "defaultTimesheetCategory": StringAttribute, //
         "accrueRevenue": StringAttribute, //
-        "backingTable_ProjIntercompanyParametersRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjIntercompanyParametersRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_intercompanyparameters");
   }

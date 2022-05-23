@@ -16,26 +16,26 @@ class DProjectInvoiceProposalEntity : DOOPEntity {
         "fundingSource": StringAttribute, //
         "invoiceDate": StringAttribute, //
         "invoice": StringAttribute, //
-        "projectContractId": StringAttribute, //
-        "invoiceProposalId": StringAttribute, //
+        "projectContractId": UUIDAttribute, //
+        "invoiceProposalId": UUIDAttribute, //
         "invoiceHeaderText": StringAttribute, //
-        "fundingSource_ContractId": StringAttribute, //
-        "fundingSourceId": StringAttribute, //
+        "fundingSource_ContractId": UUIDAttribute, //
+        "fundingSourceId": UUIDAttribute, //
         "contractName": StringAttribute, //
         "invoiceFormat": StringAttribute, //
         "deliveryTransportBrand": StringAttribute, //
-        "fiscalDocumentTypeRecId": StringAttribute, //
-        "fiscalEstablishmentRecId": StringAttribute, //
+        "fiscalDocumentTypeRecId": UUIDAttribute, //
+        "fiscalEstablishmentRecId": UUIDAttribute, //
         "billOfLadingFreightChargeTerms": StringAttribute, //
         "serviceFiscalInformationCode": StringAttribute, //
         "deliveryVehicleLicensePlateNumber": StringAttribute, //
         "deliveryVehicleLicensePlateState": StringAttribute, //
         "volumeQuantity": StringAttribute, //
         "volumeType": StringAttribute, //
-        "fiscalDocumentTypeId": StringAttribute, //
-        "fiscalEstablishmentId": StringAttribute, //
-        "backingTable_ProjProposalJourRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "fiscalDocumentTypeId": UUIDAttribute, //
+        "fiscalEstablishmentId": UUIDAttribute, //
+        "backingTable_ProjProposalJourRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_invoice.proposals");
   }

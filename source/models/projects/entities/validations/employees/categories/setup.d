@@ -3,34 +3,34 @@ module models.projects.entities.validations.employees.categories.setup;
 @safe:
 import models.projects;
 
-class DProjectValEmplCategorySetupEntity : DOOPEntity {
-  mixin(EntityThis!("ProjectValEmplCategorySetupEntity"));
+class DProjectValidationEmployeeCategorySetupEntity : DOOPEntity {
+  mixin(EntityThis!("ProjectValidationEmployeeCategorySetupEntity"));
 
   override void initialize() {
     super.initialize;
 
     this
       .addValues([
-        "CategoryId": StringAttribute, //
-        "GroupId": StringAttribute, //
-        "Resource": StringAttribute, //
-        "ResourceLegalEntityDataArea": StringAttribute, //
-        "ResourceLegalEntity": StringAttribute, //
-        "ResourceLegalEntityPartyNumber": StringAttribute, //
-        "ResourceId": StringAttribute, //
-        "BackingTable_ProjValEmplCategorySetUpRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "categoryId": UUIDAttribute, //
+        "groupId": UUIDAttribute, //
+        "resource": StringAttribute, //
+        "resourceLegalEntityDataArea": StringAttribute, //
+        "resourceLegalEntity": StringAttribute, //
+        "resourceLegalEntityPartyNumber": StringAttribute, //
+        "resourceId": UUIDAttribute, //
+        "backingTable_ProjValEmplCategorySetUpRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_validations.employees.categories.setups");
   }
 }
-mixin(EntityCalls!("ProjectValEmplCategorySetupEntity"));
+mixin(EntityCalls!("ProjectValidationEmployeeCategorySetupEntity"));
 
 version(test_model_portals) {
   unittest {
-    assert(ProjectValEmplCategorySetupEntity);
+    assert(ProjectValidationEmployeeCategorySetupEntity);
   
-  auto entity = ProjectValEmplCategorySetupEntity;
+  auto entity = ProjectValidationEmployeeCategorySetupEntity;
   // auto repository = OOPFileRepository("./tests");
 /*  repository.create("entities", entity.entityClasses, entity.toJson);
 

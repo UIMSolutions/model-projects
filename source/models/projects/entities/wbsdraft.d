@@ -11,10 +11,10 @@ class DProjectWBSDraftEntity : DOOPEntity {
 
     this
       .addValues([
-        "projectId": StringAttribute, //
-        "hierarchyId": StringAttribute, //
-        "taskId": StringAttribute, //
-        "wbsId": StringAttribute, //
+        "projectId": UUIDAttribute, //
+        "hierarchyId": UUIDAttribute, //
+        "taskId": UUIDAttribute, //
+        "wbsId": UUIDAttribute, //
         "note": StringAttribute, //
         "task": StringAttribute, //
         "predecessors": StringAttribute, //
@@ -27,25 +27,25 @@ class DProjectWBSDraftEntity : DOOPEntity {
         "role": StringAttribute, //
         "isTaskClosed": StringAttribute, //
         "isTaskMandatory": StringAttribute, //
-        "hierarchyTreeTableRefRecId": StringAttribute, //
+        "hierarchyTreeTableRefRecId": UUIDAttribute, //
         "taskSiblingNumber": StringAttribute, //
-        "parentTaskId": StringAttribute, //
+        "parentTaskId": UUIDAttribute, //
         "resourceCategory": StringAttribute, //
         "taskPriority": StringAttribute, //
         "activityTaskTimeType": StringAttribute, //
         "isCategoryMandatory": StringAttribute, //
-        "calendarId": StringAttribute, //
-        "mspID": StringAttribute, //
+        "calendarId": UUIDAttribute, //
+        "mspId": UUIDAttribute, //
         "endNode": StringAttribute, //
         "hierarchyLevel": StringAttribute, //
         "calendarStandardWorkDayHours": StringAttribute, //
         "taskEffortAtComplete": StringAttribute, //
         "taskCostAtComplete": StringAttribute, //
-        "relationship_ProjectRelationshipId": StringAttribute, //
-        "relationship_ProjectCategoryRelationshipId": StringAttribute, //
-        "relationship_ResourceRoleRelationshipId": StringAttribute, //
-        "backingTable_ProjPlanVersionRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_ProjectRelationshipId": UUIDAttribute, //
+        "relationship_ProjectCategoryRelationshipId": UUIDAttribute, //
+        "relationship_ResourceRoleRelationshipId": UUIDAttribute, //
+        "backingTable_ProjPlanVersionRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_wbs.drafts");
   }

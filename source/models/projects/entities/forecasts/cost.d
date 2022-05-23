@@ -29,31 +29,31 @@ class DProjectForecastCostEntity : DOOPEntity {
         "periodKey": StringAttribute, //
         "allocationKey": StringAttribute, //
         "fundingSource": StringAttribute, //
-        "projectID": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "resource": StringAttribute, //
         "salesPaymentDate": StringAttribute, //
         "salesPrice": StringAttribute, //
         "projectDate": StringAttribute, //
         "stop": StringAttribute, //
         "description": StringAttribute, //
-        "projectContractID": StringAttribute, //
-        "fundingSourceID": StringAttribute, //
-        "resourceId": StringAttribute, //
-        "resourceCompanyId": StringAttribute, //
-        "transId": StringAttribute, //
+        "projectContractId": UUIDAttribute, //
+        "fundingSourceId": UUIDAttribute, //
+        "resourceId": UUIDAttribute, //
+        "resourceCompanyId": UUIDAttribute, //
+        "transId": UUIDAttribute, //
         "defaultDimension": StringAttribute, //
         "defaultDimensionDisplayValue": StringAttribute, //
-        "resourceCategoryId": StringAttribute, //
+        "resourceCategoryId": UUIDAttribute, //
         "quantity": StringAttribute, //
         "resourceCategory": StringAttribute, //
-        "relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
-        "relationship_ProjectEntityRelationshipId": StringAttribute, //
-        "relationship_ProjProjectLinePropertyEntityRelationshipId": StringAttribute, //
-        "relationship_OMLegalEntityRelationshipId": StringAttribute, //
-        "relationship_ResResourceDataEntityRelationshipId": StringAttribute, //
-        "relationship_ResResourceCategoryDataEntityRelationshipId": StringAttribute, //
-        "backingTable_ProjForecastCostRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_DimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "relationship_ProjectEntityRelationshipId": UUIDAttribute, //
+        "relationship_ProjProjectLinePropertyEntityRelationshipId": UUIDAttribute, //
+        "relationship_OMLegalEntityRelationshipId": UUIDAttribute, //
+        "relationship_ResResourceDataEntityRelationshipId": UUIDAttribute, //
+        "relationship_ResResourceCategoryDataEntityRelationshipId": UUIDAttribute, //
+        "backingTable_ProjForecastCostRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_forecasts.costs");
   }

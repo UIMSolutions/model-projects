@@ -24,16 +24,16 @@ class DProjectTransferPriceEntity : DOOPEntity {
         "effectiveDate": StringAttribute, //
         "pricing": StringAttribute, //
         "transactionType": StringAttribute, //
-        "resourceId": StringAttribute, //
-        "projectId": StringAttribute, //
-        "categoryId": StringAttribute, //
-        "projectContractId": StringAttribute, //
-        "roleId": StringAttribute, //
-        "relationship_ResourceRelationshipId": StringAttribute, //
-        "relationship_CurrencyRelationshipId": StringAttribute, //
-        "relationship_ResourceRoleRelationshipId": StringAttribute, //
-        "backingTable_ProjTransferPriceRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "resourceId": UUIDAttribute, //
+        "projectId": UUIDAttribute, //
+        "categoryId": UUIDAttribute, //
+        "projectContractId": UUIDAttribute, //
+        "roleId": UUIDAttribute, //
+        "relationship_ResourceRelationshipId": UUIDAttribute, //
+        "relationship_CurrencyRelationshipId": UUIDAttribute, //
+        "relationship_ResourceRoleRelationshipId": UUIDAttribute, //
+        "backingTable_ProjTransferPriceRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_transfers.prices");
   }

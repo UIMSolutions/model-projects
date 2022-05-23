@@ -11,25 +11,25 @@ class DProjectInvoiceProposalExpenseEntity : DOOPEntity {
 
     this
       .addValues([
-        "invoiceProposalId": StringAttribute, //
+        "invoiceProposalId": UUIDAttribute, //
         "salesTaxGroup": StringAttribute, //
         "itemSalesTaxGroup": StringAttribute, //
-        "projectTransactionId": StringAttribute, //
+        "projectTransactionId": UUIDAttribute, //
         "description": StringAttribute, //
-        "projectId": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "projectDate": StringAttribute, //
         "projectLineProperty": StringAttribute, //
-        "projectCategoryId": StringAttribute, //
+        "projectCategoryId": UUIDAttribute, //
         "quantity": StringAttribute, //
         "activityNumber": StringAttribute, //
         "resource": StringAttribute, //
-        "resourceId": StringAttribute, //
+        "resourceId": UUIDAttribute, //
         "salesPrice": StringAttribute, //
         "lineAmount": StringAttribute, //
         "lineNumber": StringAttribute, //
         "includedTaxPercentage": StringAttribute, //
-        "backingTable_ProjProposalCostRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjProposalCostRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_invoiceproposals");
   }

@@ -11,15 +11,15 @@ class DProjectCDSContractLineImportEntity : DOOPEntity {
 
     this
       .addValues([
-        "transactionId": StringAttribute, //
-        "contractId": StringAttribute, //
+        "transactionId": UUIDAttribute, //
+        "contractId": UUIDAttribute, //
         "contractLine": StringAttribute, //
         "type": StringAttribute, //
         "description": StringAttribute, //
-        "projectId": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "forecastInvoiceFrequency": StringAttribute, //
-        "backingTable_ProjCDSContractLineImportRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjCDSContractLineImportRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_cdscontractlineimports");
   }

@@ -14,8 +14,8 @@ class DProjectStageEntity : DOOPEntity {
         "Language": StringAttribute, //
         "Status": StringAttribute, //
         "Stage": StringAttribute, //
-        "BackingTable_ProjStageTableRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "BackingTable_ProjStageTableRelationshipId": UUIDAttribute, //
+        "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
     ])
       .registerPath("projects_stages");
   }

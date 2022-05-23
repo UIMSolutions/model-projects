@@ -25,10 +25,10 @@ class DProjectCategoryEntity : DOOPEntity {
         "Absence": StringAttribute, //
         "FiscalInformationServiceCode": StringAttribute, //
         "ItemWithholdingTaxGroup": StringAttribute, //
-        "ItemWithholdingTaxGroupId": StringAttribute, //
+        "ItemWithholdingTaxGroupId": UUIDAttribute, //
         "TaxRateTypeName": StringAttribute, //
-        "BackingTable_ProjCategoryRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "BackingTable_ProjCategoryRelationshipId": UUIDAttribute, //
+        "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_categories");
   }

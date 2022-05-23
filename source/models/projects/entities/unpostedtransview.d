@@ -13,22 +13,22 @@ class DProjectUnpostedTransViewEntity : DOOPEntity {
       .addValues([
         "ActivityNumber": StringAttribute, //
         "Amount": StringAttribute, //
-        "CategoryId": StringAttribute, //
+        "CategoryId": UUIDAttribute, //
         "CostPrice": StringAttribute, //
-        "CurrencyId": StringAttribute, //
+        "CurrencyId": UUIDAttribute, //
         "dataAreaIdUnion": StringAttribute, //
-        "ItemId": StringAttribute, //
-        "LinePropertyId": StringAttribute, //
-        "ProjectId": StringAttribute, //
+        "ItemId": UUIDAttribute, //
+        "LinePropertyId": UUIDAttribute, //
+        "ProjectId": UUIDAttribute, //
         "Quantity": StringAttribute, //
         "ResourceName": StringAttribute, //
         "SalesPrice": StringAttribute, //
         "TransactionOrigin": StringAttribute, //
-        "TransactionDataAreaId": StringAttribute, //
+        "TransactionDataAreaId": UUIDAttribute, //
         "TransactionDate": StringAttribute, //
-        "TransactionId": StringAttribute, //
+        "TransactionId": UUIDAttribute, //
         "TransactionType": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
     ])
       .registerPath("projects_unpostedtransviews");
   }

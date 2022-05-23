@@ -13,8 +13,8 @@ class DProjectGrantCustomerTypeEntity : DOOPEntity {
       .addValues([
         "Description": StringAttribute, //
         "GrantorType": StringAttribute, //
-        "BackingTable_ProjGrantorTypeRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "BackingTable_ProjGrantorTypeRelationshipId": UUIDAttribute, //
+        "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_grantcustomertypes");
   }

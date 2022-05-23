@@ -11,14 +11,14 @@ class DProjectCDSTransactionRelationshipImportEntity : DOOPEntity {
 
     this
       .addValues([
-        "connectionId": StringAttribute, //
-        "transaction1Id": StringAttribute, //
+        "connectionId": UUIDAttribute, //
+        "transaction1Id": UUIDAttribute, //
         "transaction1Role": StringAttribute, //
         "transaction1Type": StringAttribute, //
-        "transaction2Id": StringAttribute, //
+        "transaction2Id": UUIDAttribute, //
         "transaction2Role": StringAttribute, //
         "transaction2Type": StringAttribute, //
-        "backingTable_ProjCDSTransactionRelationshipImportRelationshipId": StringAttribute, //
+        "backingTable_ProjCDSTransactionRelationshipImportRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_cds.transaction.relationship.imports");
   }

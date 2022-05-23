@@ -1,32 +1,31 @@
-module models.projects.entities.PSAIndirectCostComponen;
+module models.projects.entities.validations.projects.project;
 
 @safe:
 import models.projects;
 
-class DPSAIndirectCostComponentEntity : DOOPEntity {
-  mixin(EntityThis!("PSAIndirectCostComponentEntity"));
+class DProjectValidationEmployeeProjectEntity : DOOPEntity {
+  mixin(EntityThis!("ProjectValidationEmployeeProjectEntity"));
 
   override void initialize() {
     super.initialize;
 
     this
       .addValues([
-        "category": StringAttribute, //
-        "componentId": UUIDAttribute, //
+        "groupId": UUIDAttribute, //
         "name": StringAttribute, //
-        "backingTable_PSAIndirectComponentRelationshipId": UUIDAttribute, //
+        "backingTable_ProjValEmplProjTableRelationshipId": UUIDAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
-     ])
-      .registerPath("projects_psaactuals");
+      ])
+      .registerPath("projects_validations.projects");
   }
 }
-mixin(EntityCalls!("PSAIndirectCostComponentEntity"));
+mixin(EntityCalls!("ProjectValidationEmployeeProjectEntity"));
 
 version(test_model_portals) {
   unittest {
-    assert(PSAIndirectCostComponentEntity);
+    assert(ProjectValidationEmployeeProjectEntity);
   
-  auto entity = PSAIndirectCostComponentEntity;
+  auto entity = ProjectValidationEmployeeProjectEntity;
   // auto repository = OOPFileRepository("./tests");
 /*  repository.create("entities", entity.entityClasses, entity.toJson);
 

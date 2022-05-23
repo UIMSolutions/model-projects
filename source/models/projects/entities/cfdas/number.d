@@ -12,10 +12,10 @@ class DProjectCFDANumberEntity : DOOPEntity {
     this
       .addValues([
         "cfdaClusterName": StringAttribute, //
-        "cfdaID": StringAttribute, //
+        "cfdaId": UUIDAttribute, //
         "description": StringAttribute, //
-        "backingTable_ProjCFDANumberRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjCFDANumberRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_cfda.numbers");
   }

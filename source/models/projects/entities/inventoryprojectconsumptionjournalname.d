@@ -11,20 +11,20 @@ class DProjectInventoryProjectConsumptionJournalNameEntity : DOOPEntity {
 
     this
       .addValues([
-        "journalNameId": StringAttribute, //
+        "journalNameId": UUIDAttribute, //
         "defaultJournalDescription": StringAttribute, //
         "isPostingDeletingLinesByDefault": StringAttribute, //
-        "defaultPrivateUserGroupId": StringAttribute, //
+        "defaultPrivateUserGroupId": UUIDAttribute, //
         "defaultPostingSummationLevel": StringAttribute, //
         "defaultInventoryReservationMethod": StringAttribute, //
         "defaultVoucherNumberAllocationRule": StringAttribute, //
         "defaultVoucherNumberSelectionRule": StringAttribute, //
-        "defaultVoucherNumberSequenceRecId": StringAttribute, //
+        "defaultVoucherNumberSequenceRecId": UUIDAttribute, //
         "defaultVoucherNumberSequenceCode": StringAttribute, //
         "numberSequenceTable_NumberSequenceScope": StringAttribute, //
         "defaultVoucherNumberSequenceDataArea": StringAttribute, //
-        "backingTable_InventJournalNameRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_InventJournalNameRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_inventoryprojectconsumptionjournalnames");
   }

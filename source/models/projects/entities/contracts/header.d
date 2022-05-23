@@ -11,7 +11,7 @@ class DProjectContractHeaderEntity : DOOPEntity {
 
     this
       .addValues([
-        "bankAccountId": StringAttribute, //
+        "bankAccountId": UUIDAttribute, //
         "centralBankPurposeCode": StringAttribute, //
         "centralBankPurposeText": StringAttribute, //
         "cashDiscountCode": StringAttribute, //
@@ -29,21 +29,21 @@ class DProjectContractHeaderEntity : DOOPEntity {
         "listCode": StringAttribute, //
         "termsOfPayment": StringAttribute, //
         "paymentScheduleName": StringAttribute, //
-        "customerPostingProfileId": StringAttribute, //
+        "customerPostingProfileId": UUIDAttribute, //
         "netPrice": StringAttribute, //
-        "projectContractId": StringAttribute, //
+        "projectContractId": UUIDAttribute, //
         "isContractSalesCurrencyCodeLocked": StringAttribute, //
         "priceCustomerGroupCode": StringAttribute, //
-        "salesResponsibleRecId": StringAttribute, //
+        "salesResponsibleRecId": UUIDAttribute, //
         "salesTaxGroupCode": StringAttribute, //
         "isServiceDeliveryAddressBased": StringAttribute, //
         "intrastatTransactionCode": StringAttribute, //
         "salesResponsiblePersonnelNumber": StringAttribute, //
-        "integrationSourceDataId": StringAttribute, //
+        "integrationSourceDataId": UUIDAttribute, //
         "defaultLedgerDimensionDisplayValue": StringAttribute, //
         "customerAccountNumber": StringAttribute, //
-        "backingTable_ProjInvoiceTableRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjInvoiceTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_contracts.headers");
   }

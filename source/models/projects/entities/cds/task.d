@@ -13,11 +13,11 @@ class DProjectCDSTaskEntity : DOOPEntity {
       .addValues([
         "task": StringAttribute, //
         "parentTask": StringAttribute, //
-        "workBreakdownStructureID": StringAttribute, //
-        "projectId": StringAttribute, //
+        "workBreakdownStructureId": UUIDAttribute, //
+        "projectId": UUIDAttribute, //
         "name": StringAttribute, //
-        "backingTable_ProjCDSTaskImportRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjCDSTaskImportRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_cds.tasks");
   }

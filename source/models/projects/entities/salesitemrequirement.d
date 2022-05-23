@@ -29,11 +29,11 @@ class DProjectSalesItemRequirementEntity : DOOPEntity {
         "referenceNumber": StringAttribute, //
         "referenceLot": StringAttribute, //
         "referenceType": StringAttribute, //
-        "inventTransactionId": StringAttribute, //
-        "inventTransactionReturnId": StringAttribute, //
-        "itemBOMId": StringAttribute, //
-        "itemId": StringAttribute, //
-        "itemRouteId": StringAttribute, //
+        "inventTransactionId": UUIDAttribute, //
+        "inventTransactionReturnId": UUIDAttribute, //
+        "itemBOMId": UUIDAttribute, //
+        "itemId": UUIDAttribute, //
+        "itemRouteId": UUIDAttribute, //
         "ledgerDimension": StringAttribute, //
         "netAmount": StringAttribute, //
         "lineDeliveryType": StringAttribute, //
@@ -42,10 +42,10 @@ class DProjectSalesItemRequirementEntity : DOOPEntity {
         "autoBatchReservation": StringAttribute, //
         "sameBatchSelection": StringAttribute, //
         "priceUnit": StringAttribute, //
-        "projectCategoryId": StringAttribute, //
-        "projectId": StringAttribute, //
-        "projectLinePropertyId": StringAttribute, //
-        "projectTransactionId": StringAttribute, //
+        "projectCategoryId": UUIDAttribute, //
+        "projectId": UUIDAttribute, //
+        "projectLinePropertyId": UUIDAttribute, //
+        "projectTransactionId": UUIDAttribute, //
         "quantityOrdered": StringAttribute, //
         "receiptDateConfirmed": StringAttribute, //
         "receiptDateRequested": StringAttribute, //
@@ -58,7 +58,7 @@ class DProjectSalesItemRequirementEntity : DOOPEntity {
         "salesStatus": StringAttribute, //
         "salesUnit": StringAttribute, //
         "scrap": StringAttribute, //
-        "serviceOrderId": StringAttribute, //
+        "serviceOrderId": UUIDAttribute, //
         "shippingDateConfirmed": StringAttribute, //
         "shippingDateRequested": StringAttribute, //
         "taxGroup": StringAttribute, //
@@ -67,44 +67,44 @@ class DProjectSalesItemRequirementEntity : DOOPEntity {
         "salesCategoryName": StringAttribute, //
         "defaultDimensionDisplayValue": StringAttribute, //
         "ledgerDimensionDisplayValue": StringAttribute, //
-        "deliveryPostalAddressRecId": StringAttribute, //
+        "deliveryPostalAddressRecId": UUIDAttribute, //
         "formattedDelveryAddress": StringAttribute, //
         "deliveryBuildingCompliment": StringAttribute, //
         "deliveryAddressCity": StringAttribute, //
-        "deliveryAddressCountryRegionId": StringAttribute, //
+        "deliveryAddressCountryRegionId": UUIDAttribute, //
         "deliveryAddressCountryRegionISOCode": StringAttribute, //
-        "deliveryAddressCountyId": StringAttribute, //
+        "deliveryAddressCountyId": UUIDAttribute, //
         "deliveryAddressDescription": StringAttribute, //
         "deliveryAddressDistrictName": StringAttribute, //
         "deliveryAddressDunsNumber": StringAttribute, //
         "isDeliveryAddressPrivate": StringAttribute, //
         "deliveryAddressLatitude": StringAttribute, //
-        "deliveryAddressLocationId": StringAttribute, //
+        "deliveryAddressLocationId": UUIDAttribute, //
         "deliveryAddressLongitude": StringAttribute, //
         "deliveryAddressPostBox": StringAttribute, //
-        "deliveryAddressStateId": StringAttribute, //
+        "deliveryAddressStateId": UUIDAttribute, //
         "deliveryAddressStreet": StringAttribute, //
         "deliveryAddressStreetNumber": StringAttribute, //
         "deliveryAddressZipCode": StringAttribute, //
         "deliveryAddressTimeZone": StringAttribute, //
         "deliveryValidFrom": StringAttribute, //
         "deliveryValidTo": StringAttribute, //
-        "productConfigurationId": StringAttribute, //
+        "productConfigurationId": UUIDAttribute, //
         "itemBatchNumber": StringAttribute, //
-        "productColorId": StringAttribute, //
-        "shippingWarehouseId": StringAttribute, //
-        "shippingSiteId": StringAttribute, //
-        "productSizeId": StringAttribute, //
-        "orderedInventoryStatusId": StringAttribute, //
-        "productStyleId": StringAttribute, //
-        "productVersionId": StringAttribute, //
+        "productColorId": UUIDAttribute, //
+        "shippingWarehouseId": UUIDAttribute, //
+        "shippingSiteId": UUIDAttribute, //
+        "productSizeId": UUIDAttribute, //
+        "orderedInventoryStatusId": UUIDAttribute, //
+        "productStyleId": UUIDAttribute, //
+        "productVersionId": UUIDAttribute, //
         "isDeliveryAddressOrderSpecific": StringAttribute, //
         "deliveryCFOP": StringAttribute, //
-        "deliveryCFOPId": StringAttribute, //
-        "Relationship_DefaultDimensionDimensionSetRelationshipId": StringAttribute, //
-        "relationship_LedgerDimensionCombinationRelationshipId": StringAttribute, //
-        "backingTable_SalesLineRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "deliveryCFOPId": UUIDAttribute, //
+        "Relationship_DefaultDimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "relationship_LedgerDimensionCombinationRelationshipId": UUIDAttribute, //
+        "backingTable_SalesLineRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
     ])
       .registerPath("projects_salesitem.requirements");
   }

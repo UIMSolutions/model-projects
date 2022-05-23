@@ -11,21 +11,21 @@ class DProjectCDSEstimateExpensesImportEntity : DOOPEntity {
 
     this
       .addValues([
-        "taskId": StringAttribute, //
-        "projectId": StringAttribute, //
+        "taskId": UUIDAttribute, //
+        "projectId": UUIDAttribute, //
         "exchangeRate": StringAttribute, //
         "description": StringAttribute, //
         "price": StringAttribute, //
         "quantity": StringAttribute, //
-        "currencyId": StringAttribute, //
-        "modelId": StringAttribute, //
+        "currencyId": UUIDAttribute, //
+        "modelId": UUIDAttribute, //
         "transType": StringAttribute, //
         "documentDate": StringAttribute, //
         "billingType": StringAttribute, //
         "transactionCategory": StringAttribute, //
-        "estimateLineId": StringAttribute, //
-        "backingTable_ProjCDSEstimateExpensesImportRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "estimateLineId": UUIDAttribute, //
+        "backingTable_ProjCDSEstimateExpensesImportRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_cds.estimate.expense.imports");
   }

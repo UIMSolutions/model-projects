@@ -11,11 +11,11 @@ class DProjectPostTransViewEntity : DOOPEntity {
 
     this
       .addValues([
-        "categoryId": StringAttribute, //
-        "currencyId": StringAttribute, //
-        "itemId": StringAttribute, //
-        "linePropertyID": StringAttribute, //
-        "projectId": StringAttribute, //
+        "categoryId": UUIDAttribute, //
+        "currencyId": UUIDAttribute, //
+        "itemId": UUIDAttribute, //
+        "linePropertyId": UUIDAttribute, //
+        "projectId": UUIDAttribute, //
         "transactionType": StringAttribute, //
         "quantity": StringAttribute, //
         "resourceName": StringAttribute, //
@@ -23,10 +23,10 @@ class DProjectPostTransViewEntity : DOOPEntity {
         "totalSalesAmount": StringAttribute, //
         "transactionOrigin": StringAttribute, //
         "transactionDate": StringAttribute, //
-        "transactionId": StringAttribute, //
+        "transactionId": UUIDAttribute, //
         "vendorAccount": StringAttribute, //
         "vendorName": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_period.lines");
   }

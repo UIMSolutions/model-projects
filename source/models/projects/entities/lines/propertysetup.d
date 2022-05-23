@@ -13,12 +13,12 @@ class DProjectLinePropertySetupEntity : DOOPEntity {
       .addValues([
         "categoryCode": StringAttribute, //
         "categoryRelation": StringAttribute, //
-        "linePropertyId": StringAttribute, //
+        "linePropertyId": UUIDAttribute, //
         "projectCode": StringAttribute, //
         "projectRelation": StringAttribute, //
         "isDebitNoteSetupEnabled": StringAttribute, //
-        "backingTable_ProjLinePropertySetupRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjLinePropertySetupRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_linepropertysetups");
   }

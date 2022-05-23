@@ -12,14 +12,14 @@ class DProjectCustomerRetentionTermEntity : DOOPEntity {
     this
       .addValues([
         "billingRule": StringAttribute, //
-        "projectContractID": StringAttribute, //
+        "projectContractId": UUIDAttribute, //
         "customerAccount": StringAttribute, //
         "description": StringAttribute, //
-        "projectID": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "retentionTerm": StringAttribute, //
         "effectiveDate": StringAttribute, //
-        "backingTable_PSACustomerRetentionTermTableRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_PSACustomerRetentionTermTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_customers.retentions.terms");
   }

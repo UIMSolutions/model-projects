@@ -16,8 +16,8 @@ class DProjectStatusTypeRuleEntity : DOOPEntity {
         "ProjStatus": StringAttribute, //
         "ProjStatusRule": StringAttribute, //
         "ProjType": StringAttribute, //
-        "BackingTable_ProjStatusTypeRuleRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "BackingTable_ProjStatusTypeRuleRelationshipId": UUIDAttribute, //
+        "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("projects_statustyperules");
   }

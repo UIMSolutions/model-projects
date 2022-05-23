@@ -11,13 +11,13 @@ class DProjectPeriodLineEntity : DOOPEntity {
 
     this
       .addValues([
-        "modelId": StringAttribute, //
+        "modelId": UUIDAttribute, //
         "periodFrom": StringAttribute, //
-        "periodId": StringAttribute, //
+        "periodId": UUIDAttribute, //
         "periodName": StringAttribute, //
         "periodTo": StringAttribute, //
-        "backingTable_ProjPeriodLineRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjPeriodLineRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_period.lines");
   }

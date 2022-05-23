@@ -19,20 +19,20 @@ class DProjectForecastOnAccountEntity : DOOPEntity {
         "forecastModel": StringAttribute, //
         "budgetType": StringAttribute, //
         "fundingSource": StringAttribute, //
-        "projectID": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "quantity": StringAttribute, //
         "salesPaymentDate": StringAttribute, //
         "salesPrice": StringAttribute, //
         "projectDate": StringAttribute, //
-        "transactionID": StringAttribute, //
+        "transactionId": UUIDAttribute, //
         "description": StringAttribute, //
-        "projectContractID": StringAttribute, //
-        "fundingSourceID": StringAttribute, //
+        "projectContractId": UUIDAttribute, //
+        "fundingSourceId": UUIDAttribute, //
         "defaultDimensionDisplayValue": StringAttribute, //
-        "relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
-        "relationship_ProjectEntityRelationshipId": StringAttribute, //
-        "backingTable_ProjForecastOnAccRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_DimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "relationship_ProjectEntityRelationshipId": UUIDAttribute, //
+        "backingTable_ProjForecastOnAccRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_forecasts.onaccounts");
   }

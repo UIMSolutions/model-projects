@@ -13,35 +13,35 @@ class DPSAActualEntity : DOOPEntity {
       .addValues([
         "activityNumber": StringAttribute, //
         "amountMst": StringAttribute, //
-        "categoryId": StringAttribute, //
+        "categoryId": UUIDAttribute, //
         "costSales": StringAttribute, //
         "defaultDimension": StringAttribute, //
-        "emplItemId": StringAttribute, //
-        "inventTransId": StringAttribute, //
+        "emplItemId": UUIDAttribute, //
+        "inventTransId": UUIDAttribute, //
         "ledgerDimension": StringAttribute, //
         "ledgerOrigin": StringAttribute, //
         "ledgerTransDate": StringAttribute, //
         "paymentDate": StringAttribute, //
         "paymentStatus": StringAttribute, //
         "postingType": StringAttribute, //
-        "contractId": StringAttribute, //
-        "projectId": StringAttribute, //
-        "projectAdjustRefId": StringAttribute, //
+        "contractId": UUIDAttribute, //
+        "projectId": UUIDAttribute, //
+        "projectAdjustRefId": UUIDAttribute, //
         "projectFundingSource": StringAttribute, //
         "projectTransDate": StringAttribute, //
         "projectTransType": StringAttribute, //
         "projectType": StringAttribute, //
         "quantity": StringAttribute, //
-        "subscriptionId": StringAttribute, //
+        "subscriptionId": UUIDAttribute, //
         "transactionOrigin": StringAttribute, //
-        "transId": StringAttribute, //
+        "transId": UUIDAttribute, //
         "voucher": StringAttribute, //
         "resourceLegalEntity": StringAttribute, //
         "ledgerDimensionDisplayValue": StringAttribute, //
         "companyInfo_PartyNumber": StringAttribute, //
         "companyInfo_DataArea": StringAttribute, //
-        "projectFundingSource_ContractId": StringAttribute, //
-        "projectFundingSource_FundingSourceId": StringAttribute, //
+        "projectFundingSource_ContractId": UUIDAttribute, //
+        "projectFundingSource_FundingSourceId": UUIDAttribute, //
         "defaultDimensionDisplayValue": StringAttribute, //
         "plLaborCost": StringAttribute, //
         "plExpenseCost": StringAttribute, //
@@ -99,11 +99,11 @@ class DPSAActualEntity : DOOPEntity {
         "consumedLaborQtyWithoutNoNeverLedger": StringAttribute, //
         "plMaterialCostWithoutNeverLedger": StringAttribute, //
         "consumedMaterialCostWithoutNeverLedger": StringAttribute, //
-        "resourceId": StringAttribute, //
-        "resourceCompanyId": StringAttribute, //
-        "relationship_DefaultDimensionDimensionSetRelationshipId": StringAttribute, //
-        "backingTable_ProjTransPostingRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "resourceId": UUIDAttribute, //
+        "resourceCompanyId": UUIDAttribute, //
+        "relationship_DefaultDimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "backingTable_ProjTransPostingRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_psaactuals");
   }

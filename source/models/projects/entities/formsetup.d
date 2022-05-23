@@ -24,8 +24,8 @@ class DProjectFormSetupEntity : DOOPEntity {
         "separateTaxExemptBalanceInForms": StringAttribute, //
         "salesTaxSpecification": StringAttribute, //
         "totalsFirstLastPage": StringAttribute, //
-        "backingTable_ProjFormletterParametersRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjFormletterParametersRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_formsetups");
   }

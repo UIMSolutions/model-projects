@@ -12,11 +12,11 @@ class DProjectContractLineEntity : DOOPEntity {
     this
       .addValues([
         "changeOrderNumber": StringAttribute, //
-        "contractLineId": StringAttribute, //
+        "contractLineId": UUIDAttribute, //
         "defaultLedgerDimension": StringAttribute, //
-        "feeCategoryId": StringAttribute, //
+        "feeCategoryId": UUIDAttribute, //
         "feePercentage": StringAttribute, //
-        "feeProjectId": StringAttribute, //
+        "feeProjectId": UUIDAttribute, //
         "isIndirectCostIncluded": StringAttribute, //
         "description": StringAttribute, //
         "lineType": StringAttribute, //
@@ -28,9 +28,9 @@ class DProjectContractLineEntity : DOOPEntity {
         "lineAmount": StringAttribute, //
         "paidAmount": StringAttribute, //
         "budgetMethod": StringAttribute, //
-        "projectContractId": StringAttribute, //
+        "projectContractId": UUIDAttribute, //
         "retainagePercentage": StringAttribute, //
-        "customerRetentionTermId": StringAttribute, //
+        "customerRetentionTermId": UUIDAttribute, //
         "salesTaxGroupCode": StringAttribute, //
         "vatCommodityCode": StringAttribute, //
         "unitPrice": StringAttribute, //
@@ -42,11 +42,11 @@ class DProjectContractLineEntity : DOOPEntity {
         "tdsGroupCode": StringAttribute, //
         "defaultLedgerDimensionDisplayValue": StringAttribute, //
         "lineSequenceNumber": StringAttribute, //
-        "projInvoiceProjId": StringAttribute, //
-        "lineProjectId": StringAttribute, //
-        "relationship_DefaultDimensionDimensionSetRelationshipId": StringAttribute, //
-        "backingTable_PSAContractLineItemsRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "projInvoiceProjId": UUIDAttribute, //
+        "lineProjectId": UUIDAttribute, //
+        "relationship_DefaultDimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "backingTable_PSAContractLineItemsRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_contracts.lines");
   }

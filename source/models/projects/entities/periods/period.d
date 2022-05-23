@@ -11,15 +11,15 @@ class DProjectPeriodEntity : DOOPEntity {
 
     this
       .addValues([
-        "periodId": StringAttribute, //
+        "periodId": UUIDAttribute, //
         "description": StringAttribute, //
         "weekDayPeriodStart": StringAttribute, //
         "frequency": StringAttribute, //
         "periodFrequency": StringAttribute, //
         "timesheetFrequency": StringAttribute, //
         "isWeekAutoSplit": StringAttribute, //
-        "backingTable_ProjPeriodTableRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjPeriodTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_periods");
   }

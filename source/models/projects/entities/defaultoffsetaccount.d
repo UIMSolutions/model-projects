@@ -13,15 +13,15 @@ class DProjectDefaultOffsetAccountEntity : DOOPEntity {
       .addValues([
         "offsetAccount": StringAttribute, // 
         "category": StringAttribute, // 
-        "projectID": StringAttribute, // 
+        "projectId": UUIDAttribute, // 
         "offsetAccountType": StringAttribute, // 
         "resource": StringAttribute, // 
         "offsetAccountDisplayValue": StringAttribute, // 
         "resourcePersonnelNumber": StringAttribute, // 
-        "relationship_OffsetAccountCombinationRelationshipId": StringAttribute, // 
-        "relationship_ProjectRelationshipId": StringAttribute, // 
-        "backingTable_ProjDefaultOffsetSetupRelationshipId": StringAttribute, // 
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, // 
+        "relationship_OffsetAccountCombinationRelationshipId": UUIDAttribute, // 
+        "relationship_ProjectRelationshipId": UUIDAttribute, // 
+        "backingTable_ProjDefaultOffsetSetupRelationshipId": UUIDAttribute, // 
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, // 
      ])
       .registerPath("projects_default.offset.accounts");
   }

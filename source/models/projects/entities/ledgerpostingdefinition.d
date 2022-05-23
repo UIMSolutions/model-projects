@@ -12,25 +12,25 @@ class DProjectLedgerPostingDefinitionEntity : DOOPEntity {
     this
       .addValues([
         "projectAccountType": StringAttribute, //
-        "projectId": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "projectGroup": StringAttribute, //
-        "categoryId": StringAttribute, //
+        "categoryId": UUIDAttribute, //
         "categoryGroup": StringAttribute, //
         "projFundingSource": StringAttribute, //
-        "taxGroupId": StringAttribute, //
-        "projectContractId": StringAttribute, //
-        "fundingSourceId": StringAttribute, //
+        "taxGroupId": UUIDAttribute, //
+        "projectContractId": UUIDAttribute, //
+        "fundingSourceId": UUIDAttribute, //
         "mainAccountIdDisplayValue": StringAttribute, //
-        "mainAccountId": StringAttribute, //
+        "mainAccountId": UUIDAttribute, //
         "projCode": StringAttribute, //
         "categoryCode": StringAttribute, //
         "projRelation": StringAttribute, //
         "projCategoryRelation": StringAttribute, //
         "borrowingLegalEntity": StringAttribute, //
         "lendingLegalEntity": StringAttribute, //
-        "relationship_MainAccountIdCombinationRelationshipId": StringAttribute, //
-        "backingTable_ProjPostingRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_MainAccountIdCombinationRelationshipId": UUIDAttribute, //
+        "backingTable_ProjPostingRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_journalnames");
   }

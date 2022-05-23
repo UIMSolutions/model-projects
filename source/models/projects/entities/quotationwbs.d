@@ -13,10 +13,10 @@ class DProjectQuotationWbsEntity : DOOPEntity {
 
     this
       .addValues([
-        "quotationId": StringAttribute, //
-        "hierarchyId": StringAttribute, //
-        "taskId": StringAttribute, //
-        "wbsId": StringAttribute, //
+        "quotationId": UUIDAttribute, //
+        "hierarchyId": UUIDAttribute, //
+        "taskId": UUIDAttribute, //
+        "wbsId": UUIDAttribute, //
         "note": StringAttribute, //
         "task": StringAttribute, //
         "predecessors": StringAttribute, //
@@ -29,23 +29,23 @@ class DProjectQuotationWbsEntity : DOOPEntity {
         "role": StringAttribute, //
         "isTaskClosed": StringAttribute, //
         "usTaskMandatory": StringAttribute, //
-        "hierarchyTreeTableRefRecId": StringAttribute, //
+        "hierarchyTreeTableRefRecId": UUIDAttribute, //
         "taskSiblingNumber": StringAttribute, //
-        "parentTaskId": StringAttribute, //
+        "parentTaskId": UUIDAttribute, //
         "resourceCategory": StringAttribute, //
         "taskPriority": StringAttribute, //
         "activityTaskTimeType": StringAttribute, //
         "isCategoryMandatory": StringAttribute, //
-        "calendarId": StringAttribute, //
+        "calendarId": UUIDAttribute, //
         "endNode": StringAttribute, //
         "hierarchyLevel": StringAttribute, //
         "calendarStandardWorkDayHours": StringAttribute, //
         "taskEffortAtComplete": StringAttribute, //
         "taskCostAtComplete": StringAttribute, //
-        "relationship_ProjectCategoryRelationshipId": StringAttribute, //
-        "relationship_ResourceCategoryRelationshipId": StringAttribute, //
-        "backingTable_ProjPlanVersionRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_ProjectCategoryRelationshipId": UUIDAttribute, //
+        "relationship_ResourceCategoryRelationshipId": UUIDAttribute, //
+        "backingTable_ProjPlanVersionRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_quotation.wbs");
   }

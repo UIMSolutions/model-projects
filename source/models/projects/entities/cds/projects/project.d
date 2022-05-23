@@ -11,25 +11,25 @@ class DProjectCDSProjectEntity : DOOPEntity {
 
     this
       .addValues([
-        "projectID": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "customerAccount": StringAttribute, //
         "projectName": StringAttribute, //
         "projectGroup": StringAttribute, //
-        "projectContractID": StringAttribute, //
+        "projectContractId": UUIDAttribute, //
         "projectType": StringAttribute, //
         "projectStatus": StringAttribute, //
         "projectedStartDate": StringAttribute, //
         "projectedEndDate": StringAttribute, //
         "startDate": StringAttribute, //
         "endDate": StringAttribute, //
-        "parentId": StringAttribute, //
+        "parentId": UUIDAttribute, //
         "description": StringAttribute, //
         "projectManagerPersonnelNumber": StringAttribute, //
-        "sourceDataID": StringAttribute, //
+        "sourceDataId": UUIDAttribute, //
         "defaultDimension": StringAttribute, //
         "defaultDimensionDisplayValue": StringAttribute, //
-        "backingTable_ProjTableRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_cds.projects.projects");
   }

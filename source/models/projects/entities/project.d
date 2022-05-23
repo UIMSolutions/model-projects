@@ -11,8 +11,8 @@ class DProjectEntity : DOOPEntity {
 
     this
       .addValues([
-        "projectId": StringAttribute, //
-        "alternateProjectId": StringAttribute, //
+        "projectId": UUIDAttribute, //
+        "alternateProjectId": UUIDAttribute, //
         "bankDocumentType": StringAttribute, //
         "isCertifiedPayroll": StringAttribute, //
         "canVerifyCostAgainstRemainingForecast": StringAttribute, //
@@ -34,7 +34,7 @@ class DProjectEntity : DOOPEntity {
         "projectName": StringAttribute, //
         "isOCIPWorkerCompensation": StringAttribute, //
         "isOCIPGeneralLiability": StringAttribute, //
-        "parentProjectId": StringAttribute, //
+        "parentProjectId": UUIDAttribute, //
         "transactionTypesControlled": StringAttribute, //
         "budgetControlInterval": StringAttribute, //
         "projectBudgetManagement": StringAttribute, //
@@ -43,12 +43,12 @@ class DProjectEntity : DOOPEntity {
         "canCarryForwardRemainingBudgets": StringAttribute, //
         "projectedEndDate": StringAttribute, //
         "projectedStartDate": StringAttribute, //
-        "projectGroupId": StringAttribute, //
-        "projectContractId": StringAttribute, //
+        "projectGroupId": UUIDAttribute, //
+        "projectContractId": UUIDAttribute, //
         "ledgerPostingSortPriority": StringAttribute, //
         "linePropertySearchPriority": StringAttribute, //
-        "salesPriceGroupId": StringAttribute, //
-        "schedulingCalendarId": StringAttribute, //
+        "salesPriceGroupId": UUIDAttribute, //
+        "schedulingCalendarId": UUIDAttribute, //
         "scheduleDurationInDays": StringAttribute, //
         "totalPlannedEffortInHours": StringAttribute, //
         "scheduleEndDate": StringAttribute, //
@@ -63,20 +63,20 @@ class DProjectEntity : DOOPEntity {
         "actualStartDate": StringAttribute, //
         "projectStage": StringAttribute, //
         "zakatSubject": StringAttribute, //
-        "salesTaxGroupId": StringAttribute, //
+        "salesTaxGroupId": UUIDAttribute, //
         "isProjectTemplate": StringAttribute, //
         "postingLevel": StringAttribute, //
         "canUseAlternateProjectBudget": StringAttribute, //
         "isBudgetControlEnabled": StringAttribute, //
         "csProjectCategoryValidationEnabled": StringAttribute, //
-        "estimateProjectId": StringAttribute, //
-        "architectRecId": StringAttribute, //
-        "projectManagerRecId": StringAttribute, //
-        "projectControllerRecId": StringAttribute, //
-        "salesManagerRecId": StringAttribute, //
+        "estimateProjectId": UUIDAttribute, //
+        "architectRecId": UUIDAttribute, //
+        "projectManagerRecId": UUIDAttribute, //
+        "projectControllerRecId": UUIDAttribute, //
+        "salesManagerRecId": UUIDAttribute, //
         "description": StringAttribute, //
         "isTemplateApplied": StringAttribute, //
-        "deliveryAddressLocationId": StringAttribute, //
+        "deliveryAddressLocationId": UUIDAttribute, //
         "architectPersonnelNumber": StringAttribute, //
         "projectControllerPersonnelNumber": StringAttribute, //
         "projectManagerPersonnelNumber": StringAttribute, //
@@ -85,10 +85,10 @@ class DProjectEntity : DOOPEntity {
         "sortingField1": StringAttribute, //
         "sortingField2": StringAttribute, //
         "sortingField3": StringAttribute, //
-        "integrationSourceDataId": StringAttribute, //
-        "relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
-        "backingTable_ProjTableRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "integrationSourceDataId": UUIDAttribute, //
+        "relationship_DimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "backingTable_ProjTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_projects");
   }

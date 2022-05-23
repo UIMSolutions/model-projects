@@ -11,10 +11,10 @@ class DProjectResourceEntity : DOOPEntity {
 
     this
       .addValues([
-        "ProjectId": StringAttribute, //
+        "ProjectId": UUIDAttribute, //
         "PersonnelNumber": StringAttribute, //
-        "BackingTable_ProjResourceRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "BackingTable_ProjResourceRelationshipId": UUIDAttribute, //
+        "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
     ])
       .registerPath("projects_resources");
   }

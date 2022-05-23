@@ -15,42 +15,42 @@ class DProjectItemJournalTransEntity : DOOPEntity {
         "costAmount": StringAttribute, //
         "costPrice": StringAttribute, //
         "defaultDimension": StringAttribute, //
-        "inventDimensionId": StringAttribute, //
-        "itemId": StringAttribute, //
-        "journalId": StringAttribute, //
+        "inventDimensionId": UUIDAttribute, //
+        "itemId": UUIDAttribute, //
+        "journalId": UUIDAttribute, //
         "voucher": StringAttribute, //
         "projectDate": StringAttribute, //
         "quantity": StringAttribute, //
-        "projectUnitID": StringAttribute, //
-        "projectTaxItemGroupId": StringAttribute, //
-        "projectTaxGroupId": StringAttribute, //
+        "projectUnitId": UUIDAttribute, //
+        "projectTaxItemGroupId": UUIDAttribute, //
+        "projectTaxGroupId": UUIDAttribute, //
         "projectSalesPrice": StringAttribute, //
-        "projectSalesCurrencyId": StringAttribute, //
-        "projectLinePropertyId": StringAttribute, //
-        "projectId": StringAttribute, //
-        "projectCategoryId": StringAttribute, //
+        "projectSalesCurrencyId": UUIDAttribute, //
+        "projectLinePropertyId": UUIDAttribute, //
+        "projectId": UUIDAttribute, //
+        "projectCategoryId": UUIDAttribute, //
         "cwQuantity": StringAttribute, //
         "lineNum": StringAttribute, //
         "priceUnit": StringAttribute, //
         "costMarkup": StringAttribute, //
-        "inventTransactionId": StringAttribute, //
-        "inventTransactionReturnId": StringAttribute, //
-        "projectTransactionId": StringAttribute, //
+        "inventTransactionId": UUIDAttribute, //
+        "inventTransactionReturnId": UUIDAttribute, //
+        "projectTransactionId": UUIDAttribute, //
         "defaultDimensionDisplayValue": StringAttribute, //
-        "productColorId": StringAttribute, //
-        "productConfigurationId": StringAttribute, //
-        "productSizeId": StringAttribute, //
-        "productStyleId": StringAttribute, //
-        "productVersionId": StringAttribute, //
-        "storageSiteId": StringAttribute, //
-        "storageWarehouseId": StringAttribute, //
-        "storageLocationId": StringAttribute, //
-        "inventSerialId": StringAttribute, //
-        "relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
-        "relationship_ProjectEntityRelationshipId": StringAttribute, //
-        "relationship_ProjProjectLinePropertyEntityRelationshipId": StringAttribute, //
-        "backingTable_InventJournalTransRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "productColorId": UUIDAttribute, //
+        "productConfigurationId": UUIDAttribute, //
+        "productSizeId": UUIDAttribute, //
+        "productStyleId": UUIDAttribute, //
+        "productVersionId": UUIDAttribute, //
+        "storageSiteId": UUIDAttribute, //
+        "storageWarehouseId": UUIDAttribute, //
+        "storageLocationId": UUIDAttribute, //
+        "inventSerialId": UUIDAttribute, //
+        "relationship_DimensionDimensionSetRelationshipId": UUIDAttribute, //
+        "relationship_ProjectEntityRelationshipId": UUIDAttribute, //
+        "relationship_ProjProjectLinePropertyEntityRelationshipId": UUIDAttribute, //
+        "backingTable_InventJournalTransRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_itemjournaltrans");
   }

@@ -20,7 +20,7 @@ class DProjectJournalTableEntity : DOOPEntity {
         "journalType": StringAttribute, //
         "projLineProperty": StringAttribute, //
         "posted": StringAttribute, //
-        "projectID": StringAttribute, //
+        "projectId": UUIDAttribute, //
         "projectDate": StringAttribute, //
         "resource": StringAttribute, //
         "approve": StringAttribute, //
@@ -30,12 +30,12 @@ class DProjectJournalTableEntity : DOOPEntity {
         "selectionBy": StringAttribute, //
         "numberSequenceCode": StringAttribute, //
         "numberSequenceDataArea": StringAttribute, //
-        "resourceId": StringAttribute, //
-        "resourceCompanyId": StringAttribute, //
-        "postedUserId": StringAttribute, //
+        "resourceId": UUIDAttribute, //
+        "resourceCompanyId": UUIDAttribute, //
+        "postedUserId": UUIDAttribute, //
         "status": StringAttribute, //
-        "backingTable_ProjJournalTableRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjJournalTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_journal.names");
   }
