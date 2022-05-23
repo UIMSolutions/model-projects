@@ -11,33 +11,33 @@ class DProjectJournalTableEntity : DOOPEntity {
 
     this
       .addValues([
-        "ProjCategory": StringAttribute, //
-        "DeleteLinesAfterPosting": StringAttribute, //
-        "Description": StringAttribute, //
-        "DetailSummary": StringAttribute, //
-        "JournalBatchNumber": StringAttribute, //
-        "JournalName": StringAttribute, //
-        "JournalType": StringAttribute, //
-        "ProjLineProperty": StringAttribute, //
-        "Posted": StringAttribute, //
-        "ProjectID": StringAttribute, //
-        "ProjectDate": StringAttribute, //
-        "Resource": StringAttribute, //
-        "Approve": StringAttribute, //
-        "Txt": StringAttribute, //
-        "NewVoucherBy": StringAttribute, //
-        "SetVoucherDateTo": StringAttribute, //
-        "SelectionBy": StringAttribute, //
-        "NumberSequenceCode": StringAttribute, //
-        "NumberSequenceDataArea": StringAttribute, //
-        "ResourceId": StringAttribute, //
-        "ResourceCompanyId": StringAttribute, //
-        "PostedUserId": StringAttribute, //
-        "Status": StringAttribute, //
+        "projCategory": StringAttribute, //
+        "deleteLinesAfterPosting": StringAttribute, //
+        "description": StringAttribute, //
+        "detailSummary": StringAttribute, //
+        "journalBatchNumber": StringAttribute, //
+        "journalName": StringAttribute, //
+        "journalType": StringAttribute, //
+        "projLineProperty": StringAttribute, //
+        "posted": StringAttribute, //
+        "projectID": StringAttribute, //
+        "projectDate": StringAttribute, //
+        "resource": StringAttribute, //
+        "approve": StringAttribute, //
+        "txt": StringAttribute, //
+        "newVoucherBy": StringAttribute, //
+        "setVoucherDateTo": StringAttribute, //
+        "selectionBy": StringAttribute, //
+        "numberSequenceCode": StringAttribute, //
+        "numberSequenceDataArea": StringAttribute, //
+        "resourceId": StringAttribute, //
+        "resourceCompanyId": StringAttribute, //
+        "postedUserId": StringAttribute, //
+        "status": StringAttribute, //
         "backingTable_ProjJournalTableRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_journalnames");
+      .registerPath("projects_journal.names");
   }
 }
 mixin(EntityCalls!("ProjectJournalTableEntity"));

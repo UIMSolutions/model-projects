@@ -11,13 +11,13 @@ class DProjectPeriodEntity : DOOPEntity {
 
     this
       .addValues([
-        "PeriodId": StringAttribute, //
-        "Description": StringAttribute, //
-        "WeekDayPeriodStart": StringAttribute, //
-        "Frequency": StringAttribute, //
-        "PeriodFrequency": StringAttribute, //
-        "TimesheetFrequency": StringAttribute, //
-        "IsWeekAutoSplit": StringAttribute, //
+        "periodId": StringAttribute, //
+        "description": StringAttribute, //
+        "weekDayPeriodStart": StringAttribute, //
+        "frequency": StringAttribute, //
+        "periodFrequency": StringAttribute, //
+        "timesheetFrequency": StringAttribute, //
+        "isWeekAutoSplit": StringAttribute, //
         "backingTable_ProjPeriodTableRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])

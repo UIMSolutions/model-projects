@@ -1,4 +1,4 @@
-module models.projects.entities.periods.ProjPeriodTimesheetWeek;
+module models.projects.entities.periods.timesheetweek;
 
 @safe:
 import models.projects;
@@ -11,14 +11,14 @@ class DProjectPeriodTimesheetWeekEntity : DOOPEntity {
 
     this
       .addValues([
-        "PeriodFrom": StringAttribute, //
-        "PeriodId": StringAttribute, //
-        "PeriodName": StringAttribute, //
-        "PeriodTo": StringAttribute, //
+        "periodFrom": StringAttribute, //
+        "periodId": StringAttribute, //
+        "periodName": StringAttribute, //
+        "periodTo": StringAttribute, //
         "backingTable_ProjPeriodTimesheetWeekRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_periodlines");
+      .registerPath("projects_period.timesheetweeks");
   }
 }
 mixin(EntityCalls!("ProjectPeriodTimesheetWeekEntity"));

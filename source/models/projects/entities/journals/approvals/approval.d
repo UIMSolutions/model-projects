@@ -11,12 +11,12 @@ class DProjectJournalApprovalEntity : DOOPEntity {
 
     this
       .addValues([
-        "Name": StringAttribute, //
-        "Approve": StringAttribute, //
+        "name": StringAttribute, //
+        "approve": StringAttribute, //
         "backingTable_ProjJournalStatusTableRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_journalapprovals");
+      .registerPath("projects_journal.approvals");
   }
 }
 mixin(EntityCalls!("ProjectJournalApprovalEntity"));

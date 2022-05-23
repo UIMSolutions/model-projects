@@ -11,40 +11,40 @@ class DProjectItemJournalTransEntity : DOOPEntity {
 
     this
       .addValues([
-        "ActivityNumber": StringAttribute, //
-        "CostAmount": StringAttribute, //
-        "CostPrice": StringAttribute, //
-        "DefaultDimension": StringAttribute, //
-        "InventDimensionId": StringAttribute, //
-        "ItemId": StringAttribute, //
-        "JournalId": StringAttribute, //
-        "Voucher": StringAttribute, //
-        "ProjectDate": StringAttribute, //
-        "Quantity": StringAttribute, //
-        "ProjectUnitID": StringAttribute, //
-        "ProjectTaxItemGroupId": StringAttribute, //
-        "ProjectTaxGroupId": StringAttribute, //
-        "ProjectSalesPrice": StringAttribute, //
-        "ProjectSalesCurrencyId": StringAttribute, //
-        "ProjectLinePropertyId": StringAttribute, //
-        "ProjectId": StringAttribute, //
-        "ProjectCategoryId": StringAttribute, //
-        "CWQuantity": StringAttribute, //
-        "LineNum": StringAttribute, //
-        "PriceUnit": StringAttribute, //
-        "CostMarkup": StringAttribute, //
-        "InventTransactionId": StringAttribute, //
-        "InventTransactionReturnId": StringAttribute, //
-        "ProjectTransactionId": StringAttribute, //
-        "DefaultDimensionDisplayValue": StringAttribute, //
-        "ProductColorId": StringAttribute, //
-        "ProductConfigurationId": StringAttribute, //
-        "ProductSizeId": StringAttribute, //
-        "ProductStyleId": StringAttribute, //
-        "ProductVersionId": StringAttribute, //
-        "StorageSiteId": StringAttribute, //
-        "StorageWarehouseId": StringAttribute, //
-        "StorageLocationId": StringAttribute, //
+        "activityNumber": StringAttribute, //
+        "costAmount": StringAttribute, //
+        "costPrice": StringAttribute, //
+        "defaultDimension": StringAttribute, //
+        "inventDimensionId": StringAttribute, //
+        "itemId": StringAttribute, //
+        "journalId": StringAttribute, //
+        "voucher": StringAttribute, //
+        "projectDate": StringAttribute, //
+        "quantity": StringAttribute, //
+        "projectUnitID": StringAttribute, //
+        "projectTaxItemGroupId": StringAttribute, //
+        "projectTaxGroupId": StringAttribute, //
+        "projectSalesPrice": StringAttribute, //
+        "projectSalesCurrencyId": StringAttribute, //
+        "projectLinePropertyId": StringAttribute, //
+        "projectId": StringAttribute, //
+        "projectCategoryId": StringAttribute, //
+        "cwQuantity": StringAttribute, //
+        "lineNum": StringAttribute, //
+        "priceUnit": StringAttribute, //
+        "costMarkup": StringAttribute, //
+        "inventTransactionId": StringAttribute, //
+        "inventTransactionReturnId": StringAttribute, //
+        "projectTransactionId": StringAttribute, //
+        "defaultDimensionDisplayValue": StringAttribute, //
+        "productColorId": StringAttribute, //
+        "productConfigurationId": StringAttribute, //
+        "productSizeId": StringAttribute, //
+        "productStyleId": StringAttribute, //
+        "productVersionId": StringAttribute, //
+        "storageSiteId": StringAttribute, //
+        "storageWarehouseId": StringAttribute, //
+        "storageLocationId": StringAttribute, //
         "inventSerialId": StringAttribute, //
         "relationship_DimensionDimensionSetRelationshipId": StringAttribute, //
         "relationship_ProjectEntityRelationshipId": StringAttribute, //

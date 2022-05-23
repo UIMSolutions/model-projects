@@ -1,4 +1,4 @@
-module models.projects.entities.periods.ProjPeriodLine;
+module models.projects.entities.periods.line;
 
 @safe:
 import models.projects;
@@ -11,15 +11,15 @@ class DProjectPeriodLineEntity : DOOPEntity {
 
     this
       .addValues([
-        "ModelId": StringAttribute, //
-        "PeriodFrom": StringAttribute, //
-        "PeriodId": StringAttribute, //
-        "PeriodName": StringAttribute, //
-        "PeriodTo": StringAttribute, //
+        "modelId": StringAttribute, //
+        "periodFrom": StringAttribute, //
+        "periodId": StringAttribute, //
+        "periodName": StringAttribute, //
+        "periodTo": StringAttribute, //
         "backingTable_ProjPeriodLineRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_periodlines");
+      .registerPath("projects_period.lines");
   }
 }
 mixin(EntityCalls!("ProjectPeriodLineEntity"));

@@ -12,32 +12,32 @@ class DProjectInvoiceProposalEntity : DOOPEntity {
 
     this
       .addValues([
-        "SalesCurrency": StringAttribute, //
-        "FundingSource": StringAttribute, //
-        "InvoiceDate": StringAttribute, //
-        "Invoice": StringAttribute, //
-        "ProjectContractId": StringAttribute, //
-        "InvoiceProposalId": StringAttribute, //
-        "InvoiceHeaderText": StringAttribute, //
-        "FundingSource_ContractId": StringAttribute, //
-        "FundingSourceId": StringAttribute, //
-        "ContractName": StringAttribute, //
-        "InvoiceFormat": StringAttribute, //
-        "DeliveryTransportBrand": StringAttribute, //
-        "FiscalDocumentTypeRecId": StringAttribute, //
-        "FiscalEstablishmentRecId": StringAttribute, //
-        "BillOfLadingFreightChargeTerms": StringAttribute, //
-        "ServiceFiscalInformationCode": StringAttribute, //
-        "DeliveryVehicleLicensePlateNumber": StringAttribute, //
-        "DeliveryVehicleLicensePlateState": StringAttribute, //
-        "VolumeQuantity": StringAttribute, //
-        "VolumeType": StringAttribute, //
-        "FiscalDocumentTypeId": StringAttribute, //
-        "FiscalEstablishmentId": StringAttribute, //
+        "salesCurrency": StringAttribute, //
+        "fundingSource": StringAttribute, //
+        "invoiceDate": StringAttribute, //
+        "invoice": StringAttribute, //
+        "projectContractId": StringAttribute, //
+        "invoiceProposalId": StringAttribute, //
+        "invoiceHeaderText": StringAttribute, //
+        "fundingSource_ContractId": StringAttribute, //
+        "fundingSourceId": StringAttribute, //
+        "contractName": StringAttribute, //
+        "invoiceFormat": StringAttribute, //
+        "deliveryTransportBrand": StringAttribute, //
+        "fiscalDocumentTypeRecId": StringAttribute, //
+        "fiscalEstablishmentRecId": StringAttribute, //
+        "billOfLadingFreightChargeTerms": StringAttribute, //
+        "serviceFiscalInformationCode": StringAttribute, //
+        "deliveryVehicleLicensePlateNumber": StringAttribute, //
+        "deliveryVehicleLicensePlateState": StringAttribute, //
+        "volumeQuantity": StringAttribute, //
+        "volumeType": StringAttribute, //
+        "fiscalDocumentTypeId": StringAttribute, //
+        "fiscalEstablishmentId": StringAttribute, //
         "backingTable_ProjProposalJourRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_invoiceproposals");
+      .registerPath("projects_invoice.proposals");
   }
 }
 mixin(EntityCalls!("ProjectInvoiceProposalEntity"));

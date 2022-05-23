@@ -11,18 +11,18 @@ class DProjectJournalApprovalDetailsEntity : DOOPEntity {
 
     this
       .addValues([
-        "Editing": StringAttribute, //
-        "CheckJournal": StringAttribute, //
-        "Group": StringAttribute, //
-        "ReadyForPosting": StringAttribute, //
-        "StatusValue": StringAttribute, //
-        "Previous": StringAttribute, //
-        "Approve": StringAttribute, //
-        "Next": StringAttribute, //
+        "editing": StringAttribute, //
+        "checkJournal": StringAttribute, //
+        "group": StringAttribute, //
+        "readyForPosting": StringAttribute, //
+        "statusValue": StringAttribute, //
+        "previous": StringAttribute, //
+        "approve": StringAttribute, //
+        "next": StringAttribute, //
         "backingTable_ProjJournalStatusLineRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_journalapprovaldetails");
+      .registerPath("projects_journal.approval.details");
   }
 }
 mixin(EntityCalls!("ProjectJournalApprovalDetailsEntity"));

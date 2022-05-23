@@ -11,8 +11,8 @@ class DProjectAllocationKeyEntity : DOOPEntity {
 
     this
       .addValues([
-        "AllocationKey": StringAttribute, //
-        "Name": StringAttribute, //
+        "allocationKey": StringAttribute, //
+        "name": StringAttribute, //
         "backingTable_ProjAllocateKeyRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])

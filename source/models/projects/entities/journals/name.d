@@ -11,19 +11,19 @@ class DProjectJournalNameEntity : DOOPEntity {
 
     this
       .addValues([
-        "Description": StringAttribute, //
-        "DetailSummary": StringAttribute, //
-        "Name": StringAttribute, //
-        "JournalType": StringAttribute, //
-        "Approve": StringAttribute, //
-        "ShowStartOrEndTimes": StringAttribute, //
-        "NewVoucherBy": StringAttribute, //
-        "SetVoucherDateTo": StringAttribute, //
-        "SelectionBy": StringAttribute, //
-        "VoucherSeries": StringAttribute, //
-        "NumberSequenceCode": StringAttribute, //
-        "NumberSequenceScope": StringAttribute, //
-        "NumberSequenceDataArea": StringAttribute, //
+        "description": StringAttribute, //
+        "detailSummary": StringAttribute, //
+        "name": StringAttribute, //
+        "journalType": StringAttribute, //
+        "approve": StringAttribute, //
+        "showStartOrEndTimes": StringAttribute, //
+        "newVoucherBy": StringAttribute, //
+        "setVoucherDateTo": StringAttribute, //
+        "selectionBy": StringAttribute, //
+        "voucherSeries": StringAttribute, //
+        "numberSequenceCode": StringAttribute, //
+        "numberSequenceScope": StringAttribute, //
+        "numberSequenceDataArea": StringAttribute, //
         "backingTable_ProjJournalNameRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])

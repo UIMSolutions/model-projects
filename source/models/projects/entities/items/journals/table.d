@@ -11,18 +11,18 @@ class DProjectItemJournalTableEntity : DOOPEntity {
 
     this
       .addValues([
-        "BlockUserGroupId": StringAttribute, //
-        "IsLinesDeletedAfterPosting": StringAttribute, //
-        "Description": StringAttribute, //
-        "PostingDetailLevel": StringAttribute, //
-        "InventLocationId": StringAttribute, //
-        "InventSiteId": StringAttribute, //
-        "JournalId": StringAttribute, //
-        "JournalName": StringAttribute, //
-        "OffsetAccount": StringAttribute, //
-        "Posted": StringAttribute, //
-        "Reservation": StringAttribute, //
-        "OffsetAccountDisplayValue": StringAttribute, //
+        "blockUserGroupId": StringAttribute, //
+        "isLinesDeletedAfterPosting": StringAttribute, //
+        "description": StringAttribute, //
+        "postingDetailLevel": StringAttribute, //
+        "inventLocationId": StringAttribute, //
+        "inventSiteId": StringAttribute, //
+        "journalId": StringAttribute, //
+        "journalName": StringAttribute, //
+        "offsetAccount": StringAttribute, //
+        "posted": StringAttribute, //
+        "reservation": StringAttribute, //
+        "offsetAccountDisplayValue": StringAttribute, //
         "relationship_OffsetAccountCombinationRelationshipId": StringAttribute, //
         "backingTable_InventJournalTableRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //

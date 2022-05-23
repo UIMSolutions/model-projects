@@ -22,7 +22,7 @@ class DCategoryEntity : DOOPEntity {
         "backingTable_CategoryTableRelationshipId": UUIDAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
-      .registerPath("projects_categories");
+      .registerPath("categories");
   }
 }
 mixin(EntityCalls!("CategoryEntity"));

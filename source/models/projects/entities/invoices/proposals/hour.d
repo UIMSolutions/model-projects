@@ -31,7 +31,7 @@ class DProjectInvoiceProposalHourEntity : DOOPEntity {
         "backingTable_ProjProposalEmplRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_invoiceproposalhours");
+      .registerPath("projects_invoice.proposal.hours");
   }
 }
 mixin(EntityCalls!("ProjectInvoiceProposalHourEntity"));

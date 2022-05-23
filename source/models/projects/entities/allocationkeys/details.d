@@ -11,18 +11,18 @@ class DProjectAllocationKeyEntity : DOOPEntity {
 
     this
       .addValues([
-        "AllocationKey": StringAttribute, //
-        "Category": StringAttribute, //
-        "LineProperty": StringAttribute, //
-        "LineNumber": StringAttribute, //
-        "AllocationPercentage": StringAttribute, //
-        "ProjectID": StringAttribute, //
-        "Resource": StringAttribute, //
-        "ResourcePersonnelNumber": StringAttribute, //
+        "allocationKey": StringAttribute, //
+        "category": StringAttribute, //
+        "lineProperty": StringAttribute, //
+        "lineNumber": StringAttribute, //
+        "allocationPercentage": StringAttribute, //
+        "projectID": StringAttribute, //
+        "resource": StringAttribute, //
+        "resourcePersonnelNumber": StringAttribute, //
         "backingTable_ProjAllocateTransRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_allocationkeydetails");
+      .registerPath("projects_allocationkeys.details");
   }
 }
 mixin(EntityCalls!("ProjectAllocationKeyEntity"));
