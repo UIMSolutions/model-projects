@@ -11,21 +11,21 @@ class DProjectCDSEstimateExpensesImportEntity : DOOPEntity {
 
     this
       .addValues([
-        "TaskId": StringAttribute, //
-        "ProjectId": StringAttribute, //
-        "ExchangeRate": StringAttribute, //
-        "Description": StringAttribute, //
-        "Price": StringAttribute, //
-        "Quantity": StringAttribute, //
-        "CurrencyId": StringAttribute, //
-        "ModelId": StringAttribute, //
-        "TransType": StringAttribute, //
-        "DocumentDate": StringAttribute, //
-        "BillingType": StringAttribute, //
-        "TransactionCategory": StringAttribute, //
-        "EstimateLineId": StringAttribute, //
-        "BackingTable_ProjCDSEstimateExpensesImportRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "taskId": StringAttribute, //
+        "projectId": StringAttribute, //
+        "exchangeRate": StringAttribute, //
+        "description": StringAttribute, //
+        "price": StringAttribute, //
+        "quantity": StringAttribute, //
+        "currencyId": StringAttribute, //
+        "modelId": StringAttribute, //
+        "transType": StringAttribute, //
+        "documentDate": StringAttribute, //
+        "billingType": StringAttribute, //
+        "transactionCategory": StringAttribute, //
+        "estimateLineId": StringAttribute, //
+        "backingTable_ProjCDSEstimateExpensesImportRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_cds.estimate.expense.imports");
   }

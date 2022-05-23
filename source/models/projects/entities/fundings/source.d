@@ -61,7 +61,7 @@ class DProjectFundingSourceEntity : DOOPEntity {
         "backingTable_ProjFundingSourceRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
-      .registerPath("projects_costs.sales.sources");
+    .registerPath("projects_costs.sales.sources");
   }
 }
 mixin(EntityCalls!("ProjectFundingSourceEntity"));

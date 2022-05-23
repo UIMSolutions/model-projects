@@ -12,9 +12,9 @@ class DProjectJournalDescriptionEntity : DOOPEntity {
 
     this
       .addValues([
-        "Identification": StringAttribute, //
-        "SearchName": StringAttribute, //
-        "Description": StringAttribute, //
+        "identification": StringAttribute, //
+        "searchName": StringAttribute, //
+        "description": StringAttribute, //
         "backingTable_ProjJournalTxtRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])

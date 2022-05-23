@@ -13,7 +13,7 @@ class DProjectCFDANumberEntity : DOOPEntity {
       .addValues([
         "cfdaClusterName": StringAttribute, //
         "cfdaID": StringAttribute, //
-        "Description": StringAttribute, //
+        "description": StringAttribute, //
         "backingTable_ProjCFDANumberRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])

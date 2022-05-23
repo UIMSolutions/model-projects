@@ -11,23 +11,23 @@ class DProjectInvoiceProposalHourEntity : DOOPEntity {
 
     this
       .addValues([
-        "InvoiceProposalId": StringAttribute, //
-        "SalesTaxGroup": StringAttribute, //
-        "ItemSalesTaxGroup": StringAttribute, //
-        "ProjectTransactionId": StringAttribute, //
-        "Description": StringAttribute, //
-        "ProjectId": StringAttribute, //
-        "ProjectDate": StringAttribute, //
-        "ProjectLineProperty": StringAttribute, //
-        "ProjectCategoryId": StringAttribute, //
-        "Quantity": StringAttribute, //
-        "ActivityNumber": StringAttribute, //
-        "Resource": StringAttribute, //
-        "ResourceId": StringAttribute, //
-        "SalesPrice": StringAttribute, //
-        "LineAmount": StringAttribute, //
-        "LineNumber": StringAttribute, //
-        "IncludedTaxPercentage": StringAttribute, //
+        "invoiceProposalId": StringAttribute, //
+        "salesTaxGroup": StringAttribute, //
+        "itemSalesTaxGroup": StringAttribute, //
+        "projectTransactionId": StringAttribute, //
+        "description": StringAttribute, //
+        "projectId": StringAttribute, //
+        "projectDate": StringAttribute, //
+        "projectLineProperty": StringAttribute, //
+        "projectCategoryId": StringAttribute, //
+        "quantity": StringAttribute, //
+        "activityNumber": StringAttribute, //
+        "resource": StringAttribute, //
+        "resourceId": StringAttribute, //
+        "salesPrice": StringAttribute, //
+        "lineAmount": StringAttribute, //
+        "lineNumber": StringAttribute, //
+        "includedTaxPercentage": StringAttribute, //
         "backingTable_ProjProposalEmplRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])

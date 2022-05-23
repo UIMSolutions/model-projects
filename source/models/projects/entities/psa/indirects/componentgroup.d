@@ -11,8 +11,8 @@ class DPSAIndirectComponentGroupEntity : DOOPEntity {
 
     this
       .addValues([
-        "IndirectCostComponentGroup": StringAttribute, //
-        "IndirectComponentGroupName": StringAttribute, //
+        "indirectCostComponentGroup": StringAttribute, //
+        "indirectComponentGroupName": StringAttribute, //
         "backingTable_PSAIndirectComponentGroupRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])

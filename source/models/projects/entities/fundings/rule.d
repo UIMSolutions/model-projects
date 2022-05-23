@@ -11,29 +11,29 @@ class DProjectFundingRuleEntity : DOOPEntity {
 
     this
       .addValues([
-        "ActivityNumber": StringAttribute, //
-        "CategoryGroupId": StringAttribute, //
-        "CategoryId": StringAttribute, //
-        "ProjectContractId": StringAttribute, //
-        "EndDate": StringAttribute, //
-        "ItemId": StringAttribute, //
-        "Priority": StringAttribute, //
-        "PriorityKey": StringAttribute, //
-        "ProjectId": StringAttribute, //
-        "Resource": StringAttribute, //
-        "StartDate": StringAttribute, //
-        "TransactionType": StringAttribute, //
-        "ResourceId": StringAttribute, //
-        "AllocateRounding": StringAttribute, //
-        "AllocationPercentage": StringAttribute, //
-        "FundingSource": StringAttribute, //
-        "FundingSourceId": StringAttribute, //
-        "FundingSource_ContractId": StringAttribute, //
-        "FundingRule": StringAttribute, //
-        "Relationship_ProjectContractRelationshipId": StringAttribute, //
-        "Relationship_ProjectEntityRelationshipId": StringAttribute, //
-        "BackingTable_ProjFundingRuleAllocationRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "activityNumber": StringAttribute, //
+        "categoryGroupId": StringAttribute, //
+        "categoryId": StringAttribute, //
+        "projectContractId": StringAttribute, //
+        "endDate": StringAttribute, //
+        "itemId": StringAttribute, //
+        "priority": StringAttribute, //
+        "priorityKey": StringAttribute, //
+        "projectId": StringAttribute, //
+        "resource": StringAttribute, //
+        "startDate": StringAttribute, //
+        "transactionType": StringAttribute, //
+        "resourceId": StringAttribute, //
+        "allocateRounding": StringAttribute, //
+        "allocationPercentage": StringAttribute, //
+        "fundingSource": StringAttribute, //
+        "fundingSourceId": StringAttribute, //
+        "fundingSource_ContractId": StringAttribute, //
+        "fundingRule": StringAttribute, //
+        "relationship_ProjectContractRelationshipId": StringAttribute, //
+        "relationship_ProjectEntityRelationshipId": StringAttribute, //
+        "backingTable_ProjFundingRuleAllocationRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_fundings.rules");
   }

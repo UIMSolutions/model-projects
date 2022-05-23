@@ -11,13 +11,13 @@ class DProjectCDSCategoryEntity : DOOPEntity {
 
     this
       .addValues([
-        "CategoryId": UUIDAttribute, //
-        "SharedCategory": StringAttribute, //
-        "IntegrationId": UUIDAttribute, //
-        "BackingTable_CategoryTableRelationshipId": UUIDAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
+        "categoryId": UUIDAttribute, //
+        "sharedCategory": StringAttribute, //
+        "integrationId": UUIDAttribute, //
+        "backingTable_CategoryTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
-      .registerPath("projects_cdscategories");
+      .registerPath("projects_cds.categories");
   }
 }
 mixin(EntityCalls!("ProjectCDSCategoryEntity"));

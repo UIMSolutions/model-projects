@@ -11,15 +11,15 @@ class DPSAComponentectGroupAssignmentEntity : DOOPEntity {
 
     this
       .addValues([
-        "Category": StringAttribute, //
-        "CustomerAccount": StringAttribute, //
-        "IndirectCostComponentGroup": StringAttribute, //
-        "RuleSearchKey": StringAttribute, //
-        "ProjectID": StringAttribute, //
-        "ProjectContractID": StringAttribute, //
-        "Resource": StringAttribute, //
-        "EffectiveFrom": StringAttribute, //
-        "ResourcePersonnelNumber": StringAttribute, //
+        "category": StringAttribute, //
+        "customerAccount": StringAttribute, //
+        "indirectCostComponentGroup": StringAttribute, //
+        "ruleSearchKey": StringAttribute, //
+        "projectID": StringAttribute, //
+        "projectContractID": StringAttribute, //
+        "resource": StringAttribute, //
+        "effectiveFrom": StringAttribute, //
+        "resourcePersonnelNumber": StringAttribute, //
         "backingTable_PSAComponentGroupAssignmentRelationshipId": StringAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
