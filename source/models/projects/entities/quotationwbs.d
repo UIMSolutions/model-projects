@@ -1,7 +1,5 @@
 module models.projects.entities.ProjQuotationWbs;
 
-module models.projects.entities.quotationwbs;
-
 @safe:
 import models.projects;
 
