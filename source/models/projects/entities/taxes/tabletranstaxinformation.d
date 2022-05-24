@@ -12,62 +12,62 @@ class DProjectTaxTableTransTaxInformationEntity : DOOPEntity {
     this
       .addValues([
         "projectId": UUIDAttribute, //
-        "BankLocation": StringAttribute, //
-        "BankTaxInformation": StringAttribute, //
-        "CompanyLocation": StringAttribute, //
-        "CompanyTaxInformation": StringAttribute, //
-        "CSTSchedule": StringAttribute, //
-        "CustomerLocation": StringAttribute, //
-        "CustomerTaxInformation": StringAttribute, //
-        "CustomsIECRegistrationNumber": StringAttribute, //
-        "CustomsTariffCode": StringAttribute, //
-        "CustomsTariffDirection": StringAttribute, //
-        "Direction": StringAttribute, //
-        "ExciseCENVATCreditAvailed": StringAttribute, //
-        "ExciseConsignment": StringAttribute, //
-        "ExciseDirectSettlement": StringAttribute, //
-        "ExciseDisposalType": StringAttribute, //
-        "ExciseDSA": StringAttribute, //
-        "ExciseECCRegistrationNumber": StringAttribute, //
-        "ExciseIsScrap": StringAttribute, //
-        "ExciseRecordType": StringAttribute, //
-        "ExciseTariffCodes": StringAttribute, //
-        "ExciseType": StringAttribute, //
-        "Exempt": StringAttribute, //
-        "GSTINRegistrationNumber": StringAttribute, //
-        "HSNCode": StringAttribute, //
-        "InclTax": StringAttribute, //
-        "ITCCategory": StringAttribute, //
-        "NonBusinessUsagePercentage": StringAttribute, //
-        "SalesTaxFormTypes": StringAttribute, //
-        "SalesTaxRegistrationNumber": StringAttribute, //
-        "ServiceAccountingCode": StringAttribute, //
-        "ServiceCategory": StringAttribute, //
-        "ServiceCode": StringAttribute, //
-        "ServiceTaxConsignmentNoteNum": StringAttribute, //
-        "ServiceTaxGTAServiceCategory": StringAttribute, //
-        "ServiceTaxIsRecoverable": StringAttribute, //
-        "ServiceTaxRegistrationNumber": StringAttribute, //
-        "TANRegistrationNumber": StringAttribute, //
-        "TaxId": UUIDAttribute, //
-        "TaxInventVATItemId": UUIDAttribute, //
-        "TaxWithholdAcknowledgementNumber": StringAttribute, //
-        "TaxWithholdCountryRegionToRemittance": StringAttribute, //
-        "TaxWithholdNatureOfAssessee": StringAttribute, //
-        "TaxWithholdNatureOfRemittance": StringAttribute, //
-        "TaxWithholdSoftwareDeclReceived": StringAttribute, //
-        "Type": StringAttribute, //
-        "VATCommodityCode": StringAttribute, //
-        "VATGoodsType": StringAttribute, //
-        "VATNonRecoverablePercent": StringAttribute, //
-        "VATSchedule": StringAttribute, //
-        "VATTINRegistrationNumber": StringAttribute, //
-        "VendorLocation": StringAttribute, //
-        "VendorTaxInformation": StringAttribute, //
+        "bankLocation": StringAttribute, //
+        "bankTaxInformation": StringAttribute, //
+        "companyLocation": StringAttribute, //
+        "companyTaxInformation": StringAttribute, //
+        "cstSchedule": StringAttribute, //
+        "customerLocation": StringAttribute, //
+        "customerTaxInformation": StringAttribute, //
+        "customsIECRegistrationNumber": StringAttribute, //
+        "customsTariffCode": StringAttribute, //
+        "customsTariffDirection": StringAttribute, //
+        "direction": StringAttribute, //
+        "exciseCENVATCreditAvailed": StringAttribute, //
+        "exciseConsignment": StringAttribute, //
+        "exciseDirectSettlement": StringAttribute, //
+        "exciseDisposalType": StringAttribute, //
+        "exciseDSA": StringAttribute, //
+        "exciseECCRegistrationNumber": StringAttribute, //
+        "exciseIsScrap": StringAttribute, //
+        "exciseRecordType": StringAttribute, //
+        "exciseTariffCodes": StringAttribute, //
+        "exciseType": StringAttribute, //
+        "exempt": StringAttribute, //
+        "gstinRegistrationNumber": StringAttribute, //
+        "hsnCode": StringAttribute, //
+        "inclTax": StringAttribute, //
+        "itcCategory": StringAttribute, //
+        "nonBusinessUsagePercentage": StringAttribute, //
+        "salesTaxFormTypes": StringAttribute, //
+        "salesTaxRegistrationNumber": StringAttribute, //
+        "serviceAccountingCode": StringAttribute, //
+        "serviceCategory": StringAttribute, //
+        "serviceCode": StringAttribute, //
+        "serviceTaxConsignmentNoteNum": StringAttribute, //
+        "serviceTaxGTAServiceCategory": StringAttribute, //
+        "serviceTaxIsRecoverable": StringAttribute, //
+        "serviceTaxRegistrationNumber": StringAttribute, //
+        "tanRegistrationNumber": StringAttribute, //
+        "taxId": UUIDAttribute, //
+        "taxInventVATItemId": UUIDAttribute, //
+        "taxWithholdAcknowledgementNumber": StringAttribute, //
+        "taxWithholdCountryRegionToRemittance": StringAttribute, //
+        "taxWithholdNatureOfAssessee": StringAttribute, //
+        "taxWithholdNatureOfRemittance": StringAttribute, //
+        "taxWithholdSoftwareDeclReceived": StringAttribute, //
+        "type": StringAttribute, //
+        "vatCommodityCode": StringAttribute, //
+        "vatGoodsType": StringAttribute, //
+        "vatNonRecoverablePercent": StringAttribute, //
+        "vatSchedule": StringAttribute, //
+        "vatTINRegistrationNumber": StringAttribute, //
+        "vendorLocation": StringAttribute, //
+        "vendorTaxInformation": StringAttribute, //
         "backingTable_TransTaxInformationEntityRelationshipId": UUIDAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
-      .registerPath("projects_taxtabletranstaxinformation");
+      .registerPath("projects_taxes.tabletranstaxinformation");
   }
 }
 mixin(EntityCalls!("ProjectTaxTableTransTaxInformationEntity"));

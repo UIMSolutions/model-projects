@@ -1,4 +1,4 @@
-module models.projects.entities.psa.indirects.indirectComponentGroup;
+module models.projects.entities.psa.indirects.componentgroup;
 
 @safe:
 import models.projects;
@@ -16,7 +16,7 @@ class DPSAIndirectComponentGroupEntity : DOOPEntity {
         "backingTable_PSAIndirectComponentGroupRelationshipId": UUIDAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
-      .registerPath("projects_psaactuals");
+      .registerPath("projects_psa.indirects.componentgroups");
   }
 }
 mixin(EntityCalls!("PSAIndirectComponentGroupEntity"));

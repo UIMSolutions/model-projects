@@ -1,7 +1,5 @@
 module models.projects.entities.transfers.price;
 
-module models.projects.entities.task;
-
 @safe:
 import models.projects;
 

@@ -11,17 +11,13 @@ class DPSAVendPWPTxtEntity : DOOPEntity {
 
     this
       .addValues([
-        "category": StringAttribute, //
-        "customerAccount": StringAttribute, //
-        "indirectCostComponentGroup": StringAttribute, //
-        "ruleSearchKey": StringAttribute, //
-        "projectId": UUIDAttribute, //
-        "projectContractId": UUIDAttribute, //
-        "resource": StringAttribute, //
-        "effectiveFrom": StringAttribute, //
-        "resourcePersonnelNumber": StringAttribute, //
-        "backingTable_PSAComponentGroupAssignmentRelationshipId": UUIDAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
+        "accountCode": StringAttribute, //
+        "vendorAccount": StringAttribute, //
+        "payWhenPaidContractLanguage": StringAttribute, //
+        "vendorRetentionContractLanguage": StringAttribute, //
+        "vendorGroup": StringAttribute, //
+        "backingTable_PSAVendPWPTxtRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
      ])
       .registerPath("projects_pasvendpwptxts");
   }

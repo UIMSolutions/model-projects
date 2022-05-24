@@ -1,26 +1,25 @@
-module models.projects.entities.statustyperule;
+module models.projects.entities.resource;
 
 @safe:
 import models.projects;
 
-class DProjectStatusTypeRuleEntity : DOOPEntity {
-  mixin(EntityThis!("ProjectStatusTypeRuleEntity"));
+class DProjectResourceEntity : DOOPEntity {
+  mixin(EntityThis!("ProjectResourceEntity"));
 
   override void initialize() {
     super.initialize;
 
     this
       .addValues([
-        "ProjStatus": StringAttribute, //
-        "ProjStatusRule": StringAttribute, //
-        "ProjType": StringAttribute, //
-        "BackingTable_ProjStatusTypeRuleRelationshipId": UUIDAttribute, //
+        "ProjectId": UUIDAttribute, //
+        "PersonnelNumber": StringAttribute, //
+        "BackingTable_ProjResourceRelationshipId": UUIDAttribute, //
         "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
-      ])
-      .registerPath("projects_statustyperules");
+    ])
+      .registerPath("projects_resources");
   }
 }
-mixin(EntityCalls!("ProjectStatusTypeRuleEntity"));
+mixin(EntityCalls!("ProjectResourceEntity"));
 
 version(test_model_portals) {
   unittest {
@@ -36,4 +35,3 @@ version(test_model_portals) {
   repository.cleanupConnections; */
   }
 }
-

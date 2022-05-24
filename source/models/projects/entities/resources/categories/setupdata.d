@@ -1,4 +1,4 @@
-module models.projects.entities.resources.categories.data;
+module models.projects.entities.resources.categories.setupdata;
 
 @safe:
 import models.projects;

@@ -1,4 +1,4 @@
-module models.projects.entities.PSAIndirectCostComponen;
+module models.projects.entities.psa.indirects.costcomponent;
 
 @safe:
 import models.projects;
@@ -17,7 +17,7 @@ class DPSAIndirectCostComponentEntity : DOOPEntity {
         "backingTable_PSAIndirectComponentRelationshipId": UUIDAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
-      .registerPath("projects_psaactuals");
+      .registerPath("projects_psa.indirects.costcomponents");
   }
 }
 mixin(EntityCalls!("PSAIndirectCostComponentEntity"));
