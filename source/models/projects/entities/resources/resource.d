@@ -1,4 +1,4 @@
-module models.projects.entities.resource;
+module models.projects.entities.resources.resource;
 
 @safe:
 import models.projects;

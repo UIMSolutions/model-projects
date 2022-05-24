@@ -4,7 +4,7 @@ module models.projects.entities.teammembers.teammember;
 import models.projects;
 
 class DPRJTeamMember : DOOPEntity {
-  mixin(EntityThis!("DPRJTeamMember"));
+  mixin(EntityThis!("PRJTeamMember"));
   
   override void initialize() {
     super.initialize;
@@ -62,7 +62,7 @@ class DPRJTeamMember : DOOPEntity {
       .registerPath("project_teammembers");
   }
 }
-mixin(EntityCalls!("DPRJTeamMember"));
+mixin(EntityCalls!("PRJTeamMember"));
 
 
 version(test_library) {

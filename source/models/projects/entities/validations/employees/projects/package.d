@@ -1,4 +1,4 @@
-module models.projects.entities.validations.projects;
+module models.projects.entities.validations.employees.projects;
 
-public import models.projects.entities.validations.projects.project;
-public import models.projects.entities.validations.projects.setup;
+public import models.projects.entities.validations.employees.projects.project;
+public import models.projects.entities.validations.employees.projects.setup;

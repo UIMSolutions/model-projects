@@ -1,4 +1,4 @@
-module models.projects.entities.travels.projects.expenses.policies.group;
+module models.projects.entities.travels.expenses.policies.group;
 
 @safe:
 import models.projects;

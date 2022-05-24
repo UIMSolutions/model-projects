@@ -1,1 +1,1 @@
-module models.projects.atrributes;
+module models.projects.attributes;

@@ -1,4 +1,4 @@
-module models.projects.entities.linepropertysetup;
+module models.projects.entities.lines.propertysetup;
 
 @safe:
 import models.projects;

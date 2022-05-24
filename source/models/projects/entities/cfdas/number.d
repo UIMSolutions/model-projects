@@ -1,4 +1,4 @@
-module models.projects.entities.cfdas.ProjCFDANumber;
+module models.projects.entities.cfdas.number;
 
 @safe:
 import models.projects;

@@ -1,4 +1,4 @@
-module models.projects.entities.validations.projects.project;
+module models.projects.entities.validations.employees.projects.project;
 
 @safe:
 import models.projects;

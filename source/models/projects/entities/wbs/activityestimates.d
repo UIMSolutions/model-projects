@@ -3,8 +3,8 @@ module models.projects.entities.wbs.activityestimate;
 @safe:
 import models.projects;
 
-class DProjectWBSActivityEstimatesEntity : DOOPEntity {
-  mixin(EntityThis!("ProjectWBSActivityEstimatesEntity"));
+class DProjectWBSActivityEstimateEntity : DOOPEntity {
+  mixin(EntityThis!("ProjectWBSActivityEstimateEntity"));
 
   override void initialize() {
     super.initialize;
@@ -39,13 +39,13 @@ class DProjectWBSActivityEstimatesEntity : DOOPEntity {
       .registerPath("projects_wbs.activityestimates");
   }
 }
-mixin(EntityCalls!("ProjectWBSActivityEstimatesEntity"));
+mixin(EntityCalls!("ProjectWBSActivityEstimateEntity"));
 
 version(test_model_portals) {
   unittest {
-    assert(ProjectWBSActivityEstimatesEntity);
+    assert(ProjectWBSActivityEstimateEntity);
   
-  auto entity = ProjectWBSActivityEstimatesEntity;
+  auto entity = ProjectWBSActivityEstimateEntity;
   // auto repository = OOPFileRepository("./tests");
 /*  repository.create("entities", entity.entityClasses, entity.toJson);
 
