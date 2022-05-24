@@ -16,7 +16,7 @@ class DProjectVendorRetentionTermEntity : DOOPEntity {
         "backingTable_PSAVendorRetentionTermsTableRelationshipId": UUIDAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
-      .registerPath("projects_hcmpersonprojectroles");
+      .registerPath("projects_vendors.retentionterms");
   }
 }
 mixin(EntityCalls!("ProjectVendorRetentionTermEntity"));
