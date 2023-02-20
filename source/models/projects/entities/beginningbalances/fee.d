@@ -53,8 +53,7 @@ class DProjectBeginningBalanceFeeEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectBeginningBalanceFeeEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectBeginningBalanceFeeEntity);
   
   auto entity = ProjectBeginningBalanceFeeEntity;

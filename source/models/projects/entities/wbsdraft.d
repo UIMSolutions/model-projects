@@ -52,8 +52,7 @@ class DProjectWBSDraftEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectWBSDraftEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectIntercompanyParametersEntity);
   
   auto entity = ProjectIntercompanyParametersEntity;

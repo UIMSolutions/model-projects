@@ -46,8 +46,7 @@ class DProjectBeginningBalanceOnAccountEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectBeginningBalanceOnAccountEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectBeginningBalanceOnAccountEntity);
   
   auto entity = ProjectBeginningBalanceOnAccountEntity;

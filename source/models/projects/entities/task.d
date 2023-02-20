@@ -30,8 +30,7 @@ class DProjectTaskEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectTaskEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectIntercompanyParametersEntity);
   
   auto entity = ProjectIntercompanyParametersEntity;

@@ -21,8 +21,7 @@ class DProjectAllocationKeyEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectAllocationKeyEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectAllocationKeyEntity);
   
   auto entity = ProjectAllocationKeyEntity;

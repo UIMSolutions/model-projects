@@ -35,8 +35,7 @@ class DProjectUnpostedTransViewEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectUnpostedTransViewEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectIntercompanyParametersEntity);
   
   auto entity = ProjectIntercompanyParametersEntity;
