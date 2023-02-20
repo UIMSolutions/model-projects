@@ -8,7 +8,7 @@ class DPRJApproval : DOOPEntity {
   mixin(EntityThis!("PRJApproval"));
   
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

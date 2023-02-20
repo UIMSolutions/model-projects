@@ -7,7 +7,7 @@ class DPRJPriceList : DOOPEntity {
   mixin(EntityThis!("PRJPriceList"));
   
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

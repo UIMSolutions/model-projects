@@ -8,7 +8,7 @@ class DPRJProjectTaskStatusUser : DOOPEntity {
   mixin(EntityThis!("PRJProjectTaskStatusUser"));
   
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

@@ -8,7 +8,7 @@ class DPRJServiceApproval : DOOPEntity {
   mixin(EntityThis!("PRJServiceApproval"));
   
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

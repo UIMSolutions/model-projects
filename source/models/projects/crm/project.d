@@ -8,7 +8,7 @@ class DPRJProject : DOOPEntity {
   mixin(EntityThis!("PRJProject"));
   
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

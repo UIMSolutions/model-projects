@@ -8,7 +8,7 @@ class DPRJParameter : DOOPEntity {
   mixin(EntityThis!("PRJParameter"));
   
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

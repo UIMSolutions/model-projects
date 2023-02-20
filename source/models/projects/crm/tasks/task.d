@@ -8,7 +8,7 @@ class DPRJTask : DOOPEntity {
   mixin(EntityThis!("PRJTask"));
   
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

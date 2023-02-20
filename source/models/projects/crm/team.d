@@ -8,7 +8,7 @@ class DPRJTeam : DOOPEntity {
   mixin(EntityThis!("PRJTeam"));
   
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
