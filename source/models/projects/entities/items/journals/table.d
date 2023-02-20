@@ -7,7 +7,7 @@ class DProjectItemJournalTableEntity : DOOPEntity {
   mixin(EntityThis!("ProjectItemJournalTableEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

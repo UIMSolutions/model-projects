@@ -7,7 +7,7 @@ class DProjectJournalApprovalEntity : DOOPEntity {
   mixin(EntityThis!("ProjectJournalApprovalEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
