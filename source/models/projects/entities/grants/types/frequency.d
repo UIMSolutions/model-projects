@@ -7,7 +7,7 @@ class DProjectGrantTypeFrequencyEntity : DOOPEntity {
   mixin(EntityThis!("ProjectGrantTypeFrequencyEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

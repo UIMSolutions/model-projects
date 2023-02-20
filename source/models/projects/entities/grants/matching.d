@@ -7,7 +7,7 @@ class DProjectGrantMatchingEntity : DOOPEntity {
   mixin(EntityThis!("ProjectGrantMatchingEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
