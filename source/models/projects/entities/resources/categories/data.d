@@ -6,7 +6,7 @@ import models.projects;
 class DProjectResourceCategoryDataEntity : DOOPEntity {
   mixin(EntityThis!("ProjectResourceCategoryDataEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
