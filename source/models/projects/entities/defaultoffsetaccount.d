@@ -28,8 +28,7 @@ class DProjectDefaultOffsetAccountEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectDefaultOffsetAccountEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectDefaultOffsetAccountEntity);
   
   auto entity = ProjectDefaultOffsetAccountEntity;

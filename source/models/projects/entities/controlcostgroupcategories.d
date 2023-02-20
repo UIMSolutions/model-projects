@@ -27,8 +27,7 @@ class DProjectControlCostGroupCategoryEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectControlCostGroupCategoryEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectControlCostGroupCategoryEntity);
   
   auto entity = ProjectControlCostGroupCategoryEntity;

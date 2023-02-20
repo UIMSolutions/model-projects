@@ -32,8 +32,7 @@ class DProjectFormSetupEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectFormSetupEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectFormSetupEntity);
   
   auto entity = ProjectFormSetupEntity;

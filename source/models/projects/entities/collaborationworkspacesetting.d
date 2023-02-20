@@ -33,8 +33,7 @@ class DProjectCollaborationWorkspaceSettingEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectCollaborationWorkspaceSettingEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectCollaborationWorkspaceSettingEntity);
   
   auto entity = ProjectCollaborationWorkspaceSettingEntity;

@@ -27,8 +27,7 @@ class DCategoryEntity : DOOPEntity {
 }
 mixin(EntityCalls!("CategoryEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(CategoryEntity);
   
   auto entity = CategoryEntity;
