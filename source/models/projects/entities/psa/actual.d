@@ -6,7 +6,7 @@ import models.projects;
 class DPSAActualEntity : DOOPEntity {
   mixin(EntityThis!("PSAActualEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

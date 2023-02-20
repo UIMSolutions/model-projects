@@ -6,7 +6,7 @@ import models.projects;
 class DPSAForecastEntity : DOOPEntity {
   mixin(EntityThis!("PSAForecastEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

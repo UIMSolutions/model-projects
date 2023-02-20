@@ -6,7 +6,7 @@ import models.projects;
 class DProjectPeriodLineEntity : DOOPEntity {
   mixin(EntityThis!("ProjectPeriodLineEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
