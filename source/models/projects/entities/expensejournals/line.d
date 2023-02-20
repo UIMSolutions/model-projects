@@ -7,7 +7,7 @@ class DExpenseJournalLineEntity : DOOPEntity {
   mixin(EntityThis!("ExpenseJournalLineEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

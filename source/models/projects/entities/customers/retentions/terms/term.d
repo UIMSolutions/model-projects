@@ -7,7 +7,7 @@ class DProjectCustomerRetentionTermEntity : DOOPEntity {
   mixin(EntityThis!("ProjectCustomerRetentionTermEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

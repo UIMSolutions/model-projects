@@ -7,7 +7,7 @@ class DProjectForecastEmployeeEntity : DOOPEntity {
   mixin(EntityThis!("ProjectForecastEmployeeEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
