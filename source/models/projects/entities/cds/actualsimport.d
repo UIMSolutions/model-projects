@@ -7,7 +7,7 @@ import models.projects;
 class DProjectCDSActualsImportEntity : DOOPEntity {
   mixin(EntityThis!("ProjectCDSActualsImportEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
