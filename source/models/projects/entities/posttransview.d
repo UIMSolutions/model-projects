@@ -6,7 +6,7 @@ import models.projects;
 class DProjectPostTransViewEntity : DOOPEntity {
   mixin(EntityThis!("ProjectPostTransViewEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
