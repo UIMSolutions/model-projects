@@ -37,8 +37,7 @@ class DProjectLedgerPostingDefinitionEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectLedgerPostingDefinitionEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectLedgerPostingDefinitionEntity);
   
   auto entity = ProjectLedgerPostingDefinitionEntity;

@@ -50,8 +50,7 @@ class DProjectQuotationWbsEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectQuotationWbsEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectIntercompanyParametersEntity);
   
   auto entity = ProjectIntercompanyParametersEntity;

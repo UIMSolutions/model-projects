@@ -33,8 +33,7 @@ class DProjectPostTransViewEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectPostTransViewEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectPostTransViewEntity);
   
   auto entity = ProjectPostTransViewEntity;

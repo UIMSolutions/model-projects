@@ -22,8 +22,7 @@ class DProjectReportSortFieldEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectReportSortFieldEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectIntercompanyParametersEntity);
   
   auto entity = ProjectIntercompanyParametersEntity;

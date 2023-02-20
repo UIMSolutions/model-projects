@@ -229,8 +229,7 @@ class DProjectParameterEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectParameterEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectIntercompanyParametersEntity);
   
   auto entity = ProjectIntercompanyParametersEntity;

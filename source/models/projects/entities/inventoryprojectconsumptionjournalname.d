@@ -31,8 +31,7 @@ class DProjectInventoryProjectConsumptionJournalNameEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectInventoryProjectConsumptionJournalNameEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectInventoryProjectConsumptionJournalNameEntity);
   
   auto entity = ProjectInventoryProjectConsumptionJournalNameEntity;
