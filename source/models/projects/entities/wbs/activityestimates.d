@@ -6,7 +6,7 @@ import models.projects;
 class DProjectWBSActivityEstimateEntity : DOOPEntity {
   mixin(EntityThis!("ProjectWBSActivityEstimateEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

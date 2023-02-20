@@ -6,7 +6,7 @@ import models.projects;
 class DProjectVendorRetentionTermEntity : DOOPEntity {
   mixin(EntityThis!("ProjectVendorRetentionTermEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

@@ -6,7 +6,7 @@ import models.projects;
 class DProjectValidationProjectCategorySetupEntity : DOOPEntity {
   mixin(EntityThis!("ProjectValidationProjectCategorySetupEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
