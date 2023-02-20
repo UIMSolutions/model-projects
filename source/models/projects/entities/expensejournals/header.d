@@ -6,7 +6,7 @@ import models.projects;
 class DExpenseJournalHeaderEntity : DOOPEntity {
   mixin(EntityThis!("ExpenseJournalHeaderEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
