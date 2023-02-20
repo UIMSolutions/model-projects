@@ -73,8 +73,7 @@ class DProjectTaxJournalTransTaxInformationEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectTaxJournalTransTaxInformationEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectTaxJournalTransTaxInformationEntity);
   
   auto entity = ProjectTaxJournalTransTaxInformationEntity;

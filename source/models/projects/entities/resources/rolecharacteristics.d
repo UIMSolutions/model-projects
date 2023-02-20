@@ -25,8 +25,7 @@ class DProject_ResourceRoleCharacteristicsEntity : DOOPEntity {
 }
 mixin(EntityCalls!("Project_ResourceRoleCharacteristicsEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(Project_ResourceRoleCharacteristicsEntity);
   
   auto entity = Project_ResourceRoleCharacteristicsEntity;

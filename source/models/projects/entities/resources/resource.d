@@ -21,8 +21,7 @@ class DProjectResourceEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectResourceEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectIntercompanyParametersEntity);
   
   auto entity = ProjectIntercompanyParametersEntity;

@@ -34,8 +34,7 @@ class DProjectResourceSetupDataEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectResourceSetupDataEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectResourceSetupDataEntity);
   
   auto entity = ProjectResourceSetupDataEntity;
