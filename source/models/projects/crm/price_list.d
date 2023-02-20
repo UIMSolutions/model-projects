@@ -6,7 +6,7 @@ import models.projects;
 class DPRJPriceList : DOOPEntity {
   mixin(EntityThis!("PRJPriceList"));
   
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

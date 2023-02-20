@@ -7,7 +7,7 @@ import models.projects;
 class DPRJProjectTaskStatusUser : DOOPEntity {
   mixin(EntityThis!("PRJProjectTaskStatusUser"));
   
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

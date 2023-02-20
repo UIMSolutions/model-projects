@@ -7,7 +7,7 @@ import models.projects;
 class DPRJApproval : DOOPEntity {
   mixin(EntityThis!("PRJApproval"));
   
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

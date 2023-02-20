@@ -7,7 +7,7 @@ import models.projects;
 class DPRJParameter : DOOPEntity {
   mixin(EntityThis!("PRJParameter"));
   
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
