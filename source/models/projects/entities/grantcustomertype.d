@@ -6,7 +6,7 @@ import models.projects;
 class DProjectGrantCustomerTypeEntity : DOOPEntity {
   mixin(EntityThis!("ProjectGrantCustomerTypeEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

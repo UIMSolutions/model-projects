@@ -6,7 +6,7 @@ import models.projects;
 class DPRJTeamMember : DOOPEntity {
   mixin(EntityThis!("PRJTeamMember"));
   
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

@@ -6,7 +6,7 @@ import models.projects;
 class DProjectDefaultOffsetAccountEntity : DOOPEntity {
   mixin(EntityThis!("ProjectDefaultOffsetAccountEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
