@@ -6,7 +6,7 @@ import models.projects;
 class DProjectAllocationKeyEntity : DOOPEntity {
   mixin(EntityThis!("ProjectAllocationKeyEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

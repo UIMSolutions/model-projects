@@ -13,3 +13,5 @@ model-privacy-test-*
 *.o
 *.obj
 *.lst
+model-projects-test-offline
+dub.selections.json

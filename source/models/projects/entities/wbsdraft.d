@@ -6,7 +6,7 @@ import models.projects;
 class DProjectWBSDraftEntity : DOOPEntity {
   mixin(EntityThis!("ProjectWBSDraftEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
