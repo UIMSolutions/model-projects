@@ -7,7 +7,7 @@ class DPSAComponentectGroupAssignmentEntity : DOOPEntity {
   mixin(EntityThis!("PSAComponentectGroupAssignmentEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

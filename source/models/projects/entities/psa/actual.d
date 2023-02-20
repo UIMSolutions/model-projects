@@ -7,7 +7,7 @@ class DPSAActualEntity : DOOPEntity {
   mixin(EntityThis!("PSAActualEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

@@ -7,7 +7,7 @@ class DPSAForecastEntity : DOOPEntity {
   mixin(EntityThis!("PSAForecastEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

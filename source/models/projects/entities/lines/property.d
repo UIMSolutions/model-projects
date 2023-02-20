@@ -7,7 +7,7 @@ class DProjectLinePropertyEntity : DOOPEntity {
   mixin(EntityThis!("ProjectLinePropertyEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

@@ -7,7 +7,7 @@ class DPSAVendPWPTxtEntity : DOOPEntity {
   mixin(EntityThis!("PSAVendPWPTxtEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
@@ -16,8 +16,8 @@ class DPSAVendPWPTxtEntity : DOOPEntity {
         "payWhenPaidContractLanguage": StringAttribute, //
         "vendorRetentionContractLanguage": StringAttribute, //
         "vendorGroup": StringAttribute, //
-        "backingTable_PSAVendPWPTxtRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_PSAVendPWPTxtRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_pasvendpwptxts");
   }
