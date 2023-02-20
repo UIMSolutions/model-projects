@@ -7,7 +7,7 @@ class DCategoryEntity : DOOPEntity {
   mixin(EntityThis!("CategoryEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

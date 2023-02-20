@@ -7,7 +7,7 @@ class DProjectGrantCustomerTypeEntity : DOOPEntity {
   mixin(EntityThis!("ProjectGrantCustomerTypeEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

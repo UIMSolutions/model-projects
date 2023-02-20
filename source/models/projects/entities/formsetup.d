@@ -7,7 +7,7 @@ class DProjectFormSetupEntity : DOOPEntity {
   mixin(EntityThis!("ProjectFormSetupEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

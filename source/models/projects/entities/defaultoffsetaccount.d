@@ -7,7 +7,7 @@ class DProjectDefaultOffsetAccountEntity : DOOPEntity {
   mixin(EntityThis!("ProjectDefaultOffsetAccountEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

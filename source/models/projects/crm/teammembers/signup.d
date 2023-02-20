@@ -8,7 +8,7 @@ class DPRJTeamMemberSignUp : DOOPEntity {
   mixin(EntityThis!("PRJTeamMemberSignUp"));
   
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
