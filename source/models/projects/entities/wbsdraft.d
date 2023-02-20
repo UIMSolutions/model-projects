@@ -7,7 +7,7 @@ class DProjectWBSDraftEntity : DOOPEntity {
   mixin(EntityThis!("ProjectWBSDraftEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

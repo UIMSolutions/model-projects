@@ -7,7 +7,7 @@ class DProjectSalesItemRequirementEntity : DOOPEntity {
   mixin(EntityThis!("ProjectSalesItemRequirementEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

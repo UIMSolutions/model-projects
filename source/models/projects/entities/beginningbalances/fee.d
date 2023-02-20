@@ -7,7 +7,7 @@ class DProjectBeginningBalanceFeeEntity : DOOPEntity {
   mixin(EntityThis!("ProjectBeginningBalanceFeeEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

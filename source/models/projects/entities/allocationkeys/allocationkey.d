@@ -7,7 +7,7 @@ class DProjectAllocationKeyEntity : DOOPEntity {
   mixin(EntityThis!("ProjectAllocationKeyEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
