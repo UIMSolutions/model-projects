@@ -27,8 +27,7 @@ class DProjectJournalApprovalDetailsEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectJournalApprovalDetailsEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectJournalApprovalDetailsEntity);
   
   auto entity = ProjectJournalApprovalDetailsEntity;

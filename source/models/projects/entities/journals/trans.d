@@ -61,8 +61,7 @@ class DProjectJournalTransEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectJournalTransEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectJournalTransEntity);
   
   auto entity = ProjectJournalTransEntity;

@@ -27,8 +27,7 @@ class DProjectPeriodEmplEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectPeriodEmplEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectPeriodEmplEntity);
   
   auto entity = ProjectPeriodEmplEntity;

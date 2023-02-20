@@ -25,8 +25,7 @@ class DProjectLinePropertySetupEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectLinePropertySetupEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectIntercompanyParametersEntity);
   
   auto entity = ProjectIntercompanyParametersEntity;
