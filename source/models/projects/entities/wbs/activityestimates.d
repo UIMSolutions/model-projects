@@ -7,14 +7,14 @@ class DProjectWBSActivityEstimateEntity : DOOPEntity {
   mixin(EntityThis!("ProjectWBSActivityEstimateEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
-        "projectId": StringAttribute, //
-        "hierarchyId": StringAttribute, //
-        "taskId": StringAttribute, //
-        "wbsId": StringAttribute, //
+        "projectId": UUIDAttribute, //
+        "hierarchyId": UUIDAttribute, //
+        "taskId": UUIDAttribute, //
+        "wbsId": UUIDAttribute, //
         "taskName": StringAttribute, //
         "description": StringAttribute, //
         "itemNumber": StringAttribute, //
@@ -22,19 +22,19 @@ class DProjectWBSActivityEstimateEntity : DOOPEntity {
         "category": StringAttribute, //
         "transactionType": StringAttribute, //
         "quantity": StringAttribute, //
-        "resourceCategoryRecId": StringAttribute, //
-        "salesCategoryRecId": StringAttribute, //
+        "resourceCategoryRecId": UUIDAttribute, //
+        "salesCategoryRecId": UUIDAttribute, //
         "unitCostPrice": StringAttribute, //
         "unitSalesPrice": StringAttribute, //
         "resourceCategory": StringAttribute, //
         "salesCategory": StringAttribute, //
         "totalCostPrice": StringAttribute, //
         "totalSalesPrice": StringAttribute, //
-        "relationship_ProjectRelationshipId": StringAttribute, //
-        "relationship_ProjectCategoryRelationshipId": StringAttribute, //
-        "relationship_ResourceCategoryRelationshipId": StringAttribute, //
-        "backingTable_PSAActivityEstimatesRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_ProjectRelationshipId": UUIDAttribute, //
+        "relationship_ProjectCategoryRelationshipId": UUIDAttribute, //
+        "relationship_ResourceCategoryRelationshipId": UUIDAttribute, //
+        "backingTable_PSAActivityEstimatesRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("projects_wbs.activityestimates");
   }

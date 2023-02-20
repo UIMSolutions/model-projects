@@ -7,13 +7,13 @@ class DProjectWBSTemplateTaskEntity : DOOPEntity {
   mixin(EntityThis!("ProjectWBSTemplateTaskEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
-        "hierarchyId": StringAttribute, //
-        "taskId": StringAttribute, //
-        "wbsId": StringAttribute, //
+        "hierarchyId": UUIDAttribute, //
+        "taskId": UUIDAttribute, //
+        "wbsId": UUIDAttribute, //
         "notes": StringAttribute, //
         "task": StringAttribute, //
         "predecessors": StringAttribute, //
@@ -22,16 +22,16 @@ class DProjectWBSTemplateTaskEntity : DOOPEntity {
         "numberOfResources": StringAttribute, //
         "role": StringAttribute, //
         "activityStatus": StringAttribute, //
-        "parentTaskId": StringAttribute, //
+        "parentTaskId": UUIDAttribute, //
         "taskSiblingNumber": StringAttribute, //
         "resourceCategory": StringAttribute, //
         "taskPriority": StringAttribute, //
         "isCategoryMandatory": StringAttribute, //
         "isTemplate": StringAttribute, //
-        "relationship_ProjectCategoryRelationshipId": StringAttribute, //
-        "relationship_ResourceCategoryRelationshipId": StringAttribute, //
-        "backingTable_ProjPlanVersionRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_ProjectCategoryRelationshipId": UUIDAttribute, //
+        "relationship_ResourceCategoryRelationshipId": UUIDAttribute, //
+        "backingTable_ProjPlanVersionRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("projects_wbs.template.tasks");
   }

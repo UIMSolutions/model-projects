@@ -7,7 +7,7 @@ class DProjectVendorRetentionTermScheduleEntity : DOOPEntity {
   mixin(EntityThis!("ProjectVendorRetentionTermScheduleEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
@@ -15,9 +15,9 @@ class DProjectVendorRetentionTermScheduleEntity : DOOPEntity {
         "percentageToRelease": StringAttribute, //
         "ruleID": StringAttribute, //
         "percentageOfUnitsDelivered": StringAttribute, //
-        "relationship_ProjVendorRetentionTermEntityRelationshipId": StringAttribute, //
-        "backingTable_PSAVendorRetentionTermsLineRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_ProjVendorRetentionTermEntityRelationshipId": UUIDAttribute, //
+        "backingTable_PSAVendorRetentionTermsLineRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("projects_vendors.retentiontermschedules");
   }

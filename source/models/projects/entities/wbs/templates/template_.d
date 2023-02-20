@@ -7,17 +7,17 @@ class DProjectWBSTemplateEntity : DOOPEntity {
   mixin(EntityThis!("ProjectWBSTemplateEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
-        "hierarchyId": StringAttribute, //
+        "hierarchyId": UUIDAttribute, //
         "name": StringAttribute, //
         "description": StringAttribute, //
         "hierarchyType": StringAttribute, //
         "isActive": StringAttribute, //
         "isTemplate": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("projects_wbs.templates");
   }
