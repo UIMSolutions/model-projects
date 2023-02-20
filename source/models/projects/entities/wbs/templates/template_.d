@@ -24,8 +24,7 @@ class DProjectWBSTemplateEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectWBSTemplateEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectWBSTemplateEntity);
   
   auto entity = ProjectWBSTemplateEntity;

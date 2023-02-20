@@ -41,8 +41,7 @@ class DProjectWBSActivityEstimateEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectWBSActivityEstimateEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectWBSActivityEstimateEntity);
   
   auto entity = ProjectWBSActivityEstimateEntity;
