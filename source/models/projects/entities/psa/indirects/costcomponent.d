@@ -22,8 +22,7 @@ class DPSAIndirectCostComponentEntity : DOOPEntity {
 }
 mixin(EntityCalls!("PSAIndirectCostComponentEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(PSAIndirectCostComponentEntity);
   
   auto entity = PSAIndirectCostComponentEntity;

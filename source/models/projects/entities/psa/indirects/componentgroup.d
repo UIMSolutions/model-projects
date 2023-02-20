@@ -21,8 +21,7 @@ class DPSAIndirectComponentGroupEntity : DOOPEntity {
 }
 mixin(EntityCalls!("PSAIndirectComponentGroupEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(PSAIndirectComponentGroupEntity);
   
   auto entity = PSAIndirectComponentGroupEntity;

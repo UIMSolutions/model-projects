@@ -104,8 +104,7 @@ class DPSAForecastEntity : DOOPEntity {
 }
 mixin(EntityCalls!("PSAForecastEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(PSAForecastEntity);
   
   auto entity = PSAForecastEntity;

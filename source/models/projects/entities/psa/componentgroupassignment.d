@@ -28,8 +28,7 @@ class DPSAComponentectGroupAssignmentEntity : DOOPEntity {
 }
 mixin(EntityCalls!("PSAComponentectGroupAssignmentEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(PSAComponentectGroupAssignmentEntity);
   
   auto entity = PSAComponentectGroupAssignmentEntity;

@@ -24,8 +24,7 @@ class DPSAVendPWPTxtEntity : DOOPEntity {
 }
 mixin(EntityCalls!("PSAVendPWPTxtEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(PSAVendPWPTxtEntity);
   
   auto entity = PSAVendPWPTxtEntity;

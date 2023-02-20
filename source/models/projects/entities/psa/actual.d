@@ -110,8 +110,7 @@ class DPSAActualEntity : DOOPEntity {
 }
 mixin(EntityCalls!("PSAActualEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(PSAActualEntity);
   
   auto entity = PSAActualEntity;

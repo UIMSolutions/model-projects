@@ -23,8 +23,7 @@ class DProjectPeriodTimesheetWeekEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectPeriodTimesheetWeekEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectPeriodTimesheetWeekEntity);
   
   auto entity = ProjectPeriodTimesheetWeekEntity;
