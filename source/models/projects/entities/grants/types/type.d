@@ -30,8 +30,7 @@ class DProjectGrantTypeEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectGrantTypeEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectGrantTypeEntity);
   
   auto entity = ProjectGrantTypeEntity;

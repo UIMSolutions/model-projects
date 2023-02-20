@@ -42,8 +42,7 @@ class DProjectInvoiceProposalEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectInvoiceProposalEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectInvoiceProposalEntity);
   
   auto entity = ProjectInvoiceProposalEntity;
