@@ -6,7 +6,7 @@ import models.projects;
 class DProjectItemJournalTransEntity : DOOPEntity {
   mixin(EntityThis!("ProjectItemJournalTransEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
