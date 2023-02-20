@@ -21,8 +21,7 @@ class DProjectValidationProjectCategoryEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectValidationProjectCategoryEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectValidationProjectCategoryEntity);
   
   auto entity = ProjectValidationProjectCategoryEntity;
