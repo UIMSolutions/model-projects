@@ -7,7 +7,7 @@ class DProjectCDSEstimateHoursEntity : DOOPEntity {
   mixin(EntityThis!("ProjectCDSEstimateHoursEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
