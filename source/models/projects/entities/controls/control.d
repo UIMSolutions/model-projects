@@ -6,7 +6,7 @@ import models.projects;
 class DProjectControlEntity : DOOPEntity {
   mixin(EntityThis!("ProjectControlEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
