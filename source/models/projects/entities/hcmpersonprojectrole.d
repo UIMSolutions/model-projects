@@ -7,7 +7,7 @@ class DHcmPersonProjectRoleEntity : DOOPEntity {
   mixin(EntityThis!("HcmPersonProjectRoleEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

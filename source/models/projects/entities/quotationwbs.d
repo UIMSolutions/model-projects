@@ -7,7 +7,7 @@ class DProjectQuotationWbsEntity : DOOPEntity {
   mixin(EntityThis!("ProjectQuotationWbsEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

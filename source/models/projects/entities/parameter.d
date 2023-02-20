@@ -7,7 +7,7 @@ class DProjectParameterEntity : DOOPEntity {
   mixin(EntityThis!("ProjectParameterEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

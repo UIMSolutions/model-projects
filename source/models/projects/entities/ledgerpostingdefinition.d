@@ -7,7 +7,7 @@ class DProjectLedgerPostingDefinitionEntity : DOOPEntity {
   mixin(EntityThis!("ProjectLedgerPostingDefinitionEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

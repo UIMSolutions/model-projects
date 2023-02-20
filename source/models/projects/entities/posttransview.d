@@ -7,7 +7,7 @@ class DProjectPostTransViewEntity : DOOPEntity {
   mixin(EntityThis!("ProjectPostTransViewEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
