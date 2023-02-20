@@ -7,7 +7,7 @@ class DProjectTaxTableTransTaxInformationEntity : DOOPEntity {
   mixin(EntityThis!("ProjectTaxTableTransTaxInformationEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

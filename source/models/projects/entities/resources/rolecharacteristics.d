@@ -7,18 +7,18 @@ class DProject_ResourceRoleCharacteristicsEntity : DOOPEntity {
   mixin(EntityThis!("Project_ResourceRoleCharacteristicsEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
-        "characteristicId": StringAttribute, //
+        "characteristicId": UUIDAttribute, //
         "characteristicRequirement": StringAttribute, //
         "characteristicSet": StringAttribute, //
-        "roleId": StringAttribute, //
+        "roleId": UUIDAttribute, //
         "characteristic": StringAttribute, //
         "reqEntityType": StringAttribute, //
-        "backingTable_ResCharacteristicRequirementLineRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ResCharacteristicRequirementLineRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_resources.rolecharacteristics");
   }

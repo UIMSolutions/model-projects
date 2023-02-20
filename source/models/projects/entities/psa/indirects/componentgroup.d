@@ -7,7 +7,7 @@ class DPSAIndirectComponentGroupEntity : DOOPEntity {
   mixin(EntityThis!("PSAIndirectComponentGroupEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

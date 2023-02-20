@@ -7,16 +7,16 @@ class DProjectResourceCategoryDataEntity : DOOPEntity {
   mixin(EntityThis!("ProjectResourceCategoryDataEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
-        "roleId": StringAttribute, //
+        "roleId": UUIDAttribute, //
         "description": StringAttribute, //
         "defaultResourceCategory": StringAttribute, //
         "isCategoryDisabled": StringAttribute, //
-        "backingTable_PSASchedRoleRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_PSASchedRoleRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_resources.categories.data");
   }

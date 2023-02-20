@@ -7,7 +7,7 @@ class DProjectResourceSetupDataEntity : DOOPEntity {
   mixin(EntityThis!("ProjectResourceSetupDataEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
@@ -16,18 +16,18 @@ class DProjectResourceSetupDataEntity : DOOPEntity {
         "period": StringAttribute, //
         "resource": StringAttribute, //
         "maxHoursCalendar": StringAttribute, //
-        "defaultTimeCategoryId": StringAttribute, //
+        "defaultTimeCategoryId": UUIDAttribute, //
         "resourceLegalEntityDataArea": StringAttribute, //
-        "periodId": StringAttribute, //
-        "resourceId": StringAttribute, //
+        "periodId": UUIDAttribute, //
+        "resourceId": UUIDAttribute, //
         "resourceName": StringAttribute, //
         "useResourceRate": StringAttribute, //
         "validateProjectResource": StringAttribute, //
         "validateResourceCategory": StringAttribute, //
-        "maxHoursCalendarId": StringAttribute, //
+        "maxHoursCalendarId": UUIDAttribute, //
         "maxWorkingHours": StringAttribute, //
         "requireStartStopTime": StringAttribute, //
-        "backingTable_ResourceSetupRelationshipId": StringAttribute, //     
+        "backingTable_ResourceSetupRelationshipId": UUIDAttribute, //     
       ])
       .registerPath("projects_resources.setupdata");
   }

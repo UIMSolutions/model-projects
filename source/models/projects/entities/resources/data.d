@@ -7,19 +7,19 @@ class DProjectResourceDataEntity : DOOPEntity {
   mixin(EntityThis!("ProjectResourceDataEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
-        "resourceId": StringAttribute, 
+        "resourceId": UUIDAttribute, 
         "type": StringAttribute, 
         "name": StringAttribute, 
         "worker": StringAttribute, 
         "personnelNumber": StringAttribute, 
-        "vendId": StringAttribute, 
-        "recordId": StringAttribute, 
-        "resourceCompanyId": StringAttribute, 
-        "backingTable_ResResourceIdentifierRelationshipId": StringAttribute, 
+        "vendId": UUIDAttribute, 
+        "recordId": UUIDAttribute, 
+        "resourceCompanyId": UUIDAttribute, 
+        "backingTable_ResResourceIdentifierRelationshipId": UUIDAttribute, 
      ])
       .registerPath("projects_resources.data");
   }
