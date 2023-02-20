@@ -6,7 +6,7 @@ import models.projects;
 class DProjectGrantMatchingEntity : DOOPEntity {
   mixin(EntityThis!("ProjectGrantMatchingEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

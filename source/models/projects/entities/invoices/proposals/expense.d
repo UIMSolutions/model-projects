@@ -6,7 +6,7 @@ import models.projects;
 class DProjectInvoiceProposalExpenseEntity : DOOPEntity {
   mixin(EntityThis!("ProjectInvoiceProposalExpenseEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
