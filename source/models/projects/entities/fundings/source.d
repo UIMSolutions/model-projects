@@ -66,8 +66,7 @@ class DProjectFundingSourceEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectFundingSourceEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectFundingSourceEntity);
   
   auto entity = ProjectFundingSourceEntity;

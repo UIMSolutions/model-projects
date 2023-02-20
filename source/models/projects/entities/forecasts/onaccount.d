@@ -39,8 +39,7 @@ class DProjectForecastOnAccountEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectForecastOnAccountEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectForecastOnAccountEntity);
   
   auto entity = ProjectForecastOnAccountEntity;

@@ -80,8 +80,7 @@ class DProjectForecastSalesEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectForecastSalesEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectForecastSalesEntity);
   
   auto entity = ProjectForecastSalesEntity;

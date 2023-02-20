@@ -30,8 +30,7 @@ class DExpenseJournalHeaderEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ExpenseJournalHeaderEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ExpenseJournalHeaderEntity);
   
   auto entity = ExpenseJournalHeaderEntity;
