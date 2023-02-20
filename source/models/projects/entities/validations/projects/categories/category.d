@@ -7,7 +7,7 @@ class DProjectValidationProjectCategoryEntity : DOOPEntity {
   mixin(EntityThis!("ProjectValidationProjectCategoryEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

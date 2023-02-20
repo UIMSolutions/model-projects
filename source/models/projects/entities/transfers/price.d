@@ -7,7 +7,7 @@ class DProjectTransferPriceEntity : DOOPEntity {
   mixin(EntityThis!("ProjectTransferPriceEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

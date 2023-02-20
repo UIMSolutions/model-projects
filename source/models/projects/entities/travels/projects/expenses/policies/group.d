@@ -7,14 +7,14 @@ class DProjectTravelExpensePolicyGroupEntity : DOOPEntity {
   mixin(EntityThis!("ProjectTravelExpensePolicyGroupEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
-        "GroupId": StringAttribute, //
+        "GroupId": UUIDAttribute, //
         "Name": StringAttribute, //
-        "BackingTable_ProjExpPolicyGroupsRelationshipId": StringAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "BackingTable_ProjExpPolicyGroupsRelationshipId": UUIDAttribute, //
+        "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
     ])
       .registerPath("projects_travels.projects.expenses.policies.groups");
   }

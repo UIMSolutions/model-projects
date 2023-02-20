@@ -7,7 +7,7 @@ class DProjectTravelExpensePolicyEntity : DOOPEntity {
   mixin(EntityThis!("ProjectTravelExpensePolicyEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
@@ -29,8 +29,8 @@ class DProjectTravelExpensePolicyEntity : DOOPEntity {
         "startDate": StringAttribute, //
         "worker": StringAttribute, //
         "personnelNumber": StringAttribute, //
-        "backingTable_ProjExpPoliciesRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "backingTable_ProjExpPoliciesRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
     ])
       .registerPath("projects_travels.expenses.policies");
   }

@@ -7,7 +7,7 @@ class DProjectValidationEmployeeProjectSetupEntity : DOOPEntity {
   mixin(EntityThis!("ProjectValidationEmployeeProjectSetupEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
