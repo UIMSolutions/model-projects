@@ -50,8 +50,7 @@ class DProjectContractHeaderEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectContractHeaderEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectContractHeaderEntity);
   
   auto entity = ProjectContractHeaderEntity;

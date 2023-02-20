@@ -24,8 +24,7 @@ class DProjectCustomerRetentionTermScheduleEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectCustomerRetentionTermScheduleEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectCustomerRetentionTermScheduleEntity);
   
   auto entity = ProjectCustomerRetentionTermScheduleEntity;

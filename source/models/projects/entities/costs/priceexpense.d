@@ -28,8 +28,7 @@ class DProjectCostPriceExpenseEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectCostPriceExpenseEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectCostPriceExpenseEntity);
   
   auto entity = ProjectCostPriceExpenseEntity;

@@ -22,8 +22,7 @@ class DProjectCFDANumberEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectCFDANumberEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectCFDANumberEntity);
   
   auto entity = ProjectCFDANumberEntity;
