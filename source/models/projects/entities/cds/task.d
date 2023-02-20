@@ -24,8 +24,7 @@ class DProjectCDSTaskEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectCDSTaskEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectCDSTaskEntity);
   
   auto entity = ProjectCDSTaskEntity;

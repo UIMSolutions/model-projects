@@ -25,8 +25,7 @@ class DProjectCDSContractLineMilestoneImportEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectCDSContractLineMilestoneImportEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectCDSContractLineMilestoneImportEntity);
   
   auto entity = ProjectCDSContractLineMilestoneImportEntity;

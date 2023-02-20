@@ -25,8 +25,7 @@ class DProjectCDSTransactionRelationshipImportEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProjectCDSTransactionRelationshipImportEntity"));
 
-version(test_model_portals) {
-  unittest {
+version(test_model_portals) { unittest {
     assert(ProjectCDSTransactionRelationshipImportEntity);
   
   auto entity = ProjectCDSTransactionRelationshipImportEntity;
