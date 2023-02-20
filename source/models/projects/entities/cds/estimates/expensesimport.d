@@ -7,7 +7,7 @@ class DProjectCDSEstimateExpensesImportEntity : DOOPEntity {
   mixin(EntityThis!("ProjectCDSEstimateExpensesImportEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

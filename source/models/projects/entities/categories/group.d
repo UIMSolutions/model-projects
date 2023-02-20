@@ -7,7 +7,7 @@ class DProjectCategoryGroupEntity : DOOPEntity {
   mixin(EntityThis!("ProjectCategoryGroupEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

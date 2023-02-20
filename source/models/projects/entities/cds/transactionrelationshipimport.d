@@ -7,7 +7,7 @@ class DProjectCDSTransactionRelationshipImportEntity : DOOPEntity {
   mixin(EntityThis!("ProjectCDSTransactionRelationshipImportEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

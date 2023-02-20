@@ -7,7 +7,7 @@ class DProjectCDSContractLineImportEntity : DOOPEntity {
   mixin(EntityThis!("ProjectCDSContractLineImportEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

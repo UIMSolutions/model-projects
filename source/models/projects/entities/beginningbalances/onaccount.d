@@ -7,7 +7,7 @@ class DProjectBeginningBalanceOnAccountEntity : DOOPEntity {
   mixin(EntityThis!("ProjectBeginningBalanceOnAccountEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
