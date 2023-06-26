@@ -1,8 +1,5 @@
 module models.projects.crm;
 
-@safe:
-import models.projects;
-
 // Main
 public import models.projects.entities.project;
 
