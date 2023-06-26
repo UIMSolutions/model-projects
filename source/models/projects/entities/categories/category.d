@@ -11,24 +11,24 @@ class DProjectCategoryEntity : DOOPEntity {
 
     this
       .addValues([
-        "ActiveInJournals": StringAttribute, //
-        "CategoryGroup": StringAttribute, //
-        "Category": StringAttribute, //
-        "TransactionType": StringAttribute, //
-        "CategoryName": StringAttribute, //
-        "Worker": StringAttribute, //
-        "CustomerPaymentRetention": StringAttribute, //
-        "IndirectCostComponent": StringAttribute, //
-        "Estimate": StringAttribute, //
-        "Subscription": StringAttribute, //
-        "ItemSalesTaxGroup": StringAttribute, //
-        "Absence": StringAttribute, //
-        "FiscalInformationServiceCode": StringAttribute, //
-        "ItemWithholdingTaxGroup": StringAttribute, //
-        "ItemWithholdingTaxGroupId": UUIDAttribute, //
-        "TaxRateTypeName": StringAttribute, //
-        "BackingTable_ProjCategoryRelationshipId": UUIDAttribute, //
-        "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
+        "activeInJournals": StringAttribute, //
+        "categoryGroup": StringAttribute, //
+        "category": StringAttribute, //
+        "transactionType": StringAttribute, //
+        "categoryName": StringAttribute, //
+        "worker": StringAttribute, //
+        "customerPaymentRetention": StringAttribute, //
+        "indirectCostComponent": StringAttribute, //
+        "estimate": StringAttribute, //
+        "subscription": StringAttribute, //
+        "itemSalesTaxGroup": StringAttribute, //
+        "absence": StringAttribute, //
+        "fiscalInformationServiceCode": StringAttribute, //
+        "itemWithholdingTaxGroup": StringAttribute, //
+        "itemWithholdingTaxGroupId": UUIDAttribute, //
+        "taxRateTypeName": StringAttribute, //
+        "backingTable_ProjCategoryRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])
       .registerPath("projects_categories");
   }
