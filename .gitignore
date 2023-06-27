@@ -14,9 +14,11 @@
 # Executables
 *.exe
 
+# DUB
 .dub
 docs.json
-__dummy.html
+dub.selections.json
+
 /model-privacy
 model-privacy.so
 model-privacy.dylib
