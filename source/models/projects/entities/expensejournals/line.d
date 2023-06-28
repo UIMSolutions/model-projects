@@ -1,8 +1,8 @@
 module models.projects.entities.expensejournals.line;
 
 import models.projects;
-@safe:
 
+@safe:
 class DExpenseJournalLineEntity : DEntity {
   mixin(EntityThis!("ExpenseJournalLineEntity"));
 

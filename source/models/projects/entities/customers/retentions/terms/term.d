@@ -1,8 +1,8 @@
 module models.projects.entities.customers.retentions.terms.term;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectCustomerRetentionTermEntity : DEntity {
   mixin(EntityThis!("ProjectCustomerRetentionTermEntity"));
 

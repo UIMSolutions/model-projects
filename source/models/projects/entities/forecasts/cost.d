@@ -1,8 +1,8 @@
 module models.projects.entities.forecasts.cost;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectForecastCostEntity : DEntity {
   mixin(EntityThis!("ProjectForecastCostEntity"));
 

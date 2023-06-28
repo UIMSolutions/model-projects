@@ -1,8 +1,8 @@
 module models.projects.entities.costs.salesprice;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectCostSalesPriceEntity : DEntity {
   mixin(EntityThis!("ProjectCostSalesPriceEntity"));
 
