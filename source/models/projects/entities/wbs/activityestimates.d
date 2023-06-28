@@ -1,8 +1,8 @@
 module models.projects.entities.wbs.activityestimate;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectWBSActivityEstimateEntity : DEntity {
   mixin(EntityThis!("ProjectWBSActivityEstimateEntity"));
 

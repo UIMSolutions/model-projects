@@ -1,8 +1,8 @@
 module models.projects.entities.validations.projects.categories.setup;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectValidationProjectCategorySetupEntity : DEntity {
   mixin(EntityThis!("ProjectValidationProjectCategorySetupEntity"));
 
