@@ -1,7 +1,6 @@
 module models.projects.entities.journals;
 
-@safe:
-import models.projects;
+
 
 public import models.projects.entities.journals.approvals;
 
