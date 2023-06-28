@@ -1,7 +1,6 @@
 module models.projects.entities.forecasts;
 
-@safe:
-import models.projects;
+
 
 public import models.projects.entities.forecasts.cost;
 public import models.projects.entities.forecasts.employee;

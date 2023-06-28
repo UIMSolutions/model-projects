@@ -1,7 +1,6 @@
 module models.projects.entities.invoices.proposals;
 
-@safe:
-import models.projects;
+
 
 // Main Entity
 public import models.projects.entities.invoices.proposals.proposal;
