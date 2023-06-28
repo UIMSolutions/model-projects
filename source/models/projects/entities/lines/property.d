@@ -3,7 +3,7 @@ module models.projects.entities.lines.property;
 @safe:
 import models.projects;
 
-class DProjectLinePropertyEntity : DOOPEntity {
+class DProjectLinePropertyEntity : DEntity {
   mixin(EntityThis!("ProjectLinePropertyEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

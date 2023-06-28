@@ -4,7 +4,7 @@ module models.projects.entities.invoices.proposals.proposal;
 @safe:
 import models.projects;
 
-class DProjectInvoiceProposalEntity : DOOPEntity {
+class DProjectInvoiceProposalEntity : DEntity {
   mixin(EntityThis!("ProjectInvoiceProposalEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

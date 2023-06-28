@@ -3,7 +3,7 @@ module models.projects.entities.journals.approvals.approval;
 @safe:
 import models.projects;
 
-class DProjectJournalApprovalEntity : DOOPEntity {
+class DProjectJournalApprovalEntity : DEntity {
   mixin(EntityThis!("ProjectJournalApprovalEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

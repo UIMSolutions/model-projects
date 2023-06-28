@@ -3,7 +3,7 @@ module models.projects.entities.journals.trans;
 @safe:
 import models.projects;
 
-class DProjectJournalTransEntity : DOOPEntity {
+class DProjectJournalTransEntity : DEntity {
   mixin(EntityThis!("ProjectJournalTransEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {
