@@ -21,7 +21,7 @@ class DProjectCostSalesPriceEntity : DEntity {
         "customerAccount": StringAttribute, //
         "projectContractId": UUIDAttribute, //
         "resource": StringAttribute, //
-        "transactionDate": StringAttribute, //
+        "transactionDate": DateAttribute, //
         "resourceId": UUIDAttribute, //
         "backingTable_ProjCostSalesPriceRelationshipId": UUIDAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //

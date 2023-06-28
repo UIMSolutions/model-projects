@@ -24,7 +24,7 @@ class DProjectForecastSalesEntity : DEntity {
         "defaultDimension": StringAttribute, //
         "discountAmount": StringAttribute, //
         "discountPercent": StringAttribute, //
-        "endDate": StringAttribute, //
+        "endDate": DateAttribute, //
         "periods": StringAttribute, //
         "unit": StringAttribute, //
         "inventDimensionId": UUIDAttribute, //
@@ -41,10 +41,10 @@ class DProjectForecastSalesEntity : DEntity {
         "priceUnit": StringAttribute, //
         "projectCategoryId": UUIDAttribute, //
         "projectForecastBudgetType": StringAttribute, //
-        "projectForecastCostPaymentDate": StringAttribute, //
-        "projectForecastEliminationDate": StringAttribute, //
-        "projectForecastInvoiceDate": StringAttribute, //
-        "projectForecastSalesPaymentDate": StringAttribute, //
+        "projectForecastCostPaymentDate": DateAttribute, //
+        "projectForecastEliminationDate": DateAttribute, //
+        "projectForecastInvoiceDate": DateAttribute, //
+        "projectForecastSalesPaymentDate": DateAttribute, //
         "projectFundingSource": StringAttribute, //
         "projectId": UUIDAttribute, //
         "projectLinePropertyId": UUIDAttribute, //
@@ -54,7 +54,7 @@ class DProjectForecastSalesEntity : DEntity {
         "salesPrice": StringAttribute, //
         "salesQuantity": StringAttribute, //
         "salesUnitId": UUIDAttribute, //
-        "startDate": StringAttribute, //
+        "startDate": DateAttribute, //
         "taxGroupId": UUIDAttribute, //
         "taxItemGroupId": UUIDAttribute, //
         "fundingSourceId": UUIDAttribute, //

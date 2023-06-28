@@ -15,15 +15,15 @@ class DProjectForecastCostEntity : DEntity {
         "activityNumber": StringAttribute, //
         "method": StringAttribute, //
         "category": StringAttribute, //
-        "costPaymentDate": StringAttribute, //
+        "costPaymentDate": DateAttribute, //
         "costPrice": StringAttribute, //
         "salesCurrency": StringAttribute, //
-        "eliminationDate": StringAttribute, //
-        "endDate": StringAttribute, //
+        "eliminationDate": DateAttribute, //
+        "endDate": DateAttribute, //
         "exchangeRate": StringAttribute, //
         "allocationQuantity": StringAttribute, //
         "unit": StringAttribute, //
-        "invoiceDate": StringAttribute, //
+        "invoiceDate": DateAttribute, //
         "lineProperty": StringAttribute, //
         "forecastModel": StringAttribute, //
         "periodKey": StringAttribute, //
@@ -31,9 +31,9 @@ class DProjectForecastCostEntity : DEntity {
         "fundingSource": StringAttribute, //
         "projectId": UUIDAttribute, //
         "resource": StringAttribute, //
-        "salesPaymentDate": StringAttribute, //
+        "salesPaymentDate": DateAttribute, //
         "salesPrice": StringAttribute, //
-        "projectDate": StringAttribute, //
+        "projectDate": DateAttribute, //
         "stop": StringAttribute, //
         "description": StringAttribute, //
         "projectContractId": UUIDAttribute, //

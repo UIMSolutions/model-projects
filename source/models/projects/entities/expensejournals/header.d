@@ -18,7 +18,7 @@ class DExpenseJournalHeaderEntity : DEntity {
         "isPosted": StringAttribute, //
         "legalEntityForIntercompanyTax": StringAttribute, //
         "isReversingEntry": StringAttribute, //
-        "reversingDate": StringAttribute, //
+        "reversingDate": DateAttribute, //
         "reportedAsReadyBy": StringAttribute, //
         "rejectedBy": StringAttribute, //
         "approvedBy": StringAttribute, //

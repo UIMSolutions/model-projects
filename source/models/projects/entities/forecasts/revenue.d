@@ -16,21 +16,21 @@ class DProjectForecastRevenueEntity : DEntity {
         "method": StringAttribute, //
         "category": StringAttribute, //
         "salesCurrency": StringAttribute, //
-        "eliminationDate": StringAttribute, //
+        "eliminationDate": DateAttribute, //
         "end": StringAttribute, //
         "exchangeRate": StringAttribute, //
         "quantity": StringAttribute, //
         "unit": StringAttribute, //
-        "invoiceDate": StringAttribute, //
+        "invoiceDate": DateAttribute, //
         "lineProperty": StringAttribute, //
         "forecastModel": StringAttribute, //
         "periodKey": StringAttribute, //
         "budgetType": StringAttribute, //
         "projectId": UUIDAttribute, //
         "resource": StringAttribute, //
-        "salesPaymentDate": StringAttribute, //
+        "salesPaymentDate": DateAttribute, //
         "salesPrice": StringAttribute, //
-        "projectDate": StringAttribute, //
+        "projectDate": DateAttribute, //
         "stop": StringAttribute, //
         "transactionId": UUIDAttribute, //
         "description": StringAttribute, //

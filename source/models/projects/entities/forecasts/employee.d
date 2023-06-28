@@ -14,14 +14,14 @@ class DProjectForecastEmployeeEntity : DEntity {
         "active": StringAttribute, //
         "activityNumber": StringAttribute, //
         "category": StringAttribute, //
-        "costPaymentDate": StringAttribute, //
+        "costPaymentDate": DateAttribute, //
         "costPrice": StringAttribute, //
         "cashFlowForecastStatus": StringAttribute, //
         "salesCurrency": StringAttribute, //
         "defaultDimension": StringAttribute, //
-        "eliminationDate": StringAttribute, //
+        "eliminationDate": DateAttribute, //
         "exchangeRate": StringAttribute, //
-        "invoiceDate": StringAttribute, //
+        "invoiceDate": DateAttribute, //
         "jobIdentification": StringAttribute, //
         "lineNumber": StringAttribute, //
         "lineProperty": StringAttribute, //
@@ -31,15 +31,15 @@ class DProjectForecastEmployeeEntity : DEntity {
         "projectId": UUIDAttribute, //
         "hours": StringAttribute, //
         "specialReport": StringAttribute, //
-        "salesPaymentDate": StringAttribute, //
+        "salesPaymentDate": DateAttribute, //
         "salesPrice": StringAttribute, //
         "capacity": StringAttribute, //
-        "projectDate": StringAttribute, //
+        "projectDate": DateAttribute, //
         "startTime": StringAttribute, //
         "link": StringAttribute, //
         "linkType": StringAttribute, //
         "hoursScheduled": StringAttribute, //
-        "endDate": StringAttribute, //
+        "endDate": DateAttribute, //
         "endTime": StringAttribute, //
         "workingTime": StringAttribute, //
         "schedulingResource": StringAttribute, //

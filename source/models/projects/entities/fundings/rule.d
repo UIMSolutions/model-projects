@@ -15,13 +15,13 @@ class DProjectFundingRuleEntity : DEntity {
         "categoryGroupId": UUIDAttribute, //
         "categoryId": UUIDAttribute, //
         "projectContractId": UUIDAttribute, //
-        "endDate": StringAttribute, //
+        "endDate": DateAttribute, //
         "itemId": UUIDAttribute, //
         "priority": StringAttribute, //
         "priorityKey": StringAttribute, //
         "projectId": UUIDAttribute, //
         "resource": StringAttribute, //
-        "startDate": StringAttribute, //
+        "startDate": DateAttribute, //
         "transactionType": StringAttribute, //
         "resourceId": UUIDAttribute, //
         "allocateRounding": StringAttribute, //

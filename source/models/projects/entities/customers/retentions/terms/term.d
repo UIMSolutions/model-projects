@@ -17,7 +17,7 @@ class DProjectCustomerRetentionTermEntity : DEntity {
         "description": StringAttribute, //
         "projectId": UUIDAttribute, //
         "retentionTerm": StringAttribute, //
-        "effectiveDate": StringAttribute, //
+        "effectiveDate": DateAttribute, //
         "backingTable_PSACustomerRetentionTermTableRelationshipId": UUIDAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])

@@ -20,7 +20,7 @@ class DExpenseJournalLineEntity : DEntity {
         "offsetAccount": StringAttribute, //
         "offsetTransactionText": StringAttribute, //
         "quantity": StringAttribute, //
-        "voucherDate": StringAttribute, //
+        "voucherDate": DateAttribute, //
         "text": StringAttribute, //
         "voucher": StringAttribute, //
         "accountDisplayValue": StringAttribute, //
@@ -38,10 +38,10 @@ class DExpenseJournalLineEntity : DEntity {
         "projectSalesCurrencyCode": StringAttribute, //
         "dimension": StringAttribute, //
         "dimensionDisplayValue": StringAttribute, //
-        "projectDate": StringAttribute, //
+        "projectDate": DateAttribute, //
         "projectSalesPrice": StringAttribute, //
         "invoice": StringAttribute, //
-        "dueDate": StringAttribute, //
+        "dueDate": DateAttribute, //
         "payment": StringAttribute, //
         "paymentId": UUIDAttribute, //
         "taxExcemptNumber": StringAttribute, //
@@ -49,10 +49,10 @@ class DExpenseJournalLineEntity : DEntity {
         "itemSalesTaxGroup": StringAttribute, //
         "cashDiscount": StringAttribute, //
         "cashDiscountAmount": StringAttribute, //
-        "cashDiscountDate": StringAttribute, //
+        "cashDiscountDate": DateAttribute, //
         "purchaseOrder": StringAttribute, //
         "document": StringAttribute, //
-        "documentDate": StringAttribute, //
+        "documentDate": DateAttribute, //
         "paymentMethod": StringAttribute, //
         "paymentSpecification": StringAttribute, //
         "approver": StringAttribute, //
@@ -71,7 +71,7 @@ class DExpenseJournalLineEntity : DEntity {
         "accountCompany": StringAttribute, //
         "offsetCompany": StringAttribute, //
         "isReversingEntry": StringAttribute, //
-        "reversingDate": StringAttribute, //
+        "reversingDate": DateAttribute, //
         "salesTaxGroup": StringAttribute, //
         "exchangeRate": StringAttribute, //
         "secondaryExchangeRate": StringAttribute, //

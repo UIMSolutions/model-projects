@@ -13,17 +13,17 @@ class DProjectForecastOnAccountEntity : DEntity {
       .addValues([
         "salesCurrency": StringAttribute, //
         "defaultDimension": StringAttribute, //
-        "eliminationDate": StringAttribute, //
+        "eliminationDate": DateAttribute, //
         "exchangeRate": StringAttribute, //
-        "invoiceDate": StringAttribute, //
+        "invoiceDate": DateAttribute, //
         "forecastModel": StringAttribute, //
         "budgetType": StringAttribute, //
         "fundingSource": StringAttribute, //
         "projectId": UUIDAttribute, //
         "quantity": StringAttribute, //
-        "salesPaymentDate": StringAttribute, //
+        "salesPaymentDate": DateAttribute, //
         "salesPrice": StringAttribute, //
-        "projectDate": StringAttribute, //
+        "projectDate": DateAttribute, //
         "transactionId": UUIDAttribute, //
         "description": StringAttribute, //
         "projectContractId": UUIDAttribute, //
