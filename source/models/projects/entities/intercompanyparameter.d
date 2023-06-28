@@ -3,7 +3,7 @@ module models.projects.entities.intercompanyparameter;
 @safe:
 import models.projects;
 
-class DProjectIntercompanyParameterEntity : DOOPEntity {
+class DProjectIntercompanyParameterEntity : DEntity {
   mixin(EntityThis!("ProjectIntercompanyParameterEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

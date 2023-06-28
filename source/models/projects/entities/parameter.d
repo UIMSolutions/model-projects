@@ -3,7 +3,7 @@ module models.projects.entities.parameter;
 @safe:
 import models.projects;
 
-class DProjectParameterEntity : DOOPEntity {
+class DProjectParameterEntity : DEntity {
   mixin(EntityThis!("ProjectParameterEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

@@ -3,7 +3,7 @@ module models.projects.entities.ProjQuotationWbs;
 @safe:
 import models.projects;
 
-class DProjectQuotationWbsEntity : DOOPEntity {
+class DProjectQuotationWbsEntity : DEntity {
   mixin(EntityThis!("ProjectQuotationWbsEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

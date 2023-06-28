@@ -3,7 +3,7 @@ module models.projects.entities.inventoryprojectconsumptionjournalname;
 @safe:
 import models.projects;
 
-class DProjectInventoryProjectConsumptionJournalNameEntity : DOOPEntity {
+class DProjectInventoryProjectConsumptionJournalNameEntity : DEntity {
   mixin(EntityThis!("ProjectInventoryProjectConsumptionJournalNameEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

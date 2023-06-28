@@ -3,7 +3,7 @@ module models.projects.entities.reportsortfield;
 @safe:
 import models.projects;
 
-class DProjectReportSortFieldEntity : DOOPEntity {
+class DProjectReportSortFieldEntity : DEntity {
   mixin(EntityThis!("ProjectReportSortFieldEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

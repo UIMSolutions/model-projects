@@ -3,7 +3,7 @@ module models.projects.entities.ledgerpostingdefinition;
 @safe:
 import models.projects;
 
-class DProjectLedgerPostingDefinitionEntity : DOOPEntity {
+class DProjectLedgerPostingDefinitionEntity : DEntity {
   mixin(EntityThis!("ProjectLedgerPostingDefinitionEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {
