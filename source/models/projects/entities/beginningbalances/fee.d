@@ -1,8 +1,8 @@
 module models.projects.entities.beginningbalances.fee;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectBeginningBalanceFeeEntity : DEntity {
   mixin(EntityThis!("ProjectBeginningBalanceFeeEntity"));
 

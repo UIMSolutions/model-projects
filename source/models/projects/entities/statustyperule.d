@@ -1,8 +1,8 @@
 module models.projects.entities.statustyperule;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectStatusTypeRuleEntity : DEntity {
   mixin(EntityThis!("ProjectStatusTypeRuleEntity"));
 

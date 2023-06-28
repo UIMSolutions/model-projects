@@ -1,8 +1,8 @@
 module models.projects.entities.salesitemrequirement;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectSalesItemRequirementEntity : DEntity {
   mixin(EntityThis!("ProjectSalesItemRequirementEntity"));
 

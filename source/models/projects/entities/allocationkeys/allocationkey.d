@@ -1,8 +1,8 @@
 module models.projects.entities.allocationkeys.allocationkey;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectAllocationKeyEntity : DEntity {
   mixin(EntityThis!("ProjectAllocationKeyEntity"));
 

@@ -1,8 +1,8 @@
 module models.projects.entities.wbsdraft;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectWBSDraftEntity : DEntity {
   mixin(EntityThis!("ProjectWBSDraftEntity"));
 

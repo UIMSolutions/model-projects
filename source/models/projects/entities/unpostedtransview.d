@@ -1,8 +1,8 @@
 module models.projects.entities.unpostedtransview;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectUnpostedTransViewEntity : DEntity {
   mixin(EntityThis!("ProjectUnpostedTransViewEntity"));
 

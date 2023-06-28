@@ -1,8 +1,8 @@
 module models.projects.entities.stage;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectStageEntity : DEntity {
   mixin(EntityThis!("ProjectStageEntity"));
 
