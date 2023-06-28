@@ -3,7 +3,7 @@ module models.projects.entities.grants.types.frequency;
 @safe:
 import models.projects;
 
-class DProjectGrantTypeFrequencyEntity : DOOPEntity {
+class DProjectGrantTypeFrequencyEntity : DEntity {
   mixin(EntityThis!("ProjectGrantTypeFrequencyEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

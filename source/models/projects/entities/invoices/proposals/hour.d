@@ -3,7 +3,7 @@ module models.projects.entities.invoices.proposals.hour;
 @safe:
 import models.projects;
 
-class DProjectInvoiceProposalHourEntity : DOOPEntity {
+class DProjectInvoiceProposalHourEntity : DEntity {
   mixin(EntityThis!("ProjectInvoiceProposalHourEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

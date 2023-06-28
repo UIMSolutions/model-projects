@@ -3,7 +3,7 @@ module models.projects.entities.grants.matching;
 @safe:
 import models.projects;
 
-class DProjectGrantMatchingEntity : DOOPEntity {
+class DProjectGrantMatchingEntity : DEntity {
   mixin(EntityThis!("ProjectGrantMatchingEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

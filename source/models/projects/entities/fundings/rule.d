@@ -3,7 +3,7 @@ module models.projects.entities.fundings.rule;
 @safe:
 import models.projects;
 
-class DProjectFundingRuleEntity : DOOPEntity {
+class DProjectFundingRuleEntity : DEntity {
   mixin(EntityThis!("ProjectFundingRuleEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

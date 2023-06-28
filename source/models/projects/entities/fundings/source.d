@@ -3,7 +3,7 @@ module models.projects.entities.fundings.source;
 @safe:
 import models.projects;
 
-class DProjectFundingSourceEntity : DOOPEntity {
+class DProjectFundingSourceEntity : DEntity {
   mixin(EntityThis!("ProjectFundingSourceEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {
