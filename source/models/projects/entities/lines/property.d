@@ -1,7 +1,7 @@
 module models.projects.entities.lines.property;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectLinePropertyEntity : DEntity {
   mixin(EntityThis!("ProjectLinePropertyEntity"));
