@@ -1,7 +1,7 @@
 module models.projects.entities.crm.approval;
 
-@safe:
 import models.projects;
+@safe:
 
 // Group of undeleted system users and undeleted teams. Approvals can be used to control access to specific objects.
 class DPRJApproval : DEntity {

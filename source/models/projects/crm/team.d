@@ -1,7 +1,7 @@
 module models.projects.entities.team;
 
-@safe:
 import models.projects;
+@safe:
 
 // Group of undeleted system users and undeleted teams. ProjectTeams can be used to control access to specific objects.
 class DPRJTeam : DEntity {

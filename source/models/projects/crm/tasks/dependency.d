@@ -1,7 +1,7 @@
 module models.projects.entities.tasks.dependency;
 
-@safe:
 import models.projects;
+@safe:
 
 // Dependency data between tasks.
 class DPRJTaskDependency : DEntity {

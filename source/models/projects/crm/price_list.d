@@ -1,7 +1,7 @@
 module models.projects.entities.price_list;
 
-@safe:
 import models.projects;
+@safe:
 
 class DPRJPriceList : DEntity {
   mixin(EntityThis!("PRJPriceList"));

@@ -1,7 +1,7 @@
 module models.projects.entities.parameters.pricelist;
 
-@safe:
 import models.projects;
+@safe:
 
 // Group of undeleted system users and undeleted teams. ProjectParameterPriceLists can be used to control access to specific objects.
 class DPRJParameterPriceList : DEntity {

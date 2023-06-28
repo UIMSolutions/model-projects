@@ -1,7 +1,7 @@
 module models.projects.entities.tasks.statususer;
 
-@safe:
 import models.projects;
+@safe:
 
 // Group of undeleted system users and undeleted teams. ProjectTaskStatusUsers can be used to control access to specific objects.
 class DPRJProjectTaskStatusUser : DEntity {

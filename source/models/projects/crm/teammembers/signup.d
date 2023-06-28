@@ -1,7 +1,7 @@
 module models.projects.entities.teammembers.signup;
 
-@safe:
 import models.projects;
+@safe:
 
 // Entity used to capture all resources that have applied for open position on projects.
 class DPRJTeamMemberSignUp : DEntity {

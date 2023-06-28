@@ -1,7 +1,7 @@
 module models.projects.entities.tasks.task;
 
-@safe:
 import models.projects;
+@safe:
 
 // Tasks related to project.
 class DPRJTask : DEntity {

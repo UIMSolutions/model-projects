@@ -1,7 +1,7 @@
 module models.projects.entities.service_approval;
 
-@safe:
 import models.projects;
+@safe:
 
 // Group of undeleted system users and undeleted teams. ProjectServiceApprovals can be used to control access to specific objects.
 class DPRJServiceApproval : DEntity {

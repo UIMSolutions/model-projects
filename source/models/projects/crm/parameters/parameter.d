@@ -1,7 +1,7 @@
 module models.projects.entities.parameters.parameter;
 
-@safe:
 import models.projects;
+@safe:
 
 // Group of undeleted system users and undeleted teams. ProjectParameters can be used to control access to specific objects.
 class DPRJParameter : DEntity {
