@@ -1,8 +1,8 @@
 module models.projects.entities.beginningbalances.onaccount;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectBeginningBalanceOnAccountEntity : DEntity {
   mixin(EntityThis!("ProjectBeginningBalanceOnAccountEntity"));
 

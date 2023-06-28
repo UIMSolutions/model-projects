@@ -2,8 +2,8 @@ module models.projects.entities.cds.actualsimport;
 
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectCDSActualsImportEntity : DEntity {
   mixin(EntityThis!("ProjectCDSActualsImportEntity"));
 
