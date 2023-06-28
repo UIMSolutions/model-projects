@@ -16,7 +16,7 @@ class DProjectSalesItemRequirementEntity : DEntity {
         "barCodeType": StringAttribute, //
         "isStatusStopped": StringAttribute, //
         "isPartialDeliveryPrevented": StringAttribute, //
-        "shipDate": StringAttribute, //
+        "shipDate": DateAttribute, //
         "costPrice": StringAttribute, //
         "currencyCode": StringAttribute, //
         "defaultDimension": StringAttribute, //

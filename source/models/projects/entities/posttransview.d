@@ -22,7 +22,7 @@ class DProjectPostTransViewEntity : DEntity {
         "totalCostAmount": StringAttribute, //
         "totalSalesAmount": StringAttribute, //
         "transactionOrigin": StringAttribute, //
-        "transactionDate": StringAttribute, //
+        "transactionDate": DateAttribute, //
         "transactionId": UUIDAttribute, //
         "vendorAccount": StringAttribute, //
         "vendorName": StringAttribute, //

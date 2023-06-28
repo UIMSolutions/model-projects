@@ -19,8 +19,8 @@ class DHcmPersonProjectRoleEntity : DEntity {
         "projectId": UUIDAttribute, //
         "projectName": StringAttribute, //
         "role": StringAttribute, //
-        "endDate": StringAttribute, //
-        "startDate": StringAttribute, //
+        "endDate": DateAttribute, //
+        "startDate": DateAttribute, //
         "relationship_PersonRelationshipId": UUIDAttribute, //
         "relationship_ProjTableRelationshipId": UUIDAttribute, //
         "backingTable_HcmPersonProjectRoleRelationshipId": UUIDAttribute, //

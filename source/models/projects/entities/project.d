@@ -17,7 +17,7 @@ class DProjectEntity : DEntity {
         "isCertifiedPayroll": StringAttribute, //
         "canVerifyCostAgainstRemainingForecast": StringAttribute, //
         "zakatContractAmendment": StringAttribute, //
-        "zakatContractDate": StringAttribute, //
+        "zakatContractDate": DateAttribute, //
         "zakatContractPeriod": StringAttribute, //
         "zakatProjectValue": StringAttribute, //
         "dateOfCreation": StringAttribute, //
@@ -26,8 +26,8 @@ class DProjectEntity : DEntity {
         "deliveryLocation": StringAttribute, //
         "deliveryName": StringAttribute, //
         "email": StringAttribute, //
-        "actualEndDate": StringAttribute, //
-        "extensionDate": StringAttribute, //
+        "actualEndDate": DateAttribute, //
+        "extensionDate": DateAttribute, //
         "subprojectIdFormat": StringAttribute, //
         "isHeader": StringAttribute, //
         "jobIdentification": StringAttribute, //
@@ -41,8 +41,8 @@ class DProjectEntity : DEntity {
         "budgetOverrunDefault": StringAttribute, //
         "allowNegativeBudgetsToBeCarriedForward": StringAttribute, //
         "canCarryForwardRemainingBudgets": StringAttribute, //
-        "projectedEndDate": StringAttribute, //
-        "projectedStartDate": StringAttribute, //
+        "projectedEndDate": DateAttribute, //
+        "projectedStartDate": DateAttribute, //
         "projectGroupId": UUIDAttribute, //
         "projectContractId": UUIDAttribute, //
         "ledgerPostingSortPriority": StringAttribute, //
@@ -51,16 +51,16 @@ class DProjectEntity : DEntity {
         "schedulingCalendarId": UUIDAttribute, //
         "scheduleDurationInDays": StringAttribute, //
         "totalPlannedEffortInHours": StringAttribute, //
-        "scheduleEndDate": StringAttribute, //
+        "scheduleEndDate": DateAttribute, //
         "isResourceCalendarIgnored": StringAttribute, //
-        "scheduleStartDate": StringAttribute, //
+        "scheduleStartDate": DateAttribute, //
         "isActivityRequiredForExpenseForecast": StringAttribute, //
         "isActivityRequiredForExpenseTransaction": StringAttribute, //
         "isActivityRequiredForHourForecast": StringAttribute, //
         "isActivityRequiredForHourTransaction": StringAttribute, //
         "isActivityRequiredForItemForecast": StringAttribute, //
         "isActivityRequiredForItemTransaction": StringAttribute, //
-        "actualStartDate": StringAttribute, //
+        "actualStartDate": DateAttribute, //
         "projectStage": StringAttribute, //
         "zakatSubject": StringAttribute, //
         "salesTaxGroupId": UUIDAttribute, //

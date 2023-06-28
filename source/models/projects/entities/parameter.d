@@ -13,9 +13,9 @@ class DProjectParameterEntity : DEntity {
       .addValues([
         "itemLumpSumAllocationKey": StringAttribute, //
         "termsOfPaymentForHours": StringAttribute, //
-        "actualCostAfterEstimateDate": StringAttribute, //
-        "committedCostAfterEstimateDate": StringAttribute, //
-        "committedCostUpToEstimateDate": StringAttribute, //
+        "actualCostAfterEstimateDate": DateAttribute, //
+        "committedCostAfterEstimateDate": DateAttribute, //
+        "committedCostUpToEstimateDate": DateAttribute, //
         "isAutoupdateField": StringAttribute, //
         "isBudgetControlOutsideTheProjectHierarchyAllowed": StringAttribute, //
         "isDateCorrectionsOnTimesheetsAllowed": StringAttribute, //
@@ -160,9 +160,9 @@ class DProjectParameterEntity : DEntity {
         "timesheets": StringAttribute, //
         "travelRequisition": StringAttribute, //
         "vendorInvoice": StringAttribute, //
-        "afterEliminationDate": StringAttribute, //
-        "beforeEliminationDate": StringAttribute, //
-        "useAdjustmentDateAsNewProjectDate": StringAttribute, //
+        "afterEliminationDate": DateAttribute, //
+        "beforeEliminationDate": DateAttribute, //
+        "useAdjustmentDateAsNewProjectDate": DateAttribute, //
         "useBudgetControl": StringAttribute, //
         "useFavorites": StringAttribute, //
         "utilizationRate": StringAttribute, //

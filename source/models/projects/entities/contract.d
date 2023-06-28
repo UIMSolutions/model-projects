@@ -23,7 +23,7 @@ class DProjectContractEntity : DEntity {
         "projectContractId": UUIDAttribute, //
         "lockContractSalesCurrency": StringAttribute, //
         "priceGroup": StringAttribute, //
-        "contractDate": StringAttribute, //
+        "contractDate": DateAttribute, //
         "contractLines": StringAttribute, //
         "progressInvoicing": StringAttribute, //
         "retainagePercent": StringAttribute, //

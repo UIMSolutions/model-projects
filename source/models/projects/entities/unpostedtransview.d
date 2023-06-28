@@ -25,7 +25,7 @@ class DProjectUnpostedTransViewEntity : DEntity {
         "SalesPrice": StringAttribute, //
         "TransactionOrigin": StringAttribute, //
         "TransactionDataAreaId": UUIDAttribute, //
-        "TransactionDate": StringAttribute, //
+        "TransactionDate": DateAttribute, //
         "TransactionId": UUIDAttribute, //
         "TransactionType": StringAttribute, //
         "Relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //

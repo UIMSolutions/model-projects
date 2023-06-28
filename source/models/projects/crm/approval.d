@@ -38,7 +38,7 @@ class DPRJApproval : DEntity {
         "exchangeRate": StringAttribute, // Exchange rate for the currency associated with the entity with respect to the base currency."]),
         "costPriceBase": StringAttribute, // Value of the Cost Price in base currency."]),
         "costQuantity": StringAttribute, // Shows the hours submitted for the transaction."]),
-        "date": StringAttribute, // Shows the date of the transaction."]),
+        "Date": DateAttribute, // Shows the date of the transaction."]),
         "entryType": StringAttribute, // Shows the entry type of the transaction."]),
         "entryType_display": StringAttribute, //
         "expenseCategory": StringAttribute, // Shows the expense category of the transaction."]),

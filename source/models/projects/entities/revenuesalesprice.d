@@ -20,7 +20,7 @@ class DProjectRevenueSalesPriceEntity : DEntity {
         "resource": StringAttribute, //
         "role": StringAttribute, //
         "salesPrice": StringAttribute, //
-        "effectiveDate": StringAttribute, //
+        "effectiveDate": DateAttribute, //
         "projValidFor": StringAttribute, //
         "resourceId": UUIDAttribute, //
         "relationship_ResResourceDataEntityRelationshipId": UUIDAttribute, //
