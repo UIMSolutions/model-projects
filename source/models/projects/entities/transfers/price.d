@@ -1,7 +1,7 @@
 module models.projects.entities.transfers.price;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectTransferPriceEntity : DEntity {
   mixin(EntityThis!("ProjectTransferPriceEntity"));

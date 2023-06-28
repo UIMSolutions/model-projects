@@ -1,7 +1,7 @@
 module models.projects.entities.resources.rolecharacteristics;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProject_ResourceRoleCharacteristicsEntity : DEntity {
   mixin(EntityThis!("Project_ResourceRoleCharacteristicsEntity"));

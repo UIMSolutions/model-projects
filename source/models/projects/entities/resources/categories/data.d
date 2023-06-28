@@ -1,7 +1,7 @@
 module models.projects.entities.resources.categories.data;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectResourceCategoryDataEntity : DEntity {
   mixin(EntityThis!("ProjectResourceCategoryDataEntity"));
