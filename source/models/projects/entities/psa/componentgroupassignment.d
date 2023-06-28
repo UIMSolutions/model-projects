@@ -1,8 +1,8 @@
 module models.projects.entities.psa.componentgroupassignment;
 
 import models.projects;
-@safe:
 
+@safe:
 class DPSAComponentectGroupAssignmentEntity : DEntity {
   mixin(EntityThis!("PSAComponentectGroupAssignmentEntity"));
 
