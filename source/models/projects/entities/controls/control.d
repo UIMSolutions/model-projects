@@ -1,7 +1,7 @@
 module models.projects.entities.controls.control;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectControlEntity : DEntity {
   mixin(EntityThis!("ProjectControlEntity"));

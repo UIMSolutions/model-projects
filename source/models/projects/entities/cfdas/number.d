@@ -1,7 +1,7 @@
 module models.projects.entities.cfdas.number;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectCFDANumberEntity : DEntity {
   mixin(EntityThis!("ProjectCFDANumberEntity"));
