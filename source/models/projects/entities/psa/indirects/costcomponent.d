@@ -3,7 +3,7 @@ module models.projects.entities.psa.indirects.costcomponent;
 @safe:
 import models.projects;
 
-class DPSAIndirectCostComponentEntity : DOOPEntity {
+class DPSAIndirectCostComponentEntity : DEntity {
   mixin(EntityThis!("PSAIndirectCostComponentEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

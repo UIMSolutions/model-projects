@@ -3,7 +3,7 @@ module models.projects.entities.periods.timesheetweek;
 @safe:
 import models.projects;
 
-class DProjectPeriodTimesheetWeekEntity : DOOPEntity {
+class DProjectPeriodTimesheetWeekEntity : DEntity {
   mixin(EntityThis!("ProjectPeriodTimesheetWeekEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

@@ -3,7 +3,7 @@ module models.projects.entities.psa.indirects.componentgroup;
 @safe:
 import models.projects;
 
-class DPSAIndirectComponentGroupEntity : DOOPEntity {
+class DPSAIndirectComponentGroupEntity : DEntity {
   mixin(EntityThis!("PSAIndirectComponentGroupEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

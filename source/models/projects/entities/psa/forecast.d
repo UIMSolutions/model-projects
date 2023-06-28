@@ -3,7 +3,7 @@ module models.projects.entities.psa.forecast;
 @safe:
 import models.projects;
 
-class DPSAForecastEntity : DOOPEntity {
+class DPSAForecastEntity : DEntity {
   mixin(EntityThis!("PSAForecastEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

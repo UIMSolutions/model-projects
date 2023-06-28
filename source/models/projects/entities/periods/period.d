@@ -3,7 +3,7 @@ module models.projects.entities.periods.period;
 @safe:
 import models.projects;
 
-class DProjectPeriodEntity : DOOPEntity {
+class DProjectPeriodEntity : DEntity {
   mixin(EntityThis!("ProjectPeriodEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

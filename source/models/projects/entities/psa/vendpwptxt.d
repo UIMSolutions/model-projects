@@ -3,7 +3,7 @@ module models.projects.entities.psa.vendpwptxt;
 @safe:
 import models.projects;
 
-class DPSAVendPWPTxtEntity : DOOPEntity {
+class DPSAVendPWPTxtEntity : DEntity {
   mixin(EntityThis!("PSAVendPWPTxtEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

@@ -3,7 +3,7 @@ module models.projects.entities.psa.componentgroupassignment;
 @safe:
 import models.projects;
 
-class DPSAComponentectGroupAssignmentEntity : DOOPEntity {
+class DPSAComponentectGroupAssignmentEntity : DEntity {
   mixin(EntityThis!("PSAComponentectGroupAssignmentEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

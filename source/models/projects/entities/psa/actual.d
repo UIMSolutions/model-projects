@@ -3,7 +3,7 @@ module models.projects.entities.psa.actual;
 @safe:
 import models.projects;
 
-class DPSAActualEntity : DOOPEntity {
+class DPSAActualEntity : DEntity {
   mixin(EntityThis!("PSAActualEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {
