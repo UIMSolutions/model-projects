@@ -1,7 +1,7 @@
 module models.projects.entities.defaultoffsetaccount;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectDefaultOffsetAccountEntity : DEntity {
   mixin(EntityThis!("ProjectDefaultOffsetAccountEntity"));

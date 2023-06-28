@@ -1,7 +1,7 @@
 module models.projects.entities.grantcustomertype;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectGrantCustomerTypeEntity : DEntity {
   mixin(EntityThis!("ProjectGrantCustomerTypeEntity"));

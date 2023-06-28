@@ -1,7 +1,7 @@
 module models.projects.entities.collaborationworkspacesetting;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectCollaborationWorkspaceSettingEntity : DEntity {
   mixin(EntityThis!("ProjectCollaborationWorkspaceSettingEntity"));

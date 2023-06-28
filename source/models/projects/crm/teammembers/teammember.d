@@ -1,7 +1,7 @@
 module models.projects.entities.teammembers.teammember;
 
-@safe:
 import models.projects;
+@safe:
 
 class DPRJTeamMember : DEntity {
   mixin(EntityThis!("PRJTeamMember"));
