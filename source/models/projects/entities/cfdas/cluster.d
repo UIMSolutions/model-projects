@@ -3,7 +3,7 @@ module models.projects.entities.cfdas.cluster;
 @safe:
 import models.projects;
 
-class DProjectCFDAClusterEntity : DOOPEntity {
+class DProjectCFDAClusterEntity : DEntity {
   mixin(EntityThis!("ProjectCFDAClusterEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

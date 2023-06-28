@@ -3,7 +3,7 @@ module models.projects.entities.controls.control;
 @safe:
 import models.projects;
 
-class DProjectControlEntity : DOOPEntity {
+class DProjectControlEntity : DEntity {
   mixin(EntityThis!("ProjectControlEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

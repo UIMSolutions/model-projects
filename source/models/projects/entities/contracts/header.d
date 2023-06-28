@@ -3,7 +3,7 @@ module models.projects.entities.contracts.header;
 @safe:
 import models.projects;
 
-class DProjectContractHeaderEntity : DOOPEntity {
+class DProjectContractHeaderEntity : DEntity {
   mixin(EntityThis!("ProjectContractHeaderEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

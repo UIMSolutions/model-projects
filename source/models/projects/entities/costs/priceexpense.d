@@ -3,7 +3,7 @@ module models.projects.entities.costs.priceexpense;
 @safe:
 import models.projects;
 
-class DProjectCostPriceExpenseEntity : DOOPEntity {
+class DProjectCostPriceExpenseEntity : DEntity {
   mixin(EntityThis!("ProjectCostPriceExpenseEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

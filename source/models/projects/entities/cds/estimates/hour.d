@@ -3,7 +3,7 @@ module models.projects.entities.cds.estimates.hour;
 @safe:
 import models.projects;
 
-class DProjectCDSEstimateHoursEntity : DOOPEntity {
+class DProjectCDSEstimateHoursEntity : DEntity {
   mixin(EntityThis!("ProjectCDSEstimateHoursEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

@@ -3,7 +3,7 @@ module models.projects.entities.cfdas.number;
 @safe:
 import models.projects;
 
-class DProjectCFDANumberEntity : DOOPEntity {
+class DProjectCFDANumberEntity : DEntity {
   mixin(EntityThis!("ProjectCFDANumberEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {
