@@ -3,7 +3,7 @@ module models.projects.entities.unpostedtransview;
 @safe:
 import models.projects;
 
-class DProjectUnpostedTransViewEntity : DOOPEntity {
+class DProjectUnpostedTransViewEntity : DEntity {
   mixin(EntityThis!("ProjectUnpostedTransViewEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

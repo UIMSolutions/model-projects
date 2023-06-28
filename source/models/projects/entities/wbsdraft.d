@@ -3,7 +3,7 @@ module models.projects.entities.wbsdraft;
 @safe:
 import models.projects;
 
-class DProjectWBSDraftEntity : DOOPEntity {
+class DProjectWBSDraftEntity : DEntity {
   mixin(EntityThis!("ProjectWBSDraftEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

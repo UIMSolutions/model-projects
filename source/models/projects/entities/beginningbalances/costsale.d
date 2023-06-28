@@ -3,7 +3,7 @@ module models.projects.entities.beginningbalances.costsale;
 @safe:
 import models.projects;
 
-class DProjectBeginningBalanceCostSaleEntity : DOOPEntity {
+class DProjectBeginningBalanceCostSaleEntity : DEntity {
   mixin(EntityThis!("ProjectBeginningBalanceCostSaleEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

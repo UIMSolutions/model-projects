@@ -3,7 +3,7 @@ module models.projects.entities.allocationkeys.detail;
 @safe:
 import models.projects;
 
-class DProjectAllocationKeyEntity : DOOPEntity {
+class DProjectAllocationKeyEntity : DEntity {
   mixin(EntityThis!("ProjectAllocationKeyEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

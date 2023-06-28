@@ -3,7 +3,7 @@ module models.projects.entities.stage;
 @safe:
 import models.projects;
 
-class DProjectStageEntity : DOOPEntity {
+class DProjectStageEntity : DEntity {
   mixin(EntityThis!("ProjectStageEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

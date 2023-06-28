@@ -3,7 +3,7 @@ module models.projects.entities.salesitemrequirement;
 @safe:
 import models.projects;
 
-class DProjectSalesItemRequirementEntity : DOOPEntity {
+class DProjectSalesItemRequirementEntity : DEntity {
   mixin(EntityThis!("ProjectSalesItemRequirementEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

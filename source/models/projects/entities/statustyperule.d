@@ -3,7 +3,7 @@ module models.projects.entities.statustyperule;
 @safe:
 import models.projects;
 
-class DProjectStatusTypeRuleEntity : DOOPEntity {
+class DProjectStatusTypeRuleEntity : DEntity {
   mixin(EntityThis!("ProjectStatusTypeRuleEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {
