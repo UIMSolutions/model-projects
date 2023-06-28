@@ -1,7 +1,7 @@
 module models.projects.entities.posttransview;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectPostTransViewEntity : DEntity {
   mixin(EntityThis!("ProjectPostTransViewEntity"));

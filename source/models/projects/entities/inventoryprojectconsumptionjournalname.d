@@ -1,7 +1,7 @@
 module models.projects.entities.inventoryprojectconsumptionjournalname;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectInventoryProjectConsumptionJournalNameEntity : DEntity {
   mixin(EntityThis!("ProjectInventoryProjectConsumptionJournalNameEntity"));

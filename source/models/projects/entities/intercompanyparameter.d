@@ -1,7 +1,7 @@
 module models.projects.entities.intercompanyparameter;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectIntercompanyParameterEntity : DEntity {
   mixin(EntityThis!("ProjectIntercompanyParameterEntity"));

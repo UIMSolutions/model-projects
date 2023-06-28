@@ -1,7 +1,7 @@
 module models.projects.entities.reportsortfield;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectReportSortFieldEntity : DEntity {
   mixin(EntityThis!("ProjectReportSortFieldEntity"));

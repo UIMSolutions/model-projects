@@ -1,7 +1,7 @@
 module models.projects.entities.ledgerpostingdefinition;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectLedgerPostingDefinitionEntity : DEntity {
   mixin(EntityThis!("ProjectLedgerPostingDefinitionEntity"));

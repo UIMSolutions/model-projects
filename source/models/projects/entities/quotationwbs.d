@@ -1,7 +1,7 @@
 module models.projects.entities.ProjQuotationWbs;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectQuotationWbsEntity : DEntity {
   mixin(EntityThis!("ProjectQuotationWbsEntity"));
