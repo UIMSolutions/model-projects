@@ -1,7 +1,6 @@
 module models.projects.entities;
 
-@safe:
-import models.projects;
+
 
 // Packages
 public import models.projects.entities.allocationkeys;
