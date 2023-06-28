@@ -1,8 +1,8 @@
 module models.projects.entities.project;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectEntity : DEntity {
   mixin(EntityThis!("ProjectEntity"));
 

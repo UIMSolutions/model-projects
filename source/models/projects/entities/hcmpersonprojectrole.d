@@ -1,8 +1,8 @@
 module models.projects.entities.hcmpersonprojectrole;
 
 import models.projects;
-@safe:
 
+@safe:
 class DHcmPersonProjectRoleEntity : DEntity {
   mixin(EntityThis!("HcmPersonProjectRoleEntity"));
 

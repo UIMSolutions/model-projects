@@ -1,8 +1,8 @@
 module models.projects.entities.parameter;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectParameterEntity : DEntity {
   mixin(EntityThis!("ProjectParameterEntity"));
 
