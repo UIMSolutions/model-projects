@@ -1,7 +1,7 @@
 module models.projects.entities.validations.employees.projects.setup;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectValidationEmployeeProjectSetupEntity : DEntity {
   mixin(EntityThis!("ProjectValidationEmployeeProjectSetupEntity"));

@@ -1,7 +1,7 @@
 module models.projects.entities.wbs.templates.task;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectWBSTemplateTaskEntity : DEntity {
   mixin(EntityThis!("ProjectWBSTemplateTaskEntity"));

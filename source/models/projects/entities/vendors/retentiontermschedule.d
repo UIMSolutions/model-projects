@@ -1,7 +1,7 @@
 module models.projects.entities.vendors.retentiontermschedule;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectVendorRetentionTermScheduleEntity : DEntity {
   mixin(EntityThis!("ProjectVendorRetentionTermScheduleEntity"));

@@ -1,7 +1,7 @@
 module models.projects.entities.wbs.templates.template_;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectWBSTemplateEntity : DEntity {
   mixin(EntityThis!("ProjectWBSTemplateEntity"));

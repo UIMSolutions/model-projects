@@ -1,7 +1,7 @@
 module models.projects.entities.travels.expenses.policies.group;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectTravelExpensePolicyGroupEntity : DEntity {
   mixin(EntityThis!("ProjectTravelExpensePolicyGroupEntity"));
