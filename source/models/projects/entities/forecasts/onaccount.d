@@ -3,7 +3,7 @@ module models.projects.entities.forecasts.onaccount;
 @safe:
 import models.projects;
 
-class DProjectForecastOnAccountEntity : DOOPEntity {
+class DProjectForecastOnAccountEntity : DEntity {
   mixin(EntityThis!("ProjectForecastOnAccountEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

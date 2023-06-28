@@ -3,7 +3,7 @@ module models.projects.entities.customers.retentions.terms.schedule;
 @safe:
 import models.projects;
 
-class DProjectCustomerRetentionTermScheduleEntity : DOOPEntity {
+class DProjectCustomerRetentionTermScheduleEntity : DEntity {
   mixin(EntityThis!("ProjectCustomerRetentionTermScheduleEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

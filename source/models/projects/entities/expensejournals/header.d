@@ -3,7 +3,7 @@ module models.projects.entities.expensejournals.header;
 @safe:
 import models.projects;
 
-class DExpenseJournalHeaderEntity : DOOPEntity {
+class DExpenseJournalHeaderEntity : DEntity {
   mixin(EntityThis!("ExpenseJournalHeaderEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

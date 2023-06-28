@@ -3,7 +3,7 @@ module models.projects.entities.customers.retentions.terms.term;
 @safe:
 import models.projects;
 
-class DProjectCustomerRetentionTermEntity : DOOPEntity {
+class DProjectCustomerRetentionTermEntity : DEntity {
   mixin(EntityThis!("ProjectCustomerRetentionTermEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {
