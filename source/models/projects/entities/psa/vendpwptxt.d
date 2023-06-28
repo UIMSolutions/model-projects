@@ -1,7 +1,7 @@
 module models.projects.entities.psa.vendpwptxt;
 
-@safe:
 import models.projects;
+@safe:
 
 class DPSAVendPWPTxtEntity : DEntity {
   mixin(EntityThis!("PSAVendPWPTxtEntity"));

@@ -1,7 +1,7 @@
 module models.projects.entities.psa.forecast;
 
-@safe:
 import models.projects;
+@safe:
 
 class DPSAForecastEntity : DEntity {
   mixin(EntityThis!("PSAForecastEntity"));

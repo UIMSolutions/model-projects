@@ -1,7 +1,7 @@
 module models.projects.entities.periods.timesheetweek;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectPeriodTimesheetWeekEntity : DEntity {
   mixin(EntityThis!("ProjectPeriodTimesheetWeekEntity"));

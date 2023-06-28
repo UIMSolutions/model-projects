@@ -1,7 +1,7 @@
 module models.projects.entities.psa.actual;
 
-@safe:
 import models.projects;
+@safe:
 
 class DPSAActualEntity : DEntity {
   mixin(EntityThis!("PSAActualEntity"));

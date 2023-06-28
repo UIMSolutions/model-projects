@@ -1,7 +1,7 @@
 module models.projects.entities.periods.line;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectPeriodLineEntity : DEntity {
   mixin(EntityThis!("ProjectPeriodLineEntity"));
