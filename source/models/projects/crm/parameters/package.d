@@ -1,7 +1,6 @@
 module models.projects.entities.parameters;
 
-@safe:
-import models.projects;
-
-public import models.projects.entities.parameters.parameter;
-public import models.projects.entities.parameters.pricelist;
+public {
+  import models.projects.entities.parameters.parameter;
+  import models.projects.entities.parameters.pricelist;
+}

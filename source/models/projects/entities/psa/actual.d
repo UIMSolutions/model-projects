@@ -80,7 +80,7 @@ class DPSAActualEntity : DEntity {
         "wipSalesValue": StringAttribute, //
         "wipProduction": StringAttribute, //
         "wipProfit": StringAttribute, //
-        "WIPSubscription": StringAttribute, //
+        "wipSubscription": StringAttribute, //
         "wipSalesTotal": StringAttribute, //
         "wipInvoicedOnAccount": StringAttribute, //
         "plAccruedRevenueSalesValueLabor": StringAttribute, //
