@@ -1,7 +1,7 @@
 module models.projects.entities.grants.types.frequency;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectGrantTypeFrequencyEntity : DEntity {
   mixin(EntityThis!("ProjectGrantTypeFrequencyEntity"));
