@@ -2,8 +2,8 @@ module models.projects.entities.invoices.proposals.proposal;
 
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectInvoiceProposalEntity : DEntity {
   mixin(EntityThis!("ProjectInvoiceProposalEntity"));
 
