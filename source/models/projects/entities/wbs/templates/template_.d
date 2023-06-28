@@ -3,7 +3,7 @@ module models.projects.entities.wbs.templates.template_;
 @safe:
 import models.projects;
 
-class DProjectWBSTemplateEntity : DOOPEntity {
+class DProjectWBSTemplateEntity : DEntity {
   mixin(EntityThis!("ProjectWBSTemplateEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

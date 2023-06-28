@@ -3,7 +3,7 @@ module models.projects.entities.travels.expenses.policies.policy;
 @safe:
 import models.projects;
 
-class DProjectTravelExpensePolicyEntity : DOOPEntity {
+class DProjectTravelExpensePolicyEntity : DEntity {
   mixin(EntityThis!("ProjectTravelExpensePolicyEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

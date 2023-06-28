@@ -3,7 +3,7 @@ module models.projects.entities.resources.setupdata;
 @safe:
 import models.projects;
 
-class DProjectResourceSetupDataEntity : DOOPEntity {
+class DProjectResourceSetupDataEntity : DEntity {
   mixin(EntityThis!("ProjectResourceSetupDataEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

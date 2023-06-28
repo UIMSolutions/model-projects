@@ -3,7 +3,7 @@ module models.projects.entities.taxes.tabletranstaxinformation;
 @safe:
 import models.projects;
 
-class DProjectTaxTableTransTaxInformationEntity : DOOPEntity {
+class DProjectTaxTableTransTaxInformationEntity : DEntity {
   mixin(EntityThis!("ProjectTaxTableTransTaxInformationEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

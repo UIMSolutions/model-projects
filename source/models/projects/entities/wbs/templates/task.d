@@ -3,7 +3,7 @@ module models.projects.entities.wbs.templates.task;
 @safe:
 import models.projects;
 
-class DProjectWBSTemplateTaskEntity : DOOPEntity {
+class DProjectWBSTemplateTaskEntity : DEntity {
   mixin(EntityThis!("ProjectWBSTemplateTaskEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

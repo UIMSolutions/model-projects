@@ -3,7 +3,7 @@ module models.projects.entities.validations.employees.categories.setup;
 @safe:
 import models.projects;
 
-class DProjectValidationEmployeeCategorySetupEntity : DOOPEntity {
+class DProjectValidationEmployeeCategorySetupEntity : DEntity {
   mixin(EntityThis!("ProjectValidationEmployeeCategorySetupEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

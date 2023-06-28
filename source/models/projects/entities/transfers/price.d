@@ -3,7 +3,7 @@ module models.projects.entities.transfers.price;
 @safe:
 import models.projects;
 
-class DProjectTransferPriceEntity : DOOPEntity {
+class DProjectTransferPriceEntity : DEntity {
   mixin(EntityThis!("ProjectTransferPriceEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

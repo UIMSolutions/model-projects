@@ -3,7 +3,7 @@ module models.projects.entities.resources.categories.data;
 @safe:
 import models.projects;
 
-class DProjectResourceCategoryDataEntity : DOOPEntity {
+class DProjectResourceCategoryDataEntity : DEntity {
   mixin(EntityThis!("ProjectResourceCategoryDataEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

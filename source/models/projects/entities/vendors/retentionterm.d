@@ -3,7 +3,7 @@ module models.projects.entities.vendors.retentionterm;
 @safe:
 import models.projects;
 
-class DProjectVendorRetentionTermEntity : DOOPEntity {
+class DProjectVendorRetentionTermEntity : DEntity {
   mixin(EntityThis!("ProjectVendorRetentionTermEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

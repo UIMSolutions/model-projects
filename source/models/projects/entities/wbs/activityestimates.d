@@ -3,7 +3,7 @@ module models.projects.entities.wbs.activityestimate;
 @safe:
 import models.projects;
 
-class DProjectWBSActivityEstimateEntity : DOOPEntity {
+class DProjectWBSActivityEstimateEntity : DEntity {
   mixin(EntityThis!("ProjectWBSActivityEstimateEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

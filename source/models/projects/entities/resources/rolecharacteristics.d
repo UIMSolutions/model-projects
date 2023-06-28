@@ -3,7 +3,7 @@ module models.projects.entities.resources.rolecharacteristics;
 @safe:
 import models.projects;
 
-class DProject_ResourceRoleCharacteristicsEntity : DOOPEntity {
+class DProject_ResourceRoleCharacteristicsEntity : DEntity {
   mixin(EntityThis!("Project_ResourceRoleCharacteristicsEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {
