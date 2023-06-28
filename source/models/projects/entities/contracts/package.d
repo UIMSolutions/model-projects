@@ -1,4 +1,6 @@
 module models.projects.entities.contracts;
 
-public import models.projects.entities.contracts.header;
-public import models.projects.entities.contracts.line;
+public {
+  import models.projects.entities.contracts.header;
+  import models.projects.entities.contracts.line;
+}

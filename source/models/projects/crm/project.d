@@ -1,8 +1,8 @@
 module models.projects.crm.project;
 
-@safe:
 import models.projects;
 
+@safe:
 // Delivery entity in an engagement.
 class DPRJProject : DEntity {
   mixin(EntityThis!("PRJProject"));

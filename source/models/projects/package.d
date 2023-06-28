@@ -16,3 +16,5 @@ public import uim.entities;
 public import models.projects.attributes;
 public import models.projects.classes;
 public import models.projects.entities;
+public import models.projects.helpers;
+public import models.projects.tests;
