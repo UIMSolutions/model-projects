@@ -1,8 +1,8 @@
 module models.projects.entities.psa.indirects.costcomponent;
 
 import models.projects;
-@safe:
 
+@safe:
 class DPSAIndirectCostComponentEntity : DEntity {
   mixin(EntityThis!("PSAIndirectCostComponentEntity"));
 

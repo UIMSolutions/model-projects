@@ -1,8 +1,8 @@
 module models.projects.entities.taxes.tabletranstaxinformation;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectTaxTableTransTaxInformationEntity : DEntity {
   mixin(EntityThis!("ProjectTaxTableTransTaxInformationEntity"));
 

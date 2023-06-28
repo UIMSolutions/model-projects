@@ -1,8 +1,8 @@
 module models.projects.entities.psa.indirects.componentgroup;
 
 import models.projects;
-@safe:
 
+@safe:
 class DPSAIndirectComponentGroupEntity : DEntity {
   mixin(EntityThis!("PSAIndirectComponentGroupEntity"));
 
