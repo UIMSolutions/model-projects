@@ -3,7 +3,7 @@ module models.projects.entities.cds.contracts.linemilestoneimport;
 @safe:
 import models.projects;
 
-class DProjectCDSContractLineMilestoneImportEntity : DOOPEntity {
+class DProjectCDSContractLineMilestoneImportEntity : DEntity {
   mixin(EntityThis!("ProjectCDSContractLineMilestoneImportEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

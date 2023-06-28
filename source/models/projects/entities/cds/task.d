@@ -3,7 +3,7 @@ module models.projects.entities.cds.task;
 @safe:
 import models.projects;
 
-class DProjectCDSTaskEntity : DOOPEntity {
+class DProjectCDSTaskEntity : DEntity {
   mixin(EntityThis!("ProjectCDSTaskEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

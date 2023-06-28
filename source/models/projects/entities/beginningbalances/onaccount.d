@@ -3,7 +3,7 @@ module models.projects.entities.beginningbalances.onaccount;
 @safe:
 import models.projects;
 
-class DProjectBeginningBalanceOnAccountEntity : DOOPEntity {
+class DProjectBeginningBalanceOnAccountEntity : DEntity {
   mixin(EntityThis!("ProjectBeginningBalanceOnAccountEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

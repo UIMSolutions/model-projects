@@ -3,7 +3,7 @@ module models.projects.entities.cds.transactionrelationshipimport;
 @safe:
 import models.projects;
 
-class DProjectCDSTransactionRelationshipImportEntity : DOOPEntity {
+class DProjectCDSTransactionRelationshipImportEntity : DEntity {
   mixin(EntityThis!("ProjectCDSTransactionRelationshipImportEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

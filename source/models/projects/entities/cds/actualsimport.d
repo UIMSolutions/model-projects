@@ -4,7 +4,7 @@ module models.projects.entities.cds.actualsimport;
 @safe:
 import models.projects;
 
-class DProjectCDSActualsImportEntity : DOOPEntity {
+class DProjectCDSActualsImportEntity : DEntity {
   mixin(EntityThis!("ProjectCDSActualsImportEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

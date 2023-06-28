@@ -3,7 +3,7 @@ module models.projects.entities.cds.estimates.expenseimport;
 @safe:
 import models.projects;
 
-class DProjectCDSEstimateExpensesImportEntity : DOOPEntity {
+class DProjectCDSEstimateExpensesImportEntity : DEntity {
   mixin(EntityThis!("ProjectCDSEstimateExpensesImportEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

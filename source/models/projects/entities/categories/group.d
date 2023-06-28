@@ -3,7 +3,7 @@ module models.projects.entities.categories.group;
 @safe:
 import models.projects;
 
-class DProjectCategoryGroupEntity : DOOPEntity {
+class DProjectCategoryGroupEntity : DEntity {
   mixin(EntityThis!("ProjectCategoryGroupEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {
