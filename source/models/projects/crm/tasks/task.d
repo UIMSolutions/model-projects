@@ -4,7 +4,7 @@ module models.projects.entities.tasks.task;
 import models.projects;
 
 // Tasks related to project.
-class DPRJTask : DOOPEntity {
+class DPRJTask : DEntity {
   mixin(EntityThis!("PRJTask"));
   
   override void initialize(DConfigurationValue configSettings = null) {

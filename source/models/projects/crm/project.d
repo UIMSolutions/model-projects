@@ -4,7 +4,7 @@ module models.projects.crm.project;
 import models.projects;
 
 // Delivery entity in an engagement.
-class DPRJProject : DOOPEntity {
+class DPRJProject : DEntity {
   mixin(EntityThis!("PRJProject"));
   
   override void initialize(DConfigurationValue configSettings = null) {

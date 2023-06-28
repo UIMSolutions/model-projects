@@ -4,7 +4,7 @@ module models.projects.entities.service_approval;
 import models.projects;
 
 // Group of undeleted system users and undeleted teams. ProjectServiceApprovals can be used to control access to specific objects.
-class DPRJServiceApproval : DOOPEntity {
+class DPRJServiceApproval : DEntity {
   mixin(EntityThis!("PRJServiceApproval"));
   
   override void initialize(DConfigurationValue configSettings = null) {

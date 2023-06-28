@@ -4,7 +4,7 @@ module models.projects.entities.tasks.statususer;
 import models.projects;
 
 // Group of undeleted system users and undeleted teams. ProjectTaskStatusUsers can be used to control access to specific objects.
-class DPRJProjectTaskStatusUser : DOOPEntity {
+class DPRJProjectTaskStatusUser : DEntity {
   mixin(EntityThis!("PRJProjectTaskStatusUser"));
   
   override void initialize(DConfigurationValue configSettings = null) {

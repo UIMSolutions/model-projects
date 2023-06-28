@@ -4,7 +4,7 @@ module models.projects.entities.tasks.dependency;
 import models.projects;
 
 // Dependency data between tasks.
-class DPRJTaskDependency : DOOPEntity {
+class DPRJTaskDependency : DEntity {
   mixin(EntityThis!("PRJTaskDependency"));
   
   override void initialize(DConfigurationValue configSettings = null) {

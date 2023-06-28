@@ -4,7 +4,7 @@ module models.projects.entities.parameters.pricelist;
 import models.projects;
 
 // Group of undeleted system users and undeleted teams. ProjectParameterPriceLists can be used to control access to specific objects.
-class DPRJParameterPriceList : DOOPEntity {
+class DPRJParameterPriceList : DEntity {
   mixin(EntityThis!("PRJParameterPriceList"));
   
   override void initialize(DConfigurationValue configSettings = null) {

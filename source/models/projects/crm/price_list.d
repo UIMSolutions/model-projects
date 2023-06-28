@@ -3,7 +3,7 @@ module models.projects.entities.price_list;
 @safe:
 import models.projects;
 
-class DPRJPriceList : DOOPEntity {
+class DPRJPriceList : DEntity {
   mixin(EntityThis!("PRJPriceList"));
   
   override void initialize(DConfigurationValue configSettings = null) {

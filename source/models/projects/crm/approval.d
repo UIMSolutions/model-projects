@@ -4,7 +4,7 @@ module models.projects.entities.crm.approval;
 import models.projects;
 
 // Group of undeleted system users and undeleted teams. Approvals can be used to control access to specific objects.
-class DPRJApproval : DOOPEntity {
+class DPRJApproval : DEntity {
   mixin(EntityThis!("PRJApproval"));
   
   override void initialize(DConfigurationValue configSettings = null) {

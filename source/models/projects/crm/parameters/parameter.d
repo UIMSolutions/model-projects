@@ -4,7 +4,7 @@ module models.projects.entities.parameters.parameter;
 import models.projects;
 
 // Group of undeleted system users and undeleted teams. ProjectParameters can be used to control access to specific objects.
-class DPRJParameter : DOOPEntity {
+class DPRJParameter : DEntity {
   mixin(EntityThis!("PRJParameter"));
   
   override void initialize(DConfigurationValue configSettings = null) {
