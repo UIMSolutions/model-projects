@@ -20,8 +20,8 @@ class DProjectWBSDraftEntity : DEntity {
         "predecessors": StringAttribute, //
         "category": StringAttribute, //
         "effort": StringAttribute, //
-        "startDate": StringAttribute, //
-        "endDate": StringAttribute, //
+        "startDate": DateAttribute, //
+        "endDate": DateAttribute, //
         "duration": StringAttribute, //
         "numberOfResources": StringAttribute, //
         "role": StringAttribute, //

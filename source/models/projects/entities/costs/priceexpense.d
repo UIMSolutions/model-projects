@@ -18,7 +18,7 @@ class DProjectCostPriceExpenseEntity : DEntity {
         "priceGroup": StringAttribute, //
         "projectContractId": UUIDAttribute, //
         "resource": StringAttribute, //
-        "transactionDate": StringAttribute, //
+        "transactionDate": DateAttribute, //
         "resourceId": UUIDAttribute, //
         "backingTable_ProjCostPriceExpenseRelationshipId": UUIDAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //

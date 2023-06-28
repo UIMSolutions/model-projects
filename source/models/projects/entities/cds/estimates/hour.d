@@ -20,7 +20,7 @@ class DProjectCDSEstimateHoursEntity : DEntity {
         "plannedSalesAmount": StringAttribute, //
         "duration": StringAttribute, //
         "forecastModel": StringAttribute, //
-        "startDate": StringAttribute, //
+        "startDate": DateAttribute, //
         "backingTable_ProjCDSEstimateHoursImportRelationshipId": UUIDAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
      ])

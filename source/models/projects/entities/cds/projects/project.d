@@ -18,10 +18,10 @@ class DProjectCDSProjectEntity : DEntity {
         "projectContractId": UUIDAttribute, //
         "projectType": StringAttribute, //
         "projectStatus": StringAttribute, //
-        "projectedStartDate": StringAttribute, //
-        "projectedEndDate": StringAttribute, //
-        "startDate": StringAttribute, //
-        "endDate": StringAttribute, //
+        "projectedStartDate": DateAttribute, //
+        "projectedEndDate": DateAttribute, //
+        "startDate": DateAttribute, //
+        "endDate": DateAttribute, //
         "parentId": UUIDAttribute, //
         "description": StringAttribute, //
         "projectManagerPersonnelNumber": StringAttribute, //

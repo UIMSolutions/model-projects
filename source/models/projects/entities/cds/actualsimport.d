@@ -12,7 +12,7 @@ class DProjectCDSActualsImportEntity : DEntity {
 
     this
       .addValues([
-        "accountingDate": StringAttribute, //
+        "accountingDate": DateAttribute, //
         "actualId": UUIDAttribute, //
         "actualsImportId": UUIDAttribute, //
         "adjustmentStatus": StringAttribute, //
@@ -24,9 +24,9 @@ class DProjectCDSActualsImportEntity : DEntity {
         "contractLine": StringAttribute, //
         "contractingUnit": StringAttribute, //
         "description": StringAttribute, //
-        "documentDate": StringAttribute, //
-        "endDate": StringAttribute, //
-        "exchangeRateDate": StringAttribute, //
+        "documentDate": DateAttribute, //
+        "endDate": DateAttribute, //
+        "exchangeRateDate": DateAttribute, //
         "exchangeRate": StringAttribute, //
         "externalDescription": StringAttribute, //
         "externalReference": StringAttribute, //
@@ -38,7 +38,7 @@ class DProjectCDSActualsImportEntity : DEntity {
         "quantity": StringAttribute, //
         "status": StringAttribute, //
         "statusReason": StringAttribute, //
-        "startDate": StringAttribute, //
+        "startDate": DateAttribute, //
         "taskId": UUIDAttribute, //
         "transactionClassification": StringAttribute, //
         "transactionCategory": StringAttribute, //

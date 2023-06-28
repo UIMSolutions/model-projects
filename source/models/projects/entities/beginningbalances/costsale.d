@@ -25,12 +25,12 @@ class DProjectBeginningBalanceCostSaleEntity : DEntity {
         "salesCurrency": StringAttribute, //
         "salesTaxGroup": StringAttribute, //
         "itemSalesTaxGroup": StringAttribute, //
-        "projectDate": StringAttribute, //
+        "projectDate": DateAttribute, //
         "transactionStatus": StringAttribute, //
         "transactionType": StringAttribute, //
         "quantity": StringAttribute, //
         "salesPrice": StringAttribute, //
-        "voucherDate": StringAttribute, //
+        "voucherDate": DateAttribute, //
         "description": StringAttribute, //
         "voucher": StringAttribute, //
         "resourceRecId": UUIDAttribute, //

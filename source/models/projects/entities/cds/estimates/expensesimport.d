@@ -20,7 +20,7 @@ class DProjectCDSEstimateExpensesImportEntity : DEntity {
         "currencyId": UUIDAttribute, //
         "modelId": UUIDAttribute, //
         "transType": StringAttribute, //
-        "documentDate": StringAttribute, //
+        "documentDate": DateAttribute, //
         "billingType": StringAttribute, //
         "transactionCategory": StringAttribute, //
         "estimateLineId": UUIDAttribute, //

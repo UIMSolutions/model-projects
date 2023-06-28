@@ -13,7 +13,7 @@ class DProjectCDSContractLineMilestoneImportEntity : DEntity {
       .addValues([
         "transactionId": UUIDAttribute, //
         "contractLineRef": StringAttribute, //
-        "invoiceDate": StringAttribute, //
+        "invoiceDate": DateAttribute, //
         "description": StringAttribute, //
         "currencyId": UUIDAttribute, //
         "amount": StringAttribute, //

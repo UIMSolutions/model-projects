@@ -18,7 +18,7 @@ class DProjectBeginningBalanceOnAccountEntity : DEntity {
         "journalDetailSummary": StringAttribute, //
         "lineNumber": StringAttribute, //
         "projectId": UUIDAttribute, //
-        "projectDate": StringAttribute, //
+        "projectDate": DateAttribute, //
         "description": StringAttribute, //
         "salesPrice": StringAttribute, //
         "salesCurrency": StringAttribute, //
@@ -28,7 +28,7 @@ class DProjectBeginningBalanceOnAccountEntity : DEntity {
         "itemSalesTaxGroup": StringAttribute, //
         "defaultDimensionDisplayValue": StringAttribute, //
         "voucher": StringAttribute, //
-        "voucherDate": StringAttribute, //
+        "voucherDate": DateAttribute, //
         "voucherNumberSequenceTable": StringAttribute, //
         "fundingSourceId": UUIDAttribute, //
         "voucherChange": StringAttribute, //
