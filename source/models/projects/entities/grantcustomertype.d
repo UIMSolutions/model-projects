@@ -3,7 +3,7 @@ module models.projects.entities.grantcustomertype;
 @safe:
 import models.projects;
 
-class DProjectGrantCustomerTypeEntity : DOOPEntity {
+class DProjectGrantCustomerTypeEntity : DEntity {
   mixin(EntityThis!("ProjectGrantCustomerTypeEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

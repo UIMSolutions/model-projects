@@ -3,7 +3,7 @@ module models.projects.entities.formsetup;
 @safe:
 import models.projects;
 
-class DProjectFormSetupEntity : DOOPEntity {
+class DProjectFormSetupEntity : DEntity {
   mixin(EntityThis!("ProjectFormSetupEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

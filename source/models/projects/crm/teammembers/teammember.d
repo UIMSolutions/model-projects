@@ -3,7 +3,7 @@ module models.projects.entities.teammembers.teammember;
 @safe:
 import models.projects;
 
-class DPRJTeamMember : DOOPEntity {
+class DPRJTeamMember : DEntity {
   mixin(EntityThis!("PRJTeamMember"));
   
   override void initialize(DConfigurationValue configSettings = null) {

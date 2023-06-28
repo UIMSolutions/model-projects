@@ -3,7 +3,7 @@ module models.projects.entities.collaborationworkspacesetting;
 @safe:
 import models.projects;
 
-class DProjectCollaborationWorkspaceSettingEntity : DOOPEntity {
+class DProjectCollaborationWorkspaceSettingEntity : DEntity {
   mixin(EntityThis!("ProjectCollaborationWorkspaceSettingEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

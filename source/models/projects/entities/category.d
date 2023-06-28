@@ -3,7 +3,7 @@ module models.projects.entities.category;
 @safe:
 import models.projects;
 
-class DCategoryEntity : DOOPEntity {
+class DCategoryEntity : DEntity {
   mixin(EntityThis!("CategoryEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

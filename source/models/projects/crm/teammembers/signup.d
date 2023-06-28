@@ -4,7 +4,7 @@ module models.projects.entities.teammembers.signup;
 import models.projects;
 
 // Entity used to capture all resources that have applied for open position on projects.
-class DPRJTeamMemberSignUp : DOOPEntity {
+class DPRJTeamMemberSignUp : DEntity {
   mixin(EntityThis!("PRJTeamMemberSignUp"));
   
   override void initialize(DConfigurationValue configSettings = null) {
