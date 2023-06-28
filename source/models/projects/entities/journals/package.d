@@ -1,6 +1,6 @@
 module models.projects.entities.journals;
 
-public models.projects.entities.journals.approvals;
+public import models.projects.entities.journals.approvals;
 
 public import models.projects.entities.journals.description;
 public import models.projects.entities.journals.name;
