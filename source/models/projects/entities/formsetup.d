@@ -1,8 +1,8 @@
 module models.projects.entities.formsetup;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectFormSetupEntity : DEntity {
   mixin(EntityThis!("ProjectFormSetupEntity"));
 

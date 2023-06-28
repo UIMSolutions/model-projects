@@ -1,8 +1,8 @@
 module models.projects.entities.category;
 
 import models.projects;
-@safe:
 
+@safe:
 class DCategoryEntity : DEntity {
   mixin(EntityThis!("CategoryEntity"));
 

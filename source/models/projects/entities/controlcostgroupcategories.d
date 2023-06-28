@@ -1,8 +1,8 @@
 module models.projects.entities.controlcostgroupcategory;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectControlCostGroupCategoryEntity : DEntity {
   mixin(EntityThis!("ProjectControlCostGroupCategoryEntity"));
 
