@@ -1,8 +1,8 @@
 module models.projects.entities.contracts.header;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectContractHeaderEntity : DEntity {
   mixin(EntityThis!("ProjectContractHeaderEntity"));
 

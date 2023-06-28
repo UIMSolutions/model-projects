@@ -1,8 +1,8 @@
 module models.projects.entities.cfdas.cluster;
 
 import models.projects;
-@safe:
 
+@safe:
 class DProjectCFDAClusterEntity : DEntity {
   mixin(EntityThis!("ProjectCFDAClusterEntity"));
 
