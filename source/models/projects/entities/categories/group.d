@@ -1,7 +1,7 @@
 module models.projects.entities.categories.group;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectCategoryGroupEntity : DEntity {
   mixin(EntityThis!("ProjectCategoryGroupEntity"));

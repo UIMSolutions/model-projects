@@ -1,7 +1,7 @@
 module models.projects.entities.cds.contracts.linemilestoneimport;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectCDSContractLineMilestoneImportEntity : DEntity {
   mixin(EntityThis!("ProjectCDSContractLineMilestoneImportEntity"));

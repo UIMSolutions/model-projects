@@ -1,7 +1,7 @@
 module models.projects.entities.cds.transactionrelationshipimport;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectCDSTransactionRelationshipImportEntity : DEntity {
   mixin(EntityThis!("ProjectCDSTransactionRelationshipImportEntity"));

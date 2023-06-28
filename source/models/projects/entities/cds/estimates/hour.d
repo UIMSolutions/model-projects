@@ -1,7 +1,7 @@
 module models.projects.entities.cds.estimates.hour;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectCDSEstimateHoursEntity : DEntity {
   mixin(EntityThis!("ProjectCDSEstimateHoursEntity"));

@@ -1,7 +1,7 @@
 module models.projects.entities.cds.task;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectCDSTaskEntity : DEntity {
   mixin(EntityThis!("ProjectCDSTaskEntity"));

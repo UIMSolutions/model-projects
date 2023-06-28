@@ -1,7 +1,7 @@
 module models.projects.entities.cds.category;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectCDSCategoryEntity : DEntity {
   mixin(EntityThis!("ProjectCDSCategoryEntity"));

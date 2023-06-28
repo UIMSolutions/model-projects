@@ -1,7 +1,7 @@
 module models.projects.entities.cds.estimates.expenseimport;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectCDSEstimateExpensesImportEntity : DEntity {
   mixin(EntityThis!("ProjectCDSEstimateExpensesImportEntity"));
