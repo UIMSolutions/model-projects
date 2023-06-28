@@ -1,7 +1,7 @@
 module models.projects.entities.expensejournals.header;
 
-@safe:
 import models.projects;
+@safe:
 
 class DExpenseJournalHeaderEntity : DEntity {
   mixin(EntityThis!("ExpenseJournalHeaderEntity"));

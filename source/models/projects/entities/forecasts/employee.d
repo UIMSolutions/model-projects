@@ -1,7 +1,7 @@
 module models.projects.entities.forecasts.employee;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectForecastEmployeeEntity : DEntity {
   mixin(EntityThis!("ProjectForecastEmployeeEntity"));

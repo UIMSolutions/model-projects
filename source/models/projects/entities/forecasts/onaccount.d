@@ -1,7 +1,7 @@
 module models.projects.entities.forecasts.onaccount;
 
-@safe:
 import models.projects;
+@safe:
 
 class DProjectForecastOnAccountEntity : DEntity {
   mixin(EntityThis!("ProjectForecastOnAccountEntity"));
