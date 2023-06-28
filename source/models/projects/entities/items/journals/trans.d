@@ -19,7 +19,7 @@ class DProjectItemJournalTransEntity : DEntity {
         "itemId": UUIDAttribute, //
         "journalId": UUIDAttribute, //
         "voucher": StringAttribute, //
-        "projectDate": StringAttribute, //
+        "projectDate": DateAttribute, //
         "quantity": StringAttribute, //
         "projectUnitId": UUIDAttribute, //
         "projectTaxItemGroupId": UUIDAttribute, //

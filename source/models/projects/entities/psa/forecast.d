@@ -19,14 +19,14 @@ class DPSAForecastEntity : DEntity {
         "elimination": StringAttribute, //
         "employeeItemId": UUIDAttribute, //
         "ledgerDimension": StringAttribute, //
-        "ledgerTransDate": StringAttribute, //
+        "ledgerTransDate": DateAttribute, //
         "modelId": UUIDAttribute, //
-        "paymentDate": StringAttribute, //
+        "paymentDate": DateAttribute, //
         "paymentStatus": StringAttribute, //
         "postingType": StringAttribute, //
         "projectFundingSource": StringAttribute, //
         "projectId": UUIDAttribute, //
-        "projectTransDate": StringAttribute, //
+        "projectTransDate": DateAttribute, //
         "projectTransType": StringAttribute, //
         "projectType": StringAttribute, //
         "quantity": StringAttribute, //

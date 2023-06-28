@@ -17,7 +17,7 @@ class DProjectInvoiceProposalExpenseEntity : DEntity {
         "projectTransactionId": UUIDAttribute, //
         "description": StringAttribute, //
         "projectId": UUIDAttribute, //
-        "projectDate": StringAttribute, //
+        "projectDate": DateAttribute, //
         "projectLineProperty": StringAttribute, //
         "projectCategoryId": UUIDAttribute, //
         "quantity": StringAttribute, //

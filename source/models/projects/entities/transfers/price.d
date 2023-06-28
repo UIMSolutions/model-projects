@@ -19,7 +19,7 @@ class DProjectTransferPriceEntity : DEntity {
         "projTable": StringAttribute, //
         "resource": StringAttribute, //
         "resourceCategory": StringAttribute, //
-        "effectiveDate": StringAttribute, //
+        "effectiveDate": DateAttribute, //
         "pricing": StringAttribute, //
         "transactionType": StringAttribute, //
         "resourceId": UUIDAttribute, //

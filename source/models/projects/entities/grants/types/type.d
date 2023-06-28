@@ -12,11 +12,11 @@ class DProjectGrantTypeEntity : DEntity {
     this
       .addValues([
         "description": StringAttribute, //
-        "federalMandate": StringAttribute, //
+        "federalManDate": DateAttribute, //
         "grantManager": StringAttribute, //
         "grantType": StringAttribute, //
         "organizationNumber": StringAttribute, //
-        "stateMandate": StringAttribute, //
+        "stateManDate": DateAttribute, //
         "subGrantor": StringAttribute, //
         "workerContact": StringAttribute, //
         "excludeFromSEFA": StringAttribute, //

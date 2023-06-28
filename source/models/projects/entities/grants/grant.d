@@ -11,17 +11,17 @@ class DProjectGrantEntity : DEntity {
 
     this
       .addValues([
-        "actualAwardDate": StringAttribute, //
-        "actualExpirationDate": StringAttribute, //
-        "actualStartDate": StringAttribute, //
-        "applicationDueDate": StringAttribute, //
-        "applicationSubmittedDate": StringAttribute, //
+        "actualAwardDate": DateAttribute, //
+        "actualExpirationDate": DateAttribute, //
+        "actualStartDate": DateAttribute, //
+        "applicationDueDate": DateAttribute, //
+        "applicationSubmittedDate": DateAttribute, //
         "awardedAmount": StringAttribute, //
-        "boardApprovalDate": StringAttribute, //
+        "boardApprovalDate": DateAttribute, //
         "cfdaId": UUIDAttribute, //
         "custAccount": StringAttribute, //
-        "estimatedAwardDate": StringAttribute, //
-        "federalMandate": StringAttribute, //
+        "estimatedAwardDate": DateAttribute, //
+        "federalManDate": DateAttribute, //
         "grantApplicationId": UUIDAttribute, //
         "grantDescription": StringAttribute, //
         "grantId": UUIDAttribute, //
@@ -40,9 +40,9 @@ class DProjectGrantEntity : DEntity {
         "projGrantType": StringAttribute, //
         "projLocalTrackingId": UUIDAttribute, //
         "rejectionNotification": StringAttribute, //
-        "renewalActionDate": StringAttribute, //
+        "renewalActionDate": DateAttribute, //
         "requestedAmount": StringAttribute, //
-        "stateMandate": StringAttribute, //
+        "stateManDate": DateAttribute, //
         "subGrantor": StringAttribute, //
         "workerContact": StringAttribute, //
         "cfda": StringAttribute, //

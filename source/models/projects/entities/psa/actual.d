@@ -20,15 +20,15 @@ class DPSAActualEntity : DEntity {
         "inventTransId": UUIDAttribute, //
         "ledgerDimension": StringAttribute, //
         "ledgerOrigin": StringAttribute, //
-        "ledgerTransDate": StringAttribute, //
-        "paymentDate": StringAttribute, //
+        "ledgerTransDate": DateAttribute, //
+        "paymentDate": DateAttribute, //
         "paymentStatus": StringAttribute, //
         "postingType": StringAttribute, //
         "contractId": UUIDAttribute, //
         "projectId": UUIDAttribute, //
         "projectAdjustRefId": UUIDAttribute, //
         "projectFundingSource": StringAttribute, //
-        "projectTransDate": StringAttribute, //
+        "projectTransDate": DateAttribute, //
         "projectTransType": StringAttribute, //
         "projectType": StringAttribute, //
         "quantity": StringAttribute, //

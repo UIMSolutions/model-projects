@@ -19,23 +19,23 @@ class DProjectJournalTransEntity : DEntity {
         "lineNumber": StringAttribute, //
         "lineProperty": StringAttribute, //
         "typeOfOperation": StringAttribute, //
-        "startDate": StringAttribute, //
+        "startDate": DateAttribute, //
         "projectId": UUIDAttribute, //
         "priceGroup": StringAttribute, //
-        "projectDate": StringAttribute, //
+        "projectDate": DateAttribute, //
         "cost": StringAttribute, //
         "percentageComplete": StringAttribute, //
         "psaWrkCtrId": UUIDAttribute, //
         "hours": StringAttribute, //
         "resource": StringAttribute, //
         "role": StringAttribute, //
-        "reversingDate": StringAttribute, //
+        "reversingDate": DateAttribute, //
         "reversingEntry": StringAttribute, //
         "salesPrice": StringAttribute, //
         "salesTaxGroup": StringAttribute, //
         "itemSalesTaxGroup": StringAttribute, //
         "endTime": StringAttribute, //
-        "voucherDate": StringAttribute, //
+        "voucherDate": DateAttribute, //
         "transactionId": UUIDAttribute, //
         "description": StringAttribute, //
         "voucher": StringAttribute, //

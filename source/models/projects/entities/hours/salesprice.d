@@ -21,8 +21,8 @@ class DProjectHourSalesPriceEntity : DEntity {
         "CustomerAccount": StringAttribute, //
         "ProjectContractId": UUIDAttribute, //
         "Resource": StringAttribute, //
-        "TransDate": StringAttribute, //
-        "EndDate": StringAttribute, //
+        "TransDate": DateAttribute, //
+        "EndDate": DateAttribute, //
         "ResourceId": UUIDAttribute, //
         "ResourceCategoryId": UUIDAttribute, //
         "ResourceCompanyId": UUIDAttribute, //

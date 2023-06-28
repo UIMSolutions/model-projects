@@ -15,7 +15,7 @@ class DProjectTravelExpensePolicyEntity : DEntity {
         "city": StringAttribute, //
         "expenseCategory": StringAttribute, //
         "customerAccount": StringAttribute, //
-        "endDate": StringAttribute, //
+        "endDate": DateAttribute, //
         "currency": StringAttribute, //
         "perUnit": StringAttribute, //
         "maximumAmount": StringAttribute, //
@@ -26,7 +26,7 @@ class DProjectTravelExpensePolicyEntity : DEntity {
         "projectContractID": StringAttribute, //
         "receiptMinimum": StringAttribute, //
         "receiptRequired": StringAttribute, //
-        "startDate": StringAttribute, //
+        "startDate": DateAttribute, //
         "worker": StringAttribute, //
         "personnelNumber": StringAttribute, //
         "backingTable_ProjExpPoliciesRelationshipId": UUIDAttribute, //

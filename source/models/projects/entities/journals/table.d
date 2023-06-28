@@ -21,7 +21,7 @@ class DProjectJournalTableEntity : DEntity {
         "projLineProperty": StringAttribute, //
         "posted": StringAttribute, //
         "projectId": UUIDAttribute, //
-        "projectDate": StringAttribute, //
+        "projectDate": DateAttribute, //
         "resource": StringAttribute, //
         "approve": StringAttribute, //
         "txt": StringAttribute, //

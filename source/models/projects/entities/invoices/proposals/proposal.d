@@ -14,7 +14,7 @@ class DProjectInvoiceProposalEntity : DEntity {
       .addValues([
         "salesCurrency": StringAttribute, //
         "fundingSource": StringAttribute, //
-        "invoiceDate": StringAttribute, //
+        "invoiceDate": DateAttribute, //
         "invoice": StringAttribute, //
         "projectContractId": UUIDAttribute, //
         "invoiceProposalId": UUIDAttribute, //

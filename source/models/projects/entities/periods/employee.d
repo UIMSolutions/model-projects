@@ -16,7 +16,7 @@ class DProjectPeriodEmplEntity : DEntity {
         "periodFrom": StringAttribute, //
         "periodId": UUIDAttribute, //
         "isPosted": StringAttribute, //
-        "postedDate": StringAttribute, //
+        "postedDate": DateAttribute, //
         "resource": StringAttribute, //
         "resourceId": UUIDAttribute, //
         "backingTable_ProjPeriodEmplRelationshipId": UUIDAttribute, //
